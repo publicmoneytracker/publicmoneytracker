@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Public Money Tracker</title>
+  <meta name="description" content="Federal spending analysis. Published every Monday. Subscribe to the free weekly newsletter from Public Money Tracker.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+
+  <style>
+    /* ── Reset ── */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* ── Brand tokens ── */
+    :root {
+      --bg: #f5f0e8;
+      --ink: #1a1a1a;
+      --red: #c0392b;
+      --red-dark: #a93226;
+      --muted: #5a5248;
+      --rule: #c8bfaf;
+    }
+
+    html { font-size: 16px; scroll-behavior: smooth; }
+
+    body {
+      background-color: var(--bg);
+      color: var(--ink);
+      font-family: 'Source Serif 4', Georgia, serif;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── Page layout ── */
+    .page-wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* ── Masthead ── */
+    header.site-header {
+      border-bottom: 2px solid var(--ink);
+      padding: 2rem 0 1.25rem;
+    }
+    .masthead-label {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.5rem;
+    }
+    .masthead-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-weight: 900;
+      font-size: clamp(1.9rem, 5vw, 2.75rem);
+      line-height: 1.1;
+      letter-spacing: -0.01em;
+    }
+    .masthead-title span { color: var(--red); }
+
+    /* ── Dividers ── */
+    .rule {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 2rem 0;
+    }
+
+    /* ── Hero ── */
+    .hero { padding: 2.5rem 0 0; }
+    .issue-tag {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 0.75rem;
+      display: block;
+    }
+    .hero-headline {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-weight: 700;
+      font-size: clamp(1.6rem, 4.5vw, 2.25rem);
+      line-height: 1.2;
+      margin-bottom: 0.75rem;
+    }
+    .hero-sub {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.875rem;
+      color: var(--muted);
+      border-left: 3px solid var(--red);
+      padding-left: 0.85rem;
+      margin-top: 0.5rem;
+    }
+
+    /* ── Subscribe CTA ── */
+    .cta-block {
+      background: var(--ink);
+      color: var(--bg);
+      padding: 2.25rem 2rem;
+      margin: 2.25rem 0;
+      text-align: center;
+    }
+    .cta-block .cta-eyebrow {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--rule);
+      margin-bottom: 0.75rem;
+      display: block;
+    }
+    .cta-block .cta-heading {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(1.1rem, 3vw, 1.35rem);
+      font-weight: 700;
+      margin-bottom: 1.25rem;
+      line-height: 1.3;
+    }
+    .btn-subscribe {
+      display: inline-block;
+      background: var(--red);
+      color: #fff;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.95rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      text-decoration: none;
+      padding: 0.85rem 2rem;
+      border: 2px solid var(--red);
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .btn-subscribe:hover, .btn-subscribe:focus {
+      background: var(--red-dark);
+      border-color: var(--red-dark);
+      outline: none;
+    }
+    .cta-fine {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 0.8rem;
+      color: var(--rule);
+      margin-top: 0.9rem;
+      font-style: italic;
+    }
+
+    /* ── Newsletter section header ── */
+    .nl-section-header {
+      border-top: 2px solid var(--ink);
+      border-bottom: 1px solid var(--rule);
+      padding: 1rem 0;
+      margin-bottom: 0;
+    }
+    .nl-section-header .nl-eyebrow {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.3rem;
+      display: block;
+    }
+    .nl-section-header h2 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(1.15rem, 3vw, 1.4rem);
+      font-weight: 700;
+      line-height: 1.25;
+    }
+
+    /* ══════════════════════════════════════════
+       NEWSLETTER EMBED — all styles scoped under
+       .newsletter-embed to prevent conflicts
+       ══════════════════════════════════════════ */
+    .newsletter-embed {
+      background: var(--bg);
+      padding: 0;
+      margin: 0 0 2rem;
+    }
+
+    /* Spending counter */
+    .newsletter-embed .spending-counter {
+      background: #1a1a1a;
+      padding: 28px 24px;
+      text-align: center;
+    }
+    .newsletter-embed .counter-label {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10px;
+      font-weight: 400;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #888;
+      margin-bottom: 14px;
+    }
+    .newsletter-embed .counter-number {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: clamp(28px, 6vw, 38px);
+      font-weight: 700;
+      color: #c0392b;
+      letter-spacing: -1px;
+      line-height: 1;
+      word-break: break-all;
+    }
+    .newsletter-embed .counter-subline {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-style: italic;
+      font-size: 13px;
+      color: #ccc;
+      margin-top: 12px;
+    }
+
+    /* Newsletter header block */
+    .newsletter-embed .nl-pub-header {
+      text-align: center;
+      border-top: 3px solid #c0392b;
+      border-bottom: 1px solid #c0392b;
+      padding: 24px 0 20px;
+      margin-bottom: 36px;
+    }
+    .newsletter-embed .nl-pub-name {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 24px;
+      font-weight: 900;
+      letter-spacing: 1px;
+      color: #1a1a1a;
+      text-transform: uppercase;
+    }
+    .newsletter-embed .nl-mission {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-style: italic;
+      font-size: 12px;
+      color: #888;
+      margin-top: 7px;
+      line-height: 1.5;
+    }
+    .newsletter-embed .nl-issue-label {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 13px;
+      font-weight: 300;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #555;
+      margin-top: 6px;
+    }
+    .newsletter-embed .nl-tagline {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-style: italic;
+      font-size: 13px;
+      color: #c0392b;
+      margin-top: 8px;
+    }
+
+    /* Headline number */
+    .newsletter-embed .headline-block {
+      text-align: center;
+      padding: 32px 0;
+      border-bottom: 1px solid #ddd4c4;
+      margin-bottom: 32px;
+    }
+    .newsletter-embed .headline-number {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(52px, 10vw, 72px);
+      font-weight: 900;
+      color: #c0392b;
+      line-height: 1;
+      letter-spacing: -2px;
+    }
+    .newsletter-embed .headline-context {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 17px;
+      font-weight: 300;
+      color: #333;
+      margin-top: 14px;
+      max-width: 480px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.6;
+    }
+
+    /* Section headings */
+    .newsletter-embed .nl-heading {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 16px;
+      font-weight: 700;
+      color: #1a1a1a;
+      border-bottom: 2px solid #c0392b;
+      padding-bottom: 6px;
+      margin: 36px 0 16px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* At a glance */
+    .newsletter-embed .at-a-glance-box {
+      background: #eeebe4;
+      border-left: 4px solid #c0392b;
+      padding: 16px 20px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 13px;
+    }
+    .newsletter-embed .glance-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .newsletter-embed .glance-list li {
+      margin-bottom: 9px;
+      line-height: 1.5;
+    }
+    .newsletter-embed .glance-list li:last-child { margin-bottom: 0; }
+    .newsletter-embed .glance-label {
+      display: block;
+      font-size: 9px;
+      font-weight: 600;
+      color: #c0392b;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 1px;
+    }
+
+    /* Key findings */
+    .newsletter-embed .findings-list {
+      list-style: none;
+      padding: 0;
+    }
+    .newsletter-embed .findings-list li {
+      margin-bottom: 10px;
+      line-height: 1.65;
+      font-size: 0.975rem;
+    }
+    .newsletter-embed .findings-list li::before {
+      content: "• ";
+      color: #c0392b;
+      font-weight: 700;
+    }
+
+    /* Spotlight */
+    .newsletter-embed .spotlight-block {
+      background: #fff8ee;
+      border-left: 4px solid #c0392b;
+      padding: 20px 24px;
+      font-size: 15px;
+      line-height: 1.8;
+      color: #222;
+      font-family: 'Source Serif 4', Georgia, serif;
+    }
+
+    /* Numbers table */
+    .newsletter-embed .numbers-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 15px;
+      margin-top: 8px;
+    }
+    .newsletter-embed .numbers-table td {
+      padding: 11px 12px;
+      border-bottom: 1px solid #e8e0d0;
+      font-family: 'Source Serif 4', Georgia, serif;
+    }
+    .newsletter-embed .numbers-table td:first-child {
+      color: #555;
+      font-weight: 300;
+      font-style: italic;
+    }
+    .newsletter-embed .numbers-table td:last-child {
+      text-align: right;
+      font-weight: 600;
+      color: #1a1a1a;
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 17px;
+    }
+    .newsletter-embed .time-ctx {
+      font-size: 11px;
+      color: #999;
+      font-style: italic;
+      font-weight: 300;
+      margin-left: 5px;
+    }
+
+    /* Overlap table */
+    .newsletter-embed .overlap-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+      margin-top: 8px;
+    }
+    .newsletter-embed .overlap-table th {
+      background: #1a1a1a;
+      color: #f5f0e8;
+      padding: 8px 12px;
+      text-align: left;
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-weight: 400;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .newsletter-embed .overlap-table th:nth-child(n+3) { text-align: right; }
+    .newsletter-embed .overlap-table td {
+      color: #333;
+      padding: 8px 12px;
+      border-bottom: 1px solid #e8e0d0;
+      font-family: 'Source Serif 4', Georgia, serif;
+    }
+    .newsletter-embed .overlap-table td:nth-child(3),
+    .newsletter-embed .overlap-table td:nth-child(4) {
+      text-align: right;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 12px;
+    }
+    .newsletter-embed .overlap-note {
+      font-size: 12px;
+      color: #888;
+      margin-bottom: 10px;
+      font-style: italic;
+      font-family: 'Source Serif 4', Georgia, serif;
+      line-height: 1.5;
+    }
+
+    /* Key insight box */
+    .newsletter-embed .insight-box {
+      background: #1a1a1a;
+      color: #f5f0e8;
+      padding: 28px;
+      margin: 36px 0 0;
+    }
+    .newsletter-embed .insight-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #c0392b;
+      margin-bottom: 12px;
+      font-family: 'Source Serif 4', Georgia, serif;
+    }
+    .newsletter-embed .insight-placeholder {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-style: italic;
+      font-size: 16px;
+      font-weight: 300;
+      color: #f5f0e8;
+      line-height: 1.75;
+    }
+
+    /* Responsive tweaks for tables */
+    @media (max-width: 540px) {
+      .newsletter-embed .overlap-table td:nth-child(2) { display: none; }
+      .newsletter-embed .overlap-table th:nth-child(2) { display: none; }
+    }
+
+    /* ── Download section ── */
+    .download-section {
+      border: 1px solid var(--rule);
+      padding: 1.75rem;
+      margin: 2.25rem 0;
+    }
+    .download-section .dl-label {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+    .download-section h2 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 0.6rem;
+    }
+    .download-section p {
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-bottom: 1.1rem;
+      line-height: 1.6;
+    }
+    .download-section .dl-fine {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.7rem;
+      color: var(--muted);
+      margin-top: 0.75rem;
+      display: block;
+      letter-spacing: 0.03em;
+    }
+    .btn-download {
+      display: inline-block;
+      background: transparent;
+      color: var(--ink);
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      text-decoration: none;
+      padding: 0.65rem 1.35rem;
+      border: 1.5px solid var(--ink);
+      transition: background 0.15s, color 0.15s;
+    }
+    .btn-download:hover, .btn-download:focus {
+      background: var(--ink);
+      color: var(--bg);
+      outline: none;
+    }
+
+    /* ── Body sections ── */
+    .section-label {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.4rem;
+      display: block;
+    }
+    .section h2 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 0.6rem;
+    }
+    .section p {
+      font-size: 0.975rem;
+      line-height: 1.7;
+      color: var(--ink);
+      margin-bottom: 0.6rem;
+    }
+    .section p:last-child { margin-bottom: 0; }
+    .section { margin-bottom: 2rem; }
+
+    /* ── Coming soon ── */
+    .coming-soon {
+      border-top: 2px solid var(--ink);
+      border-bottom: 2px solid var(--ink);
+      padding: 1.25rem 0;
+      margin: 0 0 2rem;
+    }
+    .coming-soon p {
+      font-size: 0.95rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    /* ── Footer ── */
+    footer.site-footer {
+      border-top: 2px solid var(--ink);
+      padding: 1.5rem 0 2.5rem;
+      margin-top: 1rem;
+    }
+    .footer-name {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 0.95rem;
+      font-weight: 700;
+      margin-bottom: 0.3rem;
+    }
+    .footer-meta {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+    .footer-meta a { color: var(--muted); text-decoration: underline; }
+    .footer-meta a:hover { color: var(--red); }
+
+    /* ── Mobile ── */
+    @media (max-width: 480px) {
+      .cta-block { padding: 1.75rem 1.25rem; }
+      .btn-subscribe {
+        display: block;
+        text-align: center;
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+      }
+      .download-section { padding: 1.25rem; }
+      .nl-section-header { padding: 0.85rem 0; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="page-wrap">
+
+  <!-- Masthead -->
+  <header class="site-header">
+    <p class="masthead-label">Weekly Federal Spending Analysis</p>
+    <h1 class="masthead-title">Public<span>&nbsp;Money</span><br>Tracker</h1>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <span class="issue-tag">Issue #1 · March 23, 2026</span>
+    <h2 class="hero-headline">Federal spending analysis.<br>Published every Monday.</h2>
+  </section>
+
+  <hr class="rule">
+
+  <!-- Subscribe CTA -->
+  <div class="cta-block">
+    <span class="cta-eyebrow">Free Newsletter</span>
+    <p class="cta-heading">Get every Monday report in your inbox.<br>Federal data, no commentary.</p>
+    <a href="https://publicmoneytracker.substack.com" class="btn-subscribe">Subscribe Free on Substack</a>
+    <p class="cta-fine">Free weekly newsletter. No spam. Unsubscribe anytime.</p>
+  </div>
+
+  <!-- Newsletter section label -->
+  <div class="nl-section-header">
+    <span class="nl-eyebrow">Full Issue</span>
+    <h2>Issue #1 &mdash; March 23, 2026 &middot; The Federal Money Report</h2>
+  </div>
+
+  <!-- ═══════════════════════════════════════
+       NEWSLETTER CONTENT — embedded inline
+       ═══════════════════════════════════════ -->
+  <div class="newsletter-embed">
+
+    <!-- Spending counter -->
+    <div class="spending-counter">
+      <div class="counter-label">Federal Contract Spending &mdash; FY2026</div>
+      <div class="counter-number">$202,308,662,098</div>
+      <div class="counter-subline">This week added $4.3B.</div>
+    </div>
+
+    <!-- Newsletter header -->
+    <div class="nl-pub-header">
+      <div class="nl-pub-name">Public Money Tracker</div>
+      <div class="nl-mission">A weekly snapshot of how federal money, lobbying, and legislation actually move &mdash; in under 5 minutes.</div>
+      <div class="nl-issue-label">Federal Money Report &mdash; Week of March 16, 2026</div>
+      <div class="nl-tagline">No opinion. No commentary. The data speaks.</div>
+    </div>
+
+    <!-- Headline number -->
+    <div class="headline-block">
+      <div class="headline-number">$4.3B</div>
+      <div class="headline-context">in federal contracts awarded across 1,000 actions the week of March 16, 2026 &mdash; with one Texas firm capturing more than a quarter of the total.</div>
+    </div>
+
+    <!-- At a glance -->
+    <div class="nl-heading">This Week at a Glance</div>
+    <div class="at-a-glance-box">
+      <ul class="glance-list">
+        <li><span class="glance-label">Biggest contract</span>SPENCER CONSTRUCTION LLC, $1.1B, Department of Homeland Security</li>
+        <li><span class="glance-label">Top bill</span>Armed Forces and National Security &mdash; 1 bill tracked in current period</li>
+        <li><span class="glance-label">Notable oversight</span>Single audit findings impacting DOT programs &mdash; Inspector General summary</li>
+        <li><span class="glance-label">Donor&ndash;contract overlap</span>LEIDOS INC., $191K donated, $59.9M received</li>
+      </ul>
+    </div>
+
+    <!-- Key findings -->
+    <div class="nl-heading">Key Findings</div>
+    <ul class="findings-list">
+      <li>SPENCER CONSTRUCTION LLC, based in Texas, received a single $1.1B award from the Department of Homeland Security &mdash; the largest contract of the week and equivalent to roughly 26% of this week's $4.3B in total contract spending.</li>
+      <li>Q4 2025 lobbying disclosures show $179.5M in total reported spend. Healthcare &amp; Pharmaceuticals accounted for $19.5M of that, with Eli Lilly and Company alone filing $2.2M in lobbying activity during the same period. One anomalous filing excluded from named clients.</li>
+      <li>Defense &amp; Aerospace logged a full 4/4 industry influence chain this week: $3.1M in donations, $71.1M in Q4 2025 lobbying spend, activity across 4 tracked bills, and $456.0M in contract awards &mdash; all appearing in the same dataset.</li>
+      <li>Twenty oversight reports are active in the current reporting window. Inspector General findings include a summary of significant single audit findings impacting Department of Transportation programs and a safety-and-soundness review of a failed bank.</li>
+    </ul>
+
+    <!-- Spotlight -->
+    <div class="nl-heading">Spotlight</div>
+    <div class="spotlight-block">
+      Defense &amp; Aerospace presents the most complete influence chain in this week's data. The sector shows $3.1M in political donations, $71.1M in Q4 2025 lobbying expenditures, lobbying activity touching 4 tracked bills, and $456.0M in federal contract awards &mdash; all appearing in the same observational dataset. This 4/4 chain score is the highest rating tracked by this publication. No causal link is established; the data reflects a co-occurrence pattern across four distinct federal disclosure systems. Among the individual organizations appearing in both donor and contract datasets, Leidos Inc. donated $191K while receiving $59.9M in awards, and California Institute of Technology donated $107K while receiving $163.0M. These figures are drawn entirely from public filings.
+    </div>
+
+    <!-- By the numbers -->
+    <div class="nl-heading">This Week by the Numbers</div>
+    <table class="numbers-table">
+      <tr>
+        <td>Federal contracts &amp; grants<span class="time-ctx">(this week)</span></td>
+        <td>$4.3B</td>
+      </tr>
+      <tr>
+        <td>Lobbying spend<span class="time-ctx">(Q4 2025, latest)</span></td>
+        <td>$179.5M</td>
+      </tr>
+      <tr>
+        <td>Bills introduced<span class="time-ctx">(this week)</span></td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>IG reports<span class="time-ctx">(this week)</span></td>
+        <td>20</td>
+      </tr>
+    </table>
+
+    <!-- Donor-recipient overlap -->
+    <div class="nl-heading">Donor&ndash;Recipient Overlap</div>
+    <p class="overlap-note">Organizations listed appear in both FEC contribution and USASpending award data. Co-occurrence is observational only and does not imply a causal relationship or misconduct.</p>
+    <table class="overlap-table">
+      <thead>
+        <tr>
+          <th>Organization</th>
+          <th>What they do</th>
+          <th>Donated (FEC)</th>
+          <th>Received (USASpending)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>AUSTAL USA</td>
+          <td style="color:#666;font-style:italic;">Shipbuilding and maritime defense contractor</td>
+          <td>$88</td>
+          <td>$175.3M</td>
+        </tr>
+        <tr>
+          <td>CALIFORNIA INSTITUTE OF TECHNOLOGY</td>
+          <td style="color:#666;font-style:italic;">Federally funded aerospace research university</td>
+          <td>$107K</td>
+          <td>$163.0M</td>
+        </tr>
+        <tr>
+          <td>CGI FEDERAL</td>
+          <td style="color:#666;font-style:italic;">Federal IT and government services provider</td>
+          <td>$9K</td>
+          <td>$74.2M</td>
+        </tr>
+        <tr>
+          <td>VERTEX AEROSPACE</td>
+          <td style="color:#666;font-style:italic;">Aerospace maintenance and logistics contractor</td>
+          <td>$700</td>
+          <td>$68.3M</td>
+        </tr>
+        <tr>
+          <td>LEIDOS INC.</td>
+          <td style="color:#666;font-style:italic;">Defense and government technology contractor</td>
+          <td>$191K</td>
+          <td>$59.9M</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Key insight box -->
+    <div class="insight-box">
+      <div class="insight-label">&#9998;&nbsp; Editor&rsquo;s Key Insight</div>
+      <em>A single contract accounted for over 25% of all federal contract dollars awarded this week &mdash; a reminder that weekly totals can be driven by a small number of large awards. Contract spending tracked here represents procurement activity only; total federal outlays run roughly $600 billion per week across all programs.</em>
+    </div>
+
+  </div>
+  <!-- end .newsletter-embed -->
+
+  <!-- Download CTA -->
+  <div class="download-section">
+    <span class="dl-label">Free Download</span>
+    <h2>Want the full data edition?</h2>
+    <p>The complete Monday Report includes extended award tables, full sector breakdown, and source citations.</p>
+    <a href="/reports/monday-2026-03-22.docx" class="btn-download" download>Download Full Report (Free this week)</a>
+    <span class="dl-fine">Free during launch week. Analyst Access subscription coming soon.</span>
+  </div>
+
+  <hr class="rule">
+
+  <!-- About -->
+  <div class="section">
+    <span class="section-label">About</span>
+    <h2>What Is Public Money Tracker?</h2>
+    <p>Public Money Tracker analyzes how federal dollars move through contracts, grants, and awards. Every number traces to a public federal data source. No opinion. No commentary. The data speaks.</p>
+  </div>
+
+  <!-- Coming soon -->
+  <div class="coming-soon">
+    <span class="section-label">Q2 2026</span>
+    <p>District scorecards, state reports, and the Federal Money Board are coming in Q2 2026. Subscribe to the newsletter to follow the build.</p>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p class="footer-name">Public Money Tracker</p>
+    <p class="footer-meta">
+      A Sievela LLC publication &middot;
+      <a href="https://publicmoneytracker.substack.com">publicmoneytracker.substack.com</a><br>
+      Data: USASpending.gov &middot; FEC &middot; Senate LDA &middot; Congress.gov
+    </p>
+  </footer>
+
+</div>
+
+</body>
+</html>

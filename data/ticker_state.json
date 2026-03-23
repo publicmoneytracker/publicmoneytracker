@@ -1,0 +1,23 @@
+{
+  "fy": "2026",
+  "fy_start": "2025-10-01",
+  "fy_end": "2026-09-30",
+  "authorized_budget": 6752000000000,
+  "baseline_obligated": 3417211992340,
+  "baseline_timestamp": "2026-03-14T02:00:00Z",
+  "rate_per_second": 212600,
+  "last_refresh": "Mar 14, 2026 · 2:00 AM ET",
+  "state_totals": {
+    "MI": 42118900221,
+    "TX": 198400000000,
+    "CA": 210000000000,
+    "VA": 180000000000
+  },
+  "today": {
+    "contracts": 14200000000,
+    "grants": 9600000000,
+    "largest_award": 2100000000,
+    "states_receiving": 38
+  },
+  "note": "MOCK — updated by pmte/site_exporter.py every Friday"
+}
