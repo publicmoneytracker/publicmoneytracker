@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Playfair_Display, Source_Serif_4, IBM_Plex_Mono } from 'next/font/google'
 import './globals.css'
+import NavAuth from './NavAuth'
 const playfair = Playfair_Display({
   subsets: ['latin'],
   variable: '--font-display',
@@ -82,7 +83,7 @@ export default function RootLayout({
             <a href="/pro" style={{ color: '#8b7355', textDecoration: 'none' }}>Professional Access</a>
             <a href="/about" style={{ color: '#8b7355', textDecoration: 'none' }}>About</a>
             <a href="/methodology" style={{ color: '#8b7355', textDecoration: 'none' }}>Methodology</a>
-            <a href="/account" style={{ color: '#c0392b', textDecoration: 'none' }}>Sign In</a>
+            <NavAuth />
           </nav>
         </header>
         {/* Page content */}

@@ -44,5 +44,7 @@ next-env.d.ts
 .env.local
 
 # generated data (written by pmte/site_exporter.py — not committed)
-website/data/*.json
-!website/data/index.json
+data/*.json
+!data/index.json
+!data/ticker_state.json
+public/data/

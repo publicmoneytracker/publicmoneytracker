@@ -1,4 +1,5 @@
 import FederalMoneyBoard from '@/components/pmt/FederalMoneyBoard'
+import ZipLookup from '@/components/pmt/ZipLookup'
 import SubstackCTA from '@/components/pmt/SubstackCTA'
 
 const mono: React.CSSProperties = { fontFamily: 'var(--font-mono)' }
@@ -329,6 +330,8 @@ export default function Home() {
   return (
     <div style={{ padding: '2rem 1.5rem', maxWidth: '1200px', margin: '0 auto' }}>
       <FederalMoneyBoard />
+
+      <ZipLookup />
 
       {/* ── SECTION A: Latest Monday Reports ── */}
       <div style={{ marginTop: '3rem' }}>
