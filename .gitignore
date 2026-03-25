@@ -48,3 +48,6 @@ data/*.json
 !data/index.json
 !data/ticker_state.json
 public/data/
+!public/data/zip_to_district.json
+!public/data/state_senators.json
+!public/data/district_stats.json

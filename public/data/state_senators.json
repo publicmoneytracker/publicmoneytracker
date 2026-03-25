@@ -1,0 +1,958 @@
+{
+  "_meta": {
+    "source": "pmte.db politicians table",
+    "congress": "119th",
+    "last_updated": "2026-03-25",
+    "next_review": "2026-11-04"
+  },
+  "AK": {
+    "state_name": "Alaska",
+    "senators": [
+      {
+        "name": "Dan Sullivan",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "S001198"
+      },
+      {
+        "name": "Lisa Murkowski",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "M001153"
+      }
+    ]
+  },
+  "AL": {
+    "state_name": "Alabama",
+    "senators": [
+      {
+        "name": "Tommy Tuberville",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "T000278"
+      },
+      {
+        "name": "Katie Boyd Britt",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "B001319"
+      }
+    ]
+  },
+  "AR": {
+    "state_name": "Arkansas",
+    "senators": [
+      {
+        "name": "Tom Cotton",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "C001095"
+      },
+      {
+        "name": "John N Boozman",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "B001236"
+      }
+    ]
+  },
+  "AZ": {
+    "state_name": "Arizona",
+    "senators": [
+      {
+        "name": "Mark Kelly",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "K000377"
+      },
+      {
+        "name": "Ruben Gallego",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "G000574"
+      }
+    ]
+  },
+  "CA": {
+    "state_name": "California",
+    "senators": [
+      {
+        "name": "Alejandro Padilla",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "P000145"
+      },
+      {
+        "name": "Adam Schiff",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "S001150"
+      }
+    ]
+  },
+  "CO": {
+    "state_name": "Colorado",
+    "senators": [
+      {
+        "name": "John W. Hickenlooper",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "H000273"
+      },
+      {
+        "name": "Michael F. Bennet",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "B001267"
+      }
+    ]
+  },
+  "CT": {
+    "state_name": "Connecticut",
+    "senators": [
+      {
+        "name": "Richard Blumenthal",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "B001277"
+      },
+      {
+        "name": "Christopher Murphy",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "M001169"
+      }
+    ]
+  },
+  "DE": {
+    "state_name": "Delaware",
+    "senators": [
+      {
+        "name": "Christopher A. Coons",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "C001088"
+      },
+      {
+        "name": "Lisa Blunt Rochester",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "B001303"
+      }
+    ]
+  },
+  "FL": {
+    "state_name": "Florida",
+    "senators": [
+      {
+        "name": "Rick Sen Scott",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "S001217"
+      },
+      {
+        "name": "Ashley Moody",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "M001244"
+      }
+    ]
+  },
+  "GA": {
+    "state_name": "Georgia",
+    "senators": [
+      {
+        "name": "Jon Ossoff",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "O000174"
+      },
+      {
+        "name": "Raphael Warnock",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "W000790"
+      }
+    ]
+  },
+  "HI": {
+    "state_name": "Hawaii",
+    "senators": [
+      {
+        "name": "Brian Schatz",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "S001194"
+      },
+      {
+        "name": "Mazie Hirono",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "H001042"
+      }
+    ]
+  },
+  "IA": {
+    "state_name": "Iowa",
+    "senators": [
+      {
+        "name": "Joni K Ernst",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "E000295"
+      },
+      {
+        "name": "Charles E Grassley",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "G000386"
+      }
+    ]
+  },
+  "ID": {
+    "state_name": "Idaho",
+    "senators": [
+      {
+        "name": "James E Mr. Risch",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "R000584"
+      },
+      {
+        "name": "Michael D Crapo",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "C000880"
+      }
+    ]
+  },
+  "IL": {
+    "state_name": "Illinois",
+    "senators": [
+      {
+        "name": "Richard J. Durbin",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "D000563"
+      },
+      {
+        "name": "Tammy Duckworth",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "D000622"
+      }
+    ]
+  },
+  "IN": {
+    "state_name": "Indiana",
+    "senators": [
+      {
+        "name": "Todd Young",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2017,
+        "bioguide": "Y000064"
+      },
+      {
+        "name": "James E Hon. Banks",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "B001299"
+      }
+    ]
+  },
+  "KS": {
+    "state_name": "Kansas",
+    "senators": [
+      {
+        "name": "Roger Marshall",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "M001198"
+      },
+      {
+        "name": "Jerry Moran",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "M000934"
+      }
+    ]
+  },
+  "KY": {
+    "state_name": "Kentucky",
+    "senators": [
+      {
+        "name": "Mitch Mcconnell",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "M000355"
+      },
+      {
+        "name": "Rand Paul",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "P000603"
+      }
+    ]
+  },
+  "LA": {
+    "state_name": "Louisiana",
+    "senators": [
+      {
+        "name": "William Cassidy",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "C001075"
+      },
+      {
+        "name": "John Kennedy",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "K000393"
+      }
+    ]
+  },
+  "MA": {
+    "state_name": "Massachusetts",
+    "senators": [
+      {
+        "name": "Elizabeth Warren",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2013,
+        "bioguide": "W000817"
+      },
+      {
+        "name": "Edward Markey",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "M000133"
+      }
+    ]
+  },
+  "MD": {
+    "state_name": "Maryland",
+    "senators": [
+      {
+        "name": "Chris Van Hollen",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2017,
+        "bioguide": "V000128"
+      },
+      {
+        "name": "Angela Alsobrooks",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "A000382"
+      }
+    ]
+  },
+  "ME": {
+    "state_name": "Maine",
+    "senators": [
+      {
+        "name": "Susan M. Collins",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "C001035"
+      },
+      {
+        "name": "Angus S. Jr. King",
+        "party": "I",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "K000383"
+      }
+    ]
+  },
+  "MI": {
+    "state_name": "Michigan",
+    "senators": [
+      {
+        "name": "Gary C. Peters",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2015,
+        "bioguide": "P000595"
+      },
+      {
+        "name": "Elissa Slotkin",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "S001208"
+      }
+    ]
+  },
+  "MN": {
+    "state_name": "Minnesota",
+    "senators": [
+      {
+        "name": "Tina Smith",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "S001203"
+      },
+      {
+        "name": "Amy Klobuchar",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "K000367"
+      }
+    ]
+  },
+  "MO": {
+    "state_name": "Missouri",
+    "senators": [
+      {
+        "name": "Eric Schmitt",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "S001227"
+      },
+      {
+        "name": "Joshua David Sen Hawley",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "H001089"
+      }
+    ]
+  },
+  "MS": {
+    "state_name": "Mississippi",
+    "senators": [
+      {
+        "name": "Cindy Hyde-Smith",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "H001079"
+      },
+      {
+        "name": "Roger F. Wicker",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "W000437"
+      }
+    ]
+  },
+  "MT": {
+    "state_name": "Montana",
+    "senators": [
+      {
+        "name": "Steve Daines",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "D000618"
+      },
+      {
+        "name": "Tim Sheehy",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "S001232"
+      }
+    ]
+  },
+  "NC": {
+    "state_name": "North Carolina",
+    "senators": [
+      {
+        "name": "Thom R Sen Tillis",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "T000476"
+      },
+      {
+        "name": "Ted Budd",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "B001305"
+      }
+    ]
+  },
+  "ND": {
+    "state_name": "North Dakota",
+    "senators": [
+      {
+        "name": "John Hoeven",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "H001061"
+      },
+      {
+        "name": "Kevin Cramer",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "C001096"
+      }
+    ]
+  },
+  "NE": {
+    "state_name": "Nebraska",
+    "senators": [
+      {
+        "name": "Pete Ricketts",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2024,
+        "bioguide": "R000618"
+      },
+      {
+        "name": "Debra S. Fischer",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "F000463"
+      }
+    ]
+  },
+  "NH": {
+    "state_name": "New Hampshire",
+    "senators": [
+      {
+        "name": "Jeanne Shaheen",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "S001181"
+      },
+      {
+        "name": "Margaret Wood Hassan",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "H001076"
+      }
+    ]
+  },
+  "NJ": {
+    "state_name": "New Jersey",
+    "senators": [
+      {
+        "name": "Cory A. Booker",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "B001288"
+      },
+      {
+        "name": "Andy Kim",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "K000394"
+      }
+    ]
+  },
+  "NM": {
+    "state_name": "New Mexico",
+    "senators": [
+      {
+        "name": "Ben Luj\u00e1n",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "L000570"
+      },
+      {
+        "name": "Martin Heinrich",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "H001046"
+      }
+    ]
+  },
+  "NV": {
+    "state_name": "Nevada",
+    "senators": [
+      {
+        "name": "Catherine Cortez Masto",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "C001113"
+      },
+      {
+        "name": "Jacky Rosen",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "R000608"
+      }
+    ]
+  },
+  "NY": {
+    "state_name": "New York",
+    "senators": [
+      {
+        "name": "Chuck Schumer",
+        "party": "D",
+        "title": "Sen.",
+        "since": 1999,
+        "bioguide": "S000148"
+      },
+      {
+        "name": "Kirsten Gillibrand",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "G000555"
+      }
+    ]
+  },
+  "OH": {
+    "state_name": "Ohio",
+    "senators": [
+      {
+        "name": "Bernie Moreno",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "M001242"
+      },
+      {
+        "name": "Jon Husted",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "H001104"
+      }
+    ]
+  },
+  "OK": {
+    "state_name": "Oklahoma",
+    "senators": [
+      {
+        "name": "James Lankford",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "L000575"
+      },
+      {
+        "name": "Markwayne Mullin",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "M001190"
+      }
+    ]
+  },
+  "OR": {
+    "state_name": "Oregon",
+    "senators": [
+      {
+        "name": "Ron Wyden",
+        "party": "D",
+        "title": "Sen.",
+        "since": 1996,
+        "bioguide": "W000779"
+      },
+      {
+        "name": "Jeffrey Alan Merkley",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "M001176"
+      }
+    ]
+  },
+  "PA": {
+    "state_name": "Pennsylvania",
+    "senators": [
+      {
+        "name": "John Karl Fetterman",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "F000479"
+      },
+      {
+        "name": "Dave Mccormick",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "M001243"
+      }
+    ]
+  },
+  "RI": {
+    "state_name": "Rhode Island",
+    "senators": [
+      {
+        "name": "John Reed",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "R000122"
+      },
+      {
+        "name": "Sheldon Whitehouse",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "W000802"
+      }
+    ]
+  },
+  "SC": {
+    "state_name": "South Carolina",
+    "senators": [
+      {
+        "name": "Lindsey Graham",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "G000359"
+      },
+      {
+        "name": "Tim Scott",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "S001184"
+      }
+    ]
+  },
+  "SD": {
+    "state_name": "South Dakota",
+    "senators": [
+      {
+        "name": "Mike Rounds",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "R000605"
+      },
+      {
+        "name": "John Thune",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "T000250"
+      }
+    ]
+  },
+  "TN": {
+    "state_name": "Tennessee",
+    "senators": [
+      {
+        "name": "Bill Hagerty",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "H000601"
+      },
+      {
+        "name": "Marsha Blackburn",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "B001243"
+      }
+    ]
+  },
+  "TX": {
+    "state_name": "Texas",
+    "senators": [
+      {
+        "name": "John Sen Cornyn",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "C001056"
+      },
+      {
+        "name": "Rafael Edward  Ted Cruz",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "C001098"
+      }
+    ]
+  },
+  "UT": {
+    "state_name": "Utah",
+    "senators": [
+      {
+        "name": "Mike Lee",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "L000577"
+      },
+      {
+        "name": "John Curtis",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "C001114"
+      }
+    ]
+  },
+  "VA": {
+    "state_name": "Virginia",
+    "senators": [
+      {
+        "name": "Mark R. Warner",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "W000805"
+      },
+      {
+        "name": "Timothy Michael Kaine",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "K000384"
+      }
+    ]
+  },
+  "VT": {
+    "state_name": "Vermont",
+    "senators": [
+      {
+        "name": "Peter Welch",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "W000800"
+      },
+      {
+        "name": "Bernie Sanders",
+        "party": "I",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "S000033"
+      }
+    ]
+  },
+  "WA": {
+    "state_name": "Washington",
+    "senators": [
+      {
+        "name": "Patty Murray",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "M001111"
+      },
+      {
+        "name": "Maria Cantwell",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "C000127"
+      }
+    ]
+  },
+  "WI": {
+    "state_name": "Wisconsin",
+    "senators": [
+      {
+        "name": "Ron Johnson",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2023,
+        "bioguide": "J000293"
+      },
+      {
+        "name": "Tammy Baldwin",
+        "party": "D",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "B001230"
+      }
+    ]
+  },
+  "WV": {
+    "state_name": "West Virginia",
+    "senators": [
+      {
+        "name": "Shelley Capito",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "C001047"
+      },
+      {
+        "name": "James Conley Ii Justice",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "J000312"
+      }
+    ]
+  },
+  "WY": {
+    "state_name": "Wyoming",
+    "senators": [
+      {
+        "name": "Cynthia Marie Lummis",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2021,
+        "bioguide": "L000571"
+      },
+      {
+        "name": "John A Barrasso",
+        "party": "R",
+        "title": "Sen.",
+        "since": 2025,
+        "bioguide": "B001261"
+      }
+    ]
+  }
+}

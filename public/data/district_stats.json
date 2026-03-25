@@ -1,0 +1,6008 @@
+{
+  "_meta": {
+    "source": "pmte.db \u2014 usaspending, census_acs, stock_transactions, weekly_awards_top50",
+    "last_updated": "2026-03-25",
+    "total_districts": 441
+  },
+  "AK-0": {
+    "total_obligated": 16332466230.86,
+    "per_capita": 22291.62,
+    "national_rank": 34,
+    "yoy_change": 11.5,
+    "roi_ratio": 3.46,
+    "top_contractor": "ALASKA DEPARTMENT OF TRANSPORTATION & PUBLIC FACILITIES",
+    "top_contractor_amount": 45241992.14,
+    "latest_stock_trade": {
+      "date": "2020-06-16",
+      "ticker": "RPM",
+      "amount_range": "$50,001 - $100,000",
+      "transaction": "Sale (Partial)"
+    },
+    "weekly_contracts": 45241992.14
+  },
+  "AL-1": {
+    "total_obligated": 633802878.26,
+    "per_capita": 871.55,
+    "national_rank": 284,
+    "yoy_change": -2.4,
+    "roi_ratio": 0.18,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "AL-2": {
+    "total_obligated": 17499423488.96,
+    "per_capita": 24433.3,
+    "national_rank": 32,
+    "yoy_change": 22.3,
+    "roi_ratio": 5.11,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "AL-3": {
+    "total_obligated": 525817210.4,
+    "per_capita": 729.0,
+    "national_rank": 310,
+    "yoy_change": 3.9,
+    "roi_ratio": 0.16,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "AL-4": {
+    "total_obligated": 191548474.37,
+    "per_capita": 264.91,
+    "national_rank": 415,
+    "yoy_change": -17.1,
+    "roi_ratio": 0.06,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "AL-5": {
+    "total_obligated": 12429333042.62,
+    "per_capita": 17040.86,
+    "national_rank": 41,
+    "yoy_change": 21.5,
+    "roi_ratio": 2.88,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "AL-6": {
+    "total_obligated": 1487935552.58,
+    "per_capita": 2106.07,
+    "national_rank": 185,
+    "yoy_change": -1.4,
+    "roi_ratio": 0.33,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "AL-7": {
+    "total_obligated": 1605400703.75,
+    "per_capita": 2241.51,
+    "national_rank": 176,
+    "yoy_change": -15.8,
+    "roi_ratio": 0.54,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "AR-1": {
+    "total_obligated": 269236613.26,
+    "per_capita": 357.38,
+    "national_rank": 396,
+    "yoy_change": -20.5,
+    "roi_ratio": 0.09,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2020-09-08",
+      "ticker": "N/A",
+      "amount_range": "Unknown",
+      "transaction": "N/A"
+    },
+    "weekly_contracts": null
+  },
+  "AR-2": {
+    "total_obligated": 11041657890.54,
+    "per_capita": 14548.1,
+    "national_rank": 45,
+    "yoy_change": 24.5,
+    "roi_ratio": 2.72,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2020-09-08",
+      "ticker": "N/A",
+      "amount_range": "Unknown",
+      "transaction": "N/A"
+    },
+    "weekly_contracts": null
+  },
+  "AR-3": {
+    "total_obligated": 575489662.93,
+    "per_capita": 750.82,
+    "national_rank": 300,
+    "yoy_change": -5.3,
+    "roi_ratio": 0.14,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2020-09-08",
+      "ticker": "N/A",
+      "amount_range": "Unknown",
+      "transaction": "N/A"
+    },
+    "weekly_contracts": null
+  },
+  "AR-4": {
+    "total_obligated": 440639463.74,
+    "per_capita": 589.82,
+    "national_rank": 337,
+    "yoy_change": 28.2,
+    "roi_ratio": 0.14,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2020-09-08",
+      "ticker": "N/A",
+      "amount_range": "Unknown",
+      "transaction": "N/A"
+    },
+    "weekly_contracts": null
+  },
+  "AS-98": {
+    "total_obligated": 416665513.11,
+    "per_capita": 9252.04,
+    "national_rank": 350,
+    "yoy_change": 13.6,
+    "roi_ratio": null,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "AZ-1": {
+    "total_obligated": 2275443805.81,
+    "per_capita": 2855.28,
+    "national_rank": 150,
+    "yoy_change": 1.3,
+    "roi_ratio": 0.31,
+    "top_contractor": "ARIZONA HEALTH CARE COST CONTAINMENT SYSTEM",
+    "top_contractor_amount": 452604702.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 452604702.0
+  },
+  "AZ-2": {
+    "total_obligated": 682395395.32,
+    "per_capita": 843.15,
+    "national_rank": 273,
+    "yoy_change": 0.5,
+    "roi_ratio": 0.18,
+    "top_contractor": "ARIZONA HEALTH CARE COST CONTAINMENT SYSTEM",
+    "top_contractor_amount": 452604702.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 452604702.0
+  },
+  "AZ-3": {
+    "total_obligated": 23231160755.97,
+    "per_capita": 29054.57,
+    "national_rank": 19,
+    "yoy_change": -2.9,
+    "roi_ratio": 7.37,
+    "top_contractor": "ARIZONA HEALTH CARE COST CONTAINMENT SYSTEM",
+    "top_contractor_amount": 452604702.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 452604702.0
+  },
+  "AZ-4": {
+    "total_obligated": 3075385741.51,
+    "per_capita": 3821.24,
+    "national_rank": 123,
+    "yoy_change": 27.1,
+    "roi_ratio": 0.65,
+    "top_contractor": "ARIZONA HEALTH CARE COST CONTAINMENT SYSTEM",
+    "top_contractor_amount": 452604702.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 452604702.0
+  },
+  "AZ-5": {
+    "total_obligated": 555263922.36,
+    "per_capita": 682.72,
+    "national_rank": 303,
+    "yoy_change": -62.4,
+    "roi_ratio": 0.1,
+    "top_contractor": "ARIZONA HEALTH CARE COST CONTAINMENT SYSTEM",
+    "top_contractor_amount": 452604702.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 452604702.0
+  },
+  "AZ-6": {
+    "total_obligated": 1147666223.22,
+    "per_capita": 1428.23,
+    "national_rank": 215,
+    "yoy_change": 135.1,
+    "roi_ratio": 0.23,
+    "top_contractor": "ARIZONA HEALTH CARE COST CONTAINMENT SYSTEM",
+    "top_contractor_amount": 452604702.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 452604702.0
+  },
+  "AZ-7": {
+    "total_obligated": 13026515324.69,
+    "per_capita": 16419.22,
+    "national_rank": 38,
+    "yoy_change": 26.1,
+    "roi_ratio": 4.17,
+    "top_contractor": "ARIZONA HEALTH CARE COST CONTAINMENT SYSTEM",
+    "top_contractor_amount": 452604702.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 452604702.0
+  },
+  "AZ-8": {
+    "total_obligated": 13556961189.26,
+    "per_capita": 16673.3,
+    "national_rank": 37,
+    "yoy_change": 57.2,
+    "roi_ratio": 2.89,
+    "top_contractor": "ARIZONA HEALTH CARE COST CONTAINMENT SYSTEM",
+    "top_contractor_amount": 452604702.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 452604702.0
+  },
+  "AZ-9": {
+    "total_obligated": 190488590.61,
+    "per_capita": 226.14,
+    "national_rank": 416,
+    "yoy_change": 38.9,
+    "roi_ratio": 0.05,
+    "top_contractor": "ARIZONA HEALTH CARE COST CONTAINMENT SYSTEM",
+    "top_contractor_amount": 452604702.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 452604702.0
+  },
+  "CA-1": {
+    "total_obligated": 641468973.98,
+    "per_capita": 836.4,
+    "national_rank": 283,
+    "yoy_change": -7.2,
+    "roi_ratio": 0.16,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-10": {
+    "total_obligated": 1008325972.89,
+    "per_capita": 1323.14,
+    "national_rank": 226,
+    "yoy_change": -16.1,
+    "roi_ratio": 0.12,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-11": {
+    "total_obligated": 4566870979.53,
+    "per_capita": 6504.98,
+    "national_rank": 86,
+    "yoy_change": 86.6,
+    "roi_ratio": 0.45,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-12": {
+    "total_obligated": 3856283202.64,
+    "per_capita": 5226.97,
+    "national_rank": 100,
+    "yoy_change": 8.3,
+    "roi_ratio": 0.57,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-13": {
+    "total_obligated": 331728161.28,
+    "per_capita": 423.51,
+    "national_rank": 372,
+    "yoy_change": 21.7,
+    "roi_ratio": 0.11,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-14": {
+    "total_obligated": 3875609986.7,
+    "per_capita": 5152.19,
+    "national_rank": 99,
+    "yoy_change": 13.1,
+    "roi_ratio": 0.59,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-15": {
+    "total_obligated": 2736555799.21,
+    "per_capita": 3706.35,
+    "national_rank": 125,
+    "yoy_change": 34.0,
+    "roi_ratio": 0.35,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-16": {
+    "total_obligated": 3188788918.89,
+    "per_capita": 4294.9,
+    "national_rank": 120,
+    "yoy_change": 2.2,
+    "roi_ratio": 0.32,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-17": {
+    "total_obligated": 2633059377.8,
+    "per_capita": 3591.26,
+    "national_rank": 129,
+    "yoy_change": 1.2,
+    "roi_ratio": 0.31,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-18": {
+    "total_obligated": 921238535.21,
+    "per_capita": 1254.89,
+    "national_rank": 240,
+    "yoy_change": 26.8,
+    "roi_ratio": 0.22,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-19": {
+    "total_obligated": 629229357.55,
+    "per_capita": 819.91,
+    "national_rank": 285,
+    "yoy_change": -14.0,
+    "roi_ratio": 0.09,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-2": {
+    "total_obligated": 818884608.6,
+    "per_capita": 1071.22,
+    "national_rank": 256,
+    "yoy_change": 4.9,
+    "roi_ratio": 0.12,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-20": {
+    "total_obligated": 408396986.97,
+    "per_capita": 533.11,
+    "national_rank": 353,
+    "yoy_change": -9.1,
+    "roi_ratio": 0.09,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-21": {
+    "total_obligated": 433535525.81,
+    "per_capita": 573.7,
+    "national_rank": 341,
+    "yoy_change": -3.4,
+    "roi_ratio": 0.16,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-22": {
+    "total_obligated": 288510949.28,
+    "per_capita": 362.87,
+    "national_rank": 388,
+    "yoy_change": -8.7,
+    "roi_ratio": 0.12,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-23": {
+    "total_obligated": 314892662.61,
+    "per_capita": 413.63,
+    "national_rank": 382,
+    "yoy_change": 3.1,
+    "roi_ratio": 0.09,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-24": {
+    "total_obligated": 1422972968.07,
+    "per_capita": 1864.78,
+    "national_rank": 189,
+    "yoy_change": 13.5,
+    "roi_ratio": 0.28,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-25": {
+    "total_obligated": 615758542.03,
+    "per_capita": 801.83,
+    "national_rank": 290,
+    "yoy_change": 49.2,
+    "roi_ratio": 0.2,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-26": {
+    "total_obligated": 1386578519.44,
+    "per_capita": 1845.02,
+    "national_rank": 192,
+    "yoy_change": 20.5,
+    "roi_ratio": 0.25,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-27": {
+    "total_obligated": 961092660.56,
+    "per_capita": 1283.96,
+    "national_rank": 233,
+    "yoy_change": -24.2,
+    "roi_ratio": 0.22,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-28": {
+    "total_obligated": 4086983866.16,
+    "per_capita": 5530.16,
+    "national_rank": 97,
+    "yoy_change": 8.2,
+    "roi_ratio": 0.71,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-29": {
+    "total_obligated": 882861018.85,
+    "per_capita": 1195.39,
+    "national_rank": 244,
+    "yoy_change": 164.5,
+    "roi_ratio": 0.26,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-3": {
+    "total_obligated": 430429462.11,
+    "per_capita": 560.15,
+    "national_rank": 342,
+    "yoy_change": -27.2,
+    "roi_ratio": 0.07,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-30": {
+    "total_obligated": 424024414.61,
+    "per_capita": 579.93,
+    "national_rank": 345,
+    "yoy_change": 11.6,
+    "roi_ratio": 0.07,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-31": {
+    "total_obligated": 3552618686.67,
+    "per_capita": 4811.79,
+    "national_rank": 105,
+    "yoy_change": 38.7,
+    "roi_ratio": 0.97,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-32": {
+    "total_obligated": 1839613020.97,
+    "per_capita": 2409.35,
+    "national_rank": 168,
+    "yoy_change": 10.8,
+    "roi_ratio": 0.25,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-33": {
+    "total_obligated": 209873189.85,
+    "per_capita": 276.1,
+    "national_rank": 408,
+    "yoy_change": -26.5,
+    "roi_ratio": 0.06,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-34": {
+    "total_obligated": 3336470845.67,
+    "per_capita": 4444.45,
+    "national_rank": 112,
+    "yoy_change": -3.3,
+    "roi_ratio": 0.96,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-35": {
+    "total_obligated": 392168456.53,
+    "per_capita": 506.21,
+    "national_rank": 356,
+    "yoy_change": -14.3,
+    "roi_ratio": 0.11,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-36": {
+    "total_obligated": 7682985746.8,
+    "per_capita": 10627.11,
+    "national_rank": 66,
+    "yoy_change": 9.0,
+    "roi_ratio": 0.87,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-37": {
+    "total_obligated": 360850403.15,
+    "per_capita": 479.45,
+    "national_rank": 365,
+    "yoy_change": -46.9,
+    "roi_ratio": 0.1,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-38": {
+    "total_obligated": 883621919.9,
+    "per_capita": 1187.87,
+    "national_rank": 243,
+    "yoy_change": 135.7,
+    "roi_ratio": 0.22,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-39": {
+    "total_obligated": 546071620.51,
+    "per_capita": 711.19,
+    "national_rank": 305,
+    "yoy_change": -1.8,
+    "roi_ratio": 0.17,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-4": {
+    "total_obligated": 860523844.49,
+    "per_capita": 1134.02,
+    "national_rank": 249,
+    "yoy_change": -9.6,
+    "roi_ratio": 0.16,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-40": {
+    "total_obligated": 405777428.85,
+    "per_capita": 538.53,
+    "national_rank": 354,
+    "yoy_change": -23.9,
+    "roi_ratio": 0.06,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-41": {
+    "total_obligated": 161152229.77,
+    "per_capita": 204.03,
+    "national_rank": 426,
+    "yoy_change": 14.7,
+    "roi_ratio": 0.03,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-42": {
+    "total_obligated": 3285213631.25,
+    "per_capita": 4421.86,
+    "national_rank": 115,
+    "yoy_change": 25.9,
+    "roi_ratio": 0.89,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-43": {
+    "total_obligated": 3534340883.74,
+    "per_capita": 4801.05,
+    "national_rank": 106,
+    "yoy_change": -9.3,
+    "roi_ratio": 1.1,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-44": {
+    "total_obligated": 733651497.55,
+    "per_capita": 973.0,
+    "national_rank": 270,
+    "yoy_change": 91.7,
+    "roi_ratio": 0.21,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-45": {
+    "total_obligated": 461624707.22,
+    "per_capita": 616.91,
+    "national_rank": 335,
+    "yoy_change": -2.5,
+    "roi_ratio": 0.1,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-46": {
+    "total_obligated": 88147351.05,
+    "per_capita": 116.33,
+    "national_rank": 434,
+    "yoy_change": -93.5,
+    "roi_ratio": 0.03,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-47": {
+    "total_obligated": 2326730772.32,
+    "per_capita": 3079.87,
+    "national_rank": 146,
+    "yoy_change": -12.7,
+    "roi_ratio": 0.31,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-48": {
+    "total_obligated": 2327078865.48,
+    "per_capita": 3091.26,
+    "national_rank": 145,
+    "yoy_change": -21.1,
+    "roi_ratio": 0.47,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-49": {
+    "total_obligated": 2332892501.32,
+    "per_capita": 3048.95,
+    "national_rank": 143,
+    "yoy_change": 57.1,
+    "roi_ratio": 0.36,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-5": {
+    "total_obligated": 464986454.26,
+    "per_capita": 601.23,
+    "national_rank": 332,
+    "yoy_change": -12.4,
+    "roi_ratio": 0.09,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-50": {
+    "total_obligated": 5574766724.63,
+    "per_capita": 7449.94,
+    "national_rank": 77,
+    "yoy_change": -2.3,
+    "roi_ratio": 0.79,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-51": {
+    "total_obligated": 2380182305.44,
+    "per_capita": 3120.38,
+    "national_rank": 139,
+    "yoy_change": -8.0,
+    "roi_ratio": 0.45,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-52": {
+    "total_obligated": 1918995827.61,
+    "per_capita": 2526.96,
+    "national_rank": 163,
+    "yoy_change": -19.9,
+    "roi_ratio": 0.53,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-6": {
+    "total_obligated": 9622044882.27,
+    "per_capita": 12714.47,
+    "national_rank": 52,
+    "yoy_change": -4.2,
+    "roi_ratio": 2.23,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-7": {
+    "total_obligated": 139997586491.36,
+    "per_capita": 184122.56,
+    "national_rank": 1,
+    "yoy_change": 6.0,
+    "roi_ratio": 31.48,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-8": {
+    "total_obligated": 466367815.34,
+    "per_capita": 624.96,
+    "national_rank": 331,
+    "yoy_change": 79.9,
+    "roi_ratio": 0.1,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CA-9": {
+    "total_obligated": 552811529.05,
+    "per_capita": 717.51,
+    "national_rank": 304,
+    "yoy_change": -10.5,
+    "roi_ratio": 0.14,
+    "top_contractor": "FISHER SAND & GRAVEL CO",
+    "top_contractor_amount": 651325000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 651325000.0
+  },
+  "CO-1": {
+    "total_obligated": 17112025982.07,
+    "per_capita": 23873.14,
+    "national_rank": 33,
+    "yoy_change": 13.2,
+    "roi_ratio": 2.82,
+    "top_contractor": "AMERESCO INC",
+    "top_contractor_amount": 73386418.0,
+    "latest_stock_trade": {
+      "date": "2020-08-27",
+      "ticker": "--",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 73386418.0
+  },
+  "CO-2": {
+    "total_obligated": 2611933702.14,
+    "per_capita": 3641.97,
+    "national_rank": 130,
+    "yoy_change": 7.6,
+    "roi_ratio": 0.46,
+    "top_contractor": "AMERESCO INC",
+    "top_contractor_amount": 73386418.0,
+    "latest_stock_trade": {
+      "date": "2020-08-27",
+      "ticker": "--",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 73386418.0
+  },
+  "CO-3": {
+    "total_obligated": 587021889.93,
+    "per_capita": 799.49,
+    "national_rank": 298,
+    "yoy_change": -15.6,
+    "roi_ratio": 0.15,
+    "top_contractor": "AMERESCO INC",
+    "top_contractor_amount": 73386418.0,
+    "latest_stock_trade": {
+      "date": "2020-08-27",
+      "ticker": "--",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 73386418.0
+  },
+  "CO-4": {
+    "total_obligated": 3257806227.89,
+    "per_capita": 4363.37,
+    "national_rank": 117,
+    "yoy_change": 72.0,
+    "roi_ratio": 0.57,
+    "top_contractor": "AMERESCO INC",
+    "top_contractor_amount": 73386418.0,
+    "latest_stock_trade": {
+      "date": "2020-08-27",
+      "ticker": "--",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 73386418.0
+  },
+  "CO-5": {
+    "total_obligated": 5527798565.23,
+    "per_capita": 7559.06,
+    "national_rank": 79,
+    "yoy_change": 0.8,
+    "roi_ratio": 1.23,
+    "top_contractor": "AMERESCO INC",
+    "top_contractor_amount": 73386418.0,
+    "latest_stock_trade": {
+      "date": "2020-08-27",
+      "ticker": "--",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 73386418.0
+  },
+  "CO-6": {
+    "total_obligated": 2271465409.65,
+    "per_capita": 3132.91,
+    "national_rank": 151,
+    "yoy_change": -42.6,
+    "roi_ratio": 0.43,
+    "top_contractor": "AMERESCO INC",
+    "top_contractor_amount": 73386418.0,
+    "latest_stock_trade": {
+      "date": "2020-08-27",
+      "ticker": "--",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 73386418.0
+  },
+  "CO-7": {
+    "total_obligated": 4865860838.79,
+    "per_capita": 6787.9,
+    "national_rank": 83,
+    "yoy_change": 13.4,
+    "roi_ratio": 0.87,
+    "top_contractor": "AMERESCO INC",
+    "top_contractor_amount": 73386418.0,
+    "latest_stock_trade": {
+      "date": "2020-08-27",
+      "ticker": "--",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 73386418.0
+  },
+  "CO-8": {
+    "total_obligated": 872449517.91,
+    "per_capita": 1204.92,
+    "national_rank": 248,
+    "yoy_change": 83.7,
+    "roi_ratio": 0.21,
+    "top_contractor": "AMERESCO INC",
+    "top_contractor_amount": 73386418.0,
+    "latest_stock_trade": {
+      "date": "2020-08-27",
+      "ticker": "--",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 73386418.0
+  },
+  "CT-1": {
+    "total_obligated": 20452560252.81,
+    "per_capita": 28496.53,
+    "national_rank": 26,
+    "yoy_change": 23.5,
+    "roi_ratio": 4.14,
+    "top_contractor": "DEPARTMENT OF TRANSPORTATION CONNECTICUT",
+    "top_contractor_amount": 87219706.67,
+    "latest_stock_trade": {
+      "date": "2020-12-02",
+      "ticker": "N/A",
+      "amount_range": "Unknown",
+      "transaction": "N/A"
+    },
+    "weekly_contracts": 87219706.67
+  },
+  "CT-2": {
+    "total_obligated": 22002838527.5,
+    "per_capita": 30179.28,
+    "national_rank": 21,
+    "yoy_change": 135.8,
+    "roi_ratio": 4.21,
+    "top_contractor": "DEPARTMENT OF TRANSPORTATION CONNECTICUT",
+    "top_contractor_amount": 87219706.67,
+    "latest_stock_trade": {
+      "date": "2020-12-02",
+      "ticker": "N/A",
+      "amount_range": "Unknown",
+      "transaction": "N/A"
+    },
+    "weekly_contracts": 87219706.67
+  },
+  "CT-3": {
+    "total_obligated": 6057550475.86,
+    "per_capita": 8420.5,
+    "national_rank": 76,
+    "yoy_change": 0.1,
+    "roi_ratio": 1.21,
+    "top_contractor": "DEPARTMENT OF TRANSPORTATION CONNECTICUT",
+    "top_contractor_amount": 87219706.67,
+    "latest_stock_trade": {
+      "date": "2020-12-02",
+      "ticker": "N/A",
+      "amount_range": "Unknown",
+      "transaction": "N/A"
+    },
+    "weekly_contracts": 87219706.67
+  },
+  "CT-4": {
+    "total_obligated": 487007806.39,
+    "per_capita": 677.68,
+    "national_rank": 322,
+    "yoy_change": -53.1,
+    "roi_ratio": 0.06,
+    "top_contractor": "DEPARTMENT OF TRANSPORTATION CONNECTICUT",
+    "top_contractor_amount": 87219706.67,
+    "latest_stock_trade": {
+      "date": "2020-12-02",
+      "ticker": "N/A",
+      "amount_range": "Unknown",
+      "transaction": "N/A"
+    },
+    "weekly_contracts": 87219706.67
+  },
+  "CT-5": {
+    "total_obligated": 433556060.14,
+    "per_capita": 601.51,
+    "national_rank": 340,
+    "yoy_change": -8.4,
+    "roi_ratio": 0.08,
+    "top_contractor": "DEPARTMENT OF TRANSPORTATION CONNECTICUT",
+    "top_contractor_amount": 87219706.67,
+    "latest_stock_trade": {
+      "date": "2020-12-02",
+      "ticker": "N/A",
+      "amount_range": "Unknown",
+      "transaction": "N/A"
+    },
+    "weekly_contracts": 87219706.67
+  },
+  "DC-98": {
+    "total_obligated": 31774622410.0,
+    "per_capita": 47421.27,
+    "national_rank": 11,
+    "yoy_change": -14.8,
+    "roi_ratio": null,
+    "top_contractor": "ROBINSON AVIATION (RVA), INC.",
+    "top_contractor_amount": 51852897.18,
+    "latest_stock_trade": null,
+    "weekly_contracts": 51852897.18
+  },
+  "DE-0": {
+    "total_obligated": 4456025749.84,
+    "per_capita": 4441.0,
+    "national_rank": 88,
+    "yoy_change": -1.3,
+    "roi_ratio": 0.71,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2020-07-31",
+      "ticker": "--",
+      "amount_range": "$50,001 - $100,000",
+      "transaction": "Sale (Partial)"
+    },
+    "weekly_contracts": null
+  },
+  "FL-1": {
+    "total_obligated": 2358325434.33,
+    "per_capita": 3042.46,
+    "national_rank": 140,
+    "yoy_change": 16.8,
+    "roi_ratio": 0.54,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-10": {
+    "total_obligated": 9692984939.33,
+    "per_capita": 12471.85,
+    "national_rank": 51,
+    "yoy_change": 14.6,
+    "roi_ratio": 2.37,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-11": {
+    "total_obligated": 162749364.39,
+    "per_capita": 201.52,
+    "national_rank": 424,
+    "yoy_change": -0.7,
+    "roi_ratio": 0.03,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-12": {
+    "total_obligated": 736338838.56,
+    "per_capita": 945.45,
+    "national_rank": 269,
+    "yoy_change": 179.5,
+    "roi_ratio": 0.19,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-13": {
+    "total_obligated": 2635923563.59,
+    "per_capita": 3429.68,
+    "national_rank": 128,
+    "yoy_change": 82.0,
+    "roi_ratio": 0.53,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-14": {
+    "total_obligated": 3288390729.21,
+    "per_capita": 4242.89,
+    "national_rank": 114,
+    "yoy_change": 41.5,
+    "roi_ratio": 0.63,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-15": {
+    "total_obligated": 1095371552.47,
+    "per_capita": 1368.39,
+    "national_rank": 220,
+    "yoy_change": 52.3,
+    "roi_ratio": 0.26,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-16": {
+    "total_obligated": 269607554.38,
+    "per_capita": 341.63,
+    "national_rank": 395,
+    "yoy_change": 21.9,
+    "roi_ratio": 0.06,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-17": {
+    "total_obligated": 493965125.48,
+    "per_capita": 616.06,
+    "national_rank": 320,
+    "yoy_change": -8.5,
+    "roi_ratio": 0.09,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-18": {
+    "total_obligated": 260053949.85,
+    "per_capita": 331.16,
+    "national_rank": 398,
+    "yoy_change": -10.0,
+    "roi_ratio": 0.08,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-19": {
+    "total_obligated": 624952536.25,
+    "per_capita": 792.57,
+    "national_rank": 288,
+    "yoy_change": -59.7,
+    "roi_ratio": 0.1,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-2": {
+    "total_obligated": 41727560618.67,
+    "per_capita": 53134.54,
+    "national_rank": 6,
+    "yoy_change": 5.0,
+    "roi_ratio": 10.84,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-20": {
+    "total_obligated": 420311923.22,
+    "per_capita": 560.22,
+    "national_rank": 348,
+    "yoy_change": -8.6,
+    "roi_ratio": 0.13,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-21": {
+    "total_obligated": 588980111.47,
+    "per_capita": 749.96,
+    "national_rank": 297,
+    "yoy_change": -10.5,
+    "roi_ratio": 0.11,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-22": {
+    "total_obligated": 472149511.5,
+    "per_capita": 609.76,
+    "national_rank": 327,
+    "yoy_change": 17.0,
+    "roi_ratio": 0.09,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-23": {
+    "total_obligated": 3379990172.04,
+    "per_capita": 4367.72,
+    "national_rank": 111,
+    "yoy_change": 128.4,
+    "roi_ratio": 0.56,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-24": {
+    "total_obligated": 186299613.5,
+    "per_capita": 246.2,
+    "national_rank": 417,
+    "yoy_change": -13.0,
+    "roi_ratio": 0.05,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-25": {
+    "total_obligated": 421087882.71,
+    "per_capita": 547.91,
+    "national_rank": 347,
+    "yoy_change": 51.8,
+    "roi_ratio": 0.09,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-26": {
+    "total_obligated": 756536805.12,
+    "per_capita": 975.34,
+    "national_rank": 263,
+    "yoy_change": 28.8,
+    "roi_ratio": 0.21,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-27": {
+    "total_obligated": 1184241821.92,
+    "per_capita": 1583.39,
+    "national_rank": 210,
+    "yoy_change": -0.6,
+    "roi_ratio": 0.22,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-28": {
+    "total_obligated": 331213972.54,
+    "per_capita": 432.43,
+    "national_rank": 373,
+    "yoy_change": -10.0,
+    "roi_ratio": 0.09,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-3": {
+    "total_obligated": 717330186.57,
+    "per_capita": 919.94,
+    "national_rank": 272,
+    "yoy_change": 1.6,
+    "roi_ratio": 0.2,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-4": {
+    "total_obligated": 997622769.88,
+    "per_capita": 1269.22,
+    "national_rank": 229,
+    "yoy_change": -1.1,
+    "roi_ratio": 0.25,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-5": {
+    "total_obligated": 2283073212.83,
+    "per_capita": 2911.17,
+    "national_rank": 148,
+    "yoy_change": 2.1,
+    "roi_ratio": 0.42,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-6": {
+    "total_obligated": 576238832.49,
+    "per_capita": 732.8,
+    "national_rank": 299,
+    "yoy_change": -10.7,
+    "roi_ratio": 0.14,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-7": {
+    "total_obligated": 320744021.9,
+    "per_capita": 417.25,
+    "national_rank": 378,
+    "yoy_change": 4.4,
+    "roi_ratio": 0.07,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-8": {
+    "total_obligated": 6248018294.46,
+    "per_capita": 7990.17,
+    "national_rank": 75,
+    "yoy_change": -7.9,
+    "roi_ratio": 1.32,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "FL-9": {
+    "total_obligated": 512161407.81,
+    "per_capita": 671.56,
+    "national_rank": 316,
+    "yoy_change": -15.4,
+    "roi_ratio": 0.14,
+    "top_contractor": "AKIMA INFRASTRUCTURE PROTECTION LLC",
+    "top_contractor_amount": 52074481.0,
+    "latest_stock_trade": {
+      "date": "2020-09-18",
+      "ticker": "--",
+      "amount_range": "$500,001 - $1,000,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 52074481.0
+  },
+  "GA-1": {
+    "total_obligated": 933728702.16,
+    "per_capita": 1203.1,
+    "national_rank": 237,
+    "yoy_change": 8.9,
+    "roi_ratio": 0.24,
+    "top_contractor": "CACI, INC. - FEDERAL",
+    "top_contractor_amount": 77330251.14,
+    "latest_stock_trade": null,
+    "weekly_contracts": 77330251.14
+  },
+  "GA-10": {
+    "total_obligated": 506300194.44,
+    "per_capita": 640.26,
+    "national_rank": 318,
+    "yoy_change": 13.0,
+    "roi_ratio": 0.13,
+    "top_contractor": "CACI, INC. - FEDERAL",
+    "top_contractor_amount": 77330251.14,
+    "latest_stock_trade": null,
+    "weekly_contracts": 77330251.14
+  },
+  "GA-11": {
+    "total_obligated": 3782273952.1,
+    "per_capita": 4893.88,
+    "national_rank": 102,
+    "yoy_change": 43.4,
+    "roi_ratio": 0.74,
+    "top_contractor": "CACI, INC. - FEDERAL",
+    "top_contractor_amount": 77330251.14,
+    "latest_stock_trade": null,
+    "weekly_contracts": 77330251.14
+  },
+  "GA-12": {
+    "total_obligated": 949681563.01,
+    "per_capita": 1239.19,
+    "national_rank": 235,
+    "yoy_change": 23.4,
+    "roi_ratio": 0.27,
+    "top_contractor": "CACI, INC. - FEDERAL",
+    "top_contractor_amount": 77330251.14,
+    "latest_stock_trade": null,
+    "weekly_contracts": 77330251.14
+  },
+  "GA-13": {
+    "total_obligated": 141952311.16,
+    "per_capita": 185.91,
+    "national_rank": 428,
+    "yoy_change": -2.2,
+    "roi_ratio": 0.04,
+    "top_contractor": "CACI, INC. - FEDERAL",
+    "top_contractor_amount": 77330251.14,
+    "latest_stock_trade": null,
+    "weekly_contracts": 77330251.14
+  },
+  "GA-14": {
+    "total_obligated": 181523548.39,
+    "per_capita": 233.48,
+    "national_rank": 418,
+    "yoy_change": 133.1,
+    "roi_ratio": 0.05,
+    "top_contractor": "CACI, INC. - FEDERAL",
+    "top_contractor_amount": 77330251.14,
+    "latest_stock_trade": null,
+    "weekly_contracts": 77330251.14
+  },
+  "GA-2": {
+    "total_obligated": 669808382.17,
+    "per_capita": 870.55,
+    "national_rank": 275,
+    "yoy_change": -10.2,
+    "roi_ratio": 0.22,
+    "top_contractor": "CACI, INC. - FEDERAL",
+    "top_contractor_amount": 77330251.14,
+    "latest_stock_trade": null,
+    "weekly_contracts": 77330251.14
+  },
+  "GA-3": {
+    "total_obligated": 161468144.93,
+    "per_capita": 208.82,
+    "national_rank": 425,
+    "yoy_change": -21.3,
+    "roi_ratio": 0.04,
+    "top_contractor": "CACI, INC. - FEDERAL",
+    "top_contractor_amount": 77330251.14,
+    "latest_stock_trade": null,
+    "weekly_contracts": 77330251.14
+  },
+  "GA-4": {
+    "total_obligated": 1399009395.49,
+    "per_capita": 1849.47,
+    "national_rank": 191,
+    "yoy_change": -6.6,
+    "roi_ratio": 0.31,
+    "top_contractor": "CACI, INC. - FEDERAL",
+    "top_contractor_amount": 77330251.14,
+    "latest_stock_trade": null,
+    "weekly_contracts": 77330251.14
+  },
+  "GA-5": {
+    "total_obligated": 26649081256.71,
+    "per_capita": 34804.24,
+    "national_rank": 13,
+    "yoy_change": 14.2,
+    "roi_ratio": 4.14,
+    "top_contractor": "CACI, INC. - FEDERAL",
+    "top_contractor_amount": 77330251.14,
+    "latest_stock_trade": null,
+    "weekly_contracts": 77330251.14
+  },
+  "GA-6": {
+    "total_obligated": 813519533.41,
+    "per_capita": 1042.08,
+    "national_rank": 257,
+    "yoy_change": 5.8,
+    "roi_ratio": 0.12,
+    "top_contractor": "CACI, INC. - FEDERAL",
+    "top_contractor_amount": 77330251.14,
+    "latest_stock_trade": null,
+    "weekly_contracts": 77330251.14
+  },
+  "GA-7": {
+    "total_obligated": 382732670.47,
+    "per_capita": 510.53,
+    "national_rank": 360,
+    "yoy_change": -10.2,
+    "roi_ratio": 0.09,
+    "top_contractor": "CACI, INC. - FEDERAL",
+    "top_contractor_amount": 77330251.14,
+    "latest_stock_trade": null,
+    "weekly_contracts": 77330251.14
+  },
+  "GA-8": {
+    "total_obligated": 484302852.25,
+    "per_capita": 636.97,
+    "national_rank": 324,
+    "yoy_change": 4.9,
+    "roi_ratio": 0.14,
+    "top_contractor": "CACI, INC. - FEDERAL",
+    "top_contractor_amount": 77330251.14,
+    "latest_stock_trade": null,
+    "weekly_contracts": 77330251.14
+  },
+  "GA-9": {
+    "total_obligated": 341091377.79,
+    "per_capita": 427.96,
+    "national_rank": 371,
+    "yoy_change": 17.7,
+    "roi_ratio": 0.08,
+    "top_contractor": "CACI, INC. - FEDERAL",
+    "top_contractor_amount": 77330251.14,
+    "latest_stock_trade": null,
+    "weekly_contracts": 77330251.14
+  },
+  "GU-98": {
+    "total_obligated": 2331218011.7,
+    "per_capita": 13670.11,
+    "national_rank": 144,
+    "yoy_change": 11.8,
+    "roi_ratio": null,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "HI-1": {
+    "total_obligated": 8824685383.56,
+    "per_capita": 12377.76,
+    "national_rank": 55,
+    "yoy_change": 0.2,
+    "roi_ratio": 1.79,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "HI-2": {
+    "total_obligated": 2250301524.55,
+    "per_capita": 3088.5,
+    "national_rank": 152,
+    "yoy_change": 162.1,
+    "roi_ratio": 0.51,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "IA-1": {
+    "total_obligated": 752566219.16,
+    "per_capita": 947.43,
+    "national_rank": 266,
+    "yoy_change": -18.5,
+    "roi_ratio": 0.17,
+    "top_contractor": "IOWA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 219658544.93,
+    "latest_stock_trade": null,
+    "weekly_contracts": 219658544.93
+  },
+  "IA-2": {
+    "total_obligated": 2422526737.88,
+    "per_capita": 3049.95,
+    "national_rank": 138,
+    "yoy_change": 3.4,
+    "roi_ratio": 0.54,
+    "top_contractor": "IOWA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 219658544.93,
+    "latest_stock_trade": null,
+    "weekly_contracts": 219658544.93
+  },
+  "IA-3": {
+    "total_obligated": 10099426304.14,
+    "per_capita": 12481.88,
+    "national_rank": 49,
+    "yoy_change": 18.1,
+    "roi_ratio": 2.06,
+    "top_contractor": "IOWA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 219658544.93,
+    "latest_stock_trade": null,
+    "weekly_contracts": 219658544.93
+  },
+  "IA-4": {
+    "total_obligated": 1684719803.74,
+    "per_capita": 2118.23,
+    "national_rank": 172,
+    "yoy_change": 17.4,
+    "roi_ratio": 0.4,
+    "top_contractor": "IOWA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 219658544.93,
+    "latest_stock_trade": null,
+    "weekly_contracts": 219658544.93
+  },
+  "ID-1": {
+    "total_obligated": 851259496.71,
+    "per_capita": 879.64,
+    "national_rank": 251,
+    "yoy_change": 2.4,
+    "roi_ratio": 0.17,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2017-11-27",
+      "ticker": "--",
+      "amount_range": "$50,001 - $100,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": null
+  },
+  "ID-2": {
+    "total_obligated": 7973866164.26,
+    "per_capita": 8544.78,
+    "national_rank": 61,
+    "yoy_change": -0.4,
+    "roi_ratio": 1.66,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2017-11-27",
+      "ticker": "--",
+      "amount_range": "$50,001 - $100,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": null
+  },
+  "IL-1": {
+    "total_obligated": 3601887085.94,
+    "per_capita": 4921.32,
+    "national_rank": 104,
+    "yoy_change": 87.7,
+    "roi_ratio": 0.86,
+    "top_contractor": "ILLINOIS DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 187522617.64,
+    "latest_stock_trade": {
+      "date": "2018-08-07",
+      "ticker": "WBA",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 187522617.64
+  },
+  "IL-10": {
+    "total_obligated": 1489569814.45,
+    "per_capita": 1983.09,
+    "national_rank": 184,
+    "yoy_change": -15.0,
+    "roi_ratio": 0.23,
+    "top_contractor": "ILLINOIS DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 187522617.64,
+    "latest_stock_trade": {
+      "date": "2018-08-07",
+      "ticker": "WBA",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 187522617.64
+  },
+  "IL-11": {
+    "total_obligated": -369516670.31,
+    "per_capita": -495.32,
+    "national_rank": 441,
+    "yoy_change": -126.2,
+    "roi_ratio": -0.07,
+    "top_contractor": "ILLINOIS DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 187522617.64,
+    "latest_stock_trade": {
+      "date": "2018-08-07",
+      "ticker": "WBA",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 187522617.64
+  },
+  "IL-12": {
+    "total_obligated": 522052673.41,
+    "per_capita": 689.83,
+    "national_rank": 313,
+    "yoy_change": -27.7,
+    "roi_ratio": 0.13,
+    "top_contractor": "ILLINOIS DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 187522617.64,
+    "latest_stock_trade": {
+      "date": "2018-08-07",
+      "ticker": "WBA",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 187522617.64
+  },
+  "IL-13": {
+    "total_obligated": 32832173615.9,
+    "per_capita": 44985.63,
+    "national_rank": 10,
+    "yoy_change": 1.3,
+    "roi_ratio": 8.45,
+    "top_contractor": "ILLINOIS DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 187522617.64,
+    "latest_stock_trade": {
+      "date": "2018-08-07",
+      "ticker": "WBA",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 187522617.64
+  },
+  "IL-14": {
+    "total_obligated": 164369349.79,
+    "per_capita": 216.86,
+    "national_rank": 423,
+    "yoy_change": -16.0,
+    "roi_ratio": 0.04,
+    "top_contractor": "ILLINOIS DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 187522617.64,
+    "latest_stock_trade": {
+      "date": "2018-08-07",
+      "ticker": "WBA",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 187522617.64
+  },
+  "IL-15": {
+    "total_obligated": 318624972.37,
+    "per_capita": 422.49,
+    "national_rank": 381,
+    "yoy_change": -21.4,
+    "roi_ratio": 0.08,
+    "top_contractor": "ILLINOIS DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 187522617.64,
+    "latest_stock_trade": {
+      "date": "2018-08-07",
+      "ticker": "WBA",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 187522617.64
+  },
+  "IL-16": {
+    "total_obligated": 87540433.18,
+    "per_capita": 117.61,
+    "national_rank": 435,
+    "yoy_change": -10.2,
+    "roi_ratio": 0.02,
+    "top_contractor": "ILLINOIS DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 187522617.64,
+    "latest_stock_trade": {
+      "date": "2018-08-07",
+      "ticker": "WBA",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 187522617.64
+  },
+  "IL-17": {
+    "total_obligated": 1192906251.1,
+    "per_capita": 1591.56,
+    "national_rank": 208,
+    "yoy_change": 1.3,
+    "roi_ratio": 0.34,
+    "top_contractor": "ILLINOIS DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 187522617.64,
+    "latest_stock_trade": {
+      "date": "2018-08-07",
+      "ticker": "WBA",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 187522617.64
+  },
+  "IL-2": {
+    "total_obligated": 207027008.08,
+    "per_capita": 272.8,
+    "national_rank": 409,
+    "yoy_change": 0.7,
+    "roi_ratio": 0.06,
+    "top_contractor": "ILLINOIS DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 187522617.64,
+    "latest_stock_trade": {
+      "date": "2018-08-07",
+      "ticker": "WBA",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 187522617.64
+  },
+  "IL-3": {
+    "total_obligated": 489892013.24,
+    "per_capita": 677.56,
+    "national_rank": 321,
+    "yoy_change": 57.7,
+    "roi_ratio": 0.11,
+    "top_contractor": "ILLINOIS DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 187522617.64,
+    "latest_stock_trade": {
+      "date": "2018-08-07",
+      "ticker": "WBA",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 187522617.64
+  },
+  "IL-4": {
+    "total_obligated": 201290487.83,
+    "per_capita": 278.8,
+    "national_rank": 412,
+    "yoy_change": -3.0,
+    "roi_ratio": 0.06,
+    "top_contractor": "ILLINOIS DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 187522617.64,
+    "latest_stock_trade": {
+      "date": "2018-08-07",
+      "ticker": "WBA",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 187522617.64
+  },
+  "IL-5": {
+    "total_obligated": 486542966.91,
+    "per_capita": 624.45,
+    "national_rank": 323,
+    "yoy_change": 48.3,
+    "roi_ratio": 0.06,
+    "top_contractor": "ILLINOIS DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 187522617.64,
+    "latest_stock_trade": {
+      "date": "2018-08-07",
+      "ticker": "WBA",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 187522617.64
+  },
+  "IL-6": {
+    "total_obligated": 203858058.78,
+    "per_capita": 270.16,
+    "national_rank": 410,
+    "yoy_change": -3338.1,
+    "roi_ratio": 0.04,
+    "top_contractor": "ILLINOIS DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 187522617.64,
+    "latest_stock_trade": {
+      "date": "2018-08-07",
+      "ticker": "WBA",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 187522617.64
+  },
+  "IL-7": {
+    "total_obligated": 6379587121.58,
+    "per_capita": 8955.34,
+    "national_rank": 73,
+    "yoy_change": 2.5,
+    "roi_ratio": 1.11,
+    "top_contractor": "ILLINOIS DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 187522617.64,
+    "latest_stock_trade": {
+      "date": "2018-08-07",
+      "ticker": "WBA",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 187522617.64
+  },
+  "IL-8": {
+    "total_obligated": 3524100585.2,
+    "per_capita": 4680.57,
+    "national_rank": 107,
+    "yoy_change": 4.4,
+    "roi_ratio": 0.71,
+    "top_contractor": "ILLINOIS DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 187522617.64,
+    "latest_stock_trade": {
+      "date": "2018-08-07",
+      "ticker": "WBA",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 187522617.64
+  },
+  "IL-9": {
+    "total_obligated": 1967958800.68,
+    "per_capita": 2634.84,
+    "national_rank": 161,
+    "yoy_change": 16.9,
+    "roi_ratio": 0.33,
+    "top_contractor": "ILLINOIS DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 187522617.64,
+    "latest_stock_trade": {
+      "date": "2018-08-07",
+      "ticker": "WBA",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 187522617.64
+  },
+  "IN-1": {
+    "total_obligated": 269880734.53,
+    "per_capita": 357.87,
+    "national_rank": 393,
+    "yoy_change": 73.7,
+    "roi_ratio": 0.07,
+    "top_contractor": "INDIANA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 34143264.74,
+    "latest_stock_trade": null,
+    "weekly_contracts": 34143264.74
+  },
+  "IN-2": {
+    "total_obligated": 1587675927.83,
+    "per_capita": 2110.49,
+    "national_rank": 177,
+    "yoy_change": 3.3,
+    "roi_ratio": 0.43,
+    "top_contractor": "INDIANA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 34143264.74,
+    "latest_stock_trade": null,
+    "weekly_contracts": 34143264.74
+  },
+  "IN-3": {
+    "total_obligated": 876404940.49,
+    "per_capita": 1160.8,
+    "national_rank": 246,
+    "yoy_change": 145.1,
+    "roi_ratio": 0.23,
+    "top_contractor": "INDIANA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 34143264.74,
+    "latest_stock_trade": null,
+    "weekly_contracts": 34143264.74
+  },
+  "IN-4": {
+    "total_obligated": 440095025.62,
+    "per_capita": 576.83,
+    "national_rank": 338,
+    "yoy_change": -21.8,
+    "roi_ratio": 0.11,
+    "top_contractor": "INDIANA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 34143264.74,
+    "latest_stock_trade": null,
+    "weekly_contracts": 34143264.74
+  },
+  "IN-5": {
+    "total_obligated": 240539486.83,
+    "per_capita": 314.0,
+    "national_rank": 400,
+    "yoy_change": -9.1,
+    "roi_ratio": 0.05,
+    "top_contractor": "INDIANA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 34143264.74,
+    "latest_stock_trade": null,
+    "weekly_contracts": 34143264.74
+  },
+  "IN-6": {
+    "total_obligated": 414142737.51,
+    "per_capita": 549.63,
+    "national_rank": 352,
+    "yoy_change": -39.2,
+    "roi_ratio": 0.1,
+    "top_contractor": "INDIANA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 34143264.74,
+    "latest_stock_trade": null,
+    "weekly_contracts": 34143264.74
+  },
+  "IN-7": {
+    "total_obligated": 23979920758.35,
+    "per_capita": 31988.8,
+    "national_rank": 18,
+    "yoy_change": 5.4,
+    "roi_ratio": 6.05,
+    "top_contractor": "INDIANA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 34143264.74,
+    "latest_stock_trade": null,
+    "weekly_contracts": 34143264.74
+  },
+  "IN-8": {
+    "total_obligated": 602994142.04,
+    "per_capita": 799.25,
+    "national_rank": 296,
+    "yoy_change": 4.0,
+    "roi_ratio": 0.16,
+    "top_contractor": "INDIANA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 34143264.74,
+    "latest_stock_trade": null,
+    "weekly_contracts": 34143264.74
+  },
+  "IN-9": {
+    "total_obligated": 643073942.69,
+    "per_capita": 848.39,
+    "national_rank": 281,
+    "yoy_change": -43.5,
+    "roi_ratio": 0.17,
+    "top_contractor": "INDIANA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 34143264.74,
+    "latest_stock_trade": null,
+    "weekly_contracts": 34143264.74
+  },
+  "KS-1": {
+    "total_obligated": 529213475.67,
+    "per_capita": 721.95,
+    "national_rank": 309,
+    "yoy_change": -31.4,
+    "roi_ratio": 0.14,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "KS-2": {
+    "total_obligated": 8080367269.06,
+    "per_capita": 11050.35,
+    "national_rank": 59,
+    "yoy_change": 7.1,
+    "roi_ratio": 2.29,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "KS-3": {
+    "total_obligated": 1796568962.92,
+    "per_capita": 2436.41,
+    "national_rank": 170,
+    "yoy_change": -3.0,
+    "roi_ratio": 0.31,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "KS-4": {
+    "total_obligated": 1450828784.41,
+    "per_capita": 1979.5,
+    "national_rank": 187,
+    "yoy_change": 21.6,
+    "roi_ratio": 0.38,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "KY-1": {
+    "total_obligated": 21471921726.19,
+    "per_capita": 28682.81,
+    "national_rank": 24,
+    "yoy_change": -0.5,
+    "roi_ratio": 6.42,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "KY-2": {
+    "total_obligated": 350952257.0,
+    "per_capita": 464.26,
+    "national_rank": 369,
+    "yoy_change": 5.5,
+    "roi_ratio": 0.09,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "KY-3": {
+    "total_obligated": 8174161313.57,
+    "per_capita": 10969.95,
+    "national_rank": 58,
+    "yoy_change": -15.8,
+    "roi_ratio": 1.88,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "KY-4": {
+    "total_obligated": 194773736.31,
+    "per_capita": 256.43,
+    "national_rank": 414,
+    "yoy_change": -5.6,
+    "roi_ratio": 0.04,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "KY-5": {
+    "total_obligated": 626498408.52,
+    "per_capita": 836.23,
+    "national_rank": 287,
+    "yoy_change": -24.8,
+    "roi_ratio": 0.23,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "KY-6": {
+    "total_obligated": 2516015315.6,
+    "per_capita": 3350.38,
+    "national_rank": 134,
+    "yoy_change": 19.2,
+    "roi_ratio": 0.62,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "LA-1": {
+    "total_obligated": 3111801277.63,
+    "per_capita": 4010.21,
+    "national_rank": 121,
+    "yoy_change": 78.1,
+    "roi_ratio": 0.68,
+    "top_contractor": "LOUSIANA DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 40818303.0,
+    "latest_stock_trade": {
+      "date": "2020-09-11",
+      "ticker": "AAPL",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Partial)"
+    },
+    "weekly_contracts": 40818303.0
+  },
+  "LA-2": {
+    "total_obligated": 1354410574.76,
+    "per_capita": 1775.99,
+    "national_rank": 196,
+    "yoy_change": -7.6,
+    "roi_ratio": 0.39,
+    "top_contractor": "LOUSIANA DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 40818303.0,
+    "latest_stock_trade": {
+      "date": "2020-09-11",
+      "ticker": "AAPL",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Partial)"
+    },
+    "weekly_contracts": 40818303.0
+  },
+  "LA-3": {
+    "total_obligated": 838809605.89,
+    "per_capita": 1100.43,
+    "national_rank": 253,
+    "yoy_change": 8.5,
+    "roi_ratio": 0.22,
+    "top_contractor": "LOUSIANA DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 40818303.0,
+    "latest_stock_trade": {
+      "date": "2020-09-11",
+      "ticker": "AAPL",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Partial)"
+    },
+    "weekly_contracts": 40818303.0
+  },
+  "LA-4": {
+    "total_obligated": 243259314.44,
+    "per_capita": 316.68,
+    "national_rank": 399,
+    "yoy_change": 8.6,
+    "roi_ratio": 0.07,
+    "top_contractor": "LOUSIANA DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 40818303.0,
+    "latest_stock_trade": {
+      "date": "2020-09-11",
+      "ticker": "AAPL",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Partial)"
+    },
+    "weekly_contracts": 40818303.0
+  },
+  "LA-5": {
+    "total_obligated": 654997371.0,
+    "per_capita": 849.81,
+    "national_rank": 279,
+    "yoy_change": 18.2,
+    "roi_ratio": 0.21,
+    "top_contractor": "LOUSIANA DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 40818303.0,
+    "latest_stock_trade": {
+      "date": "2020-09-11",
+      "ticker": "AAPL",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Partial)"
+    },
+    "weekly_contracts": 40818303.0
+  },
+  "LA-6": {
+    "total_obligated": 20820378917.23,
+    "per_capita": 26546.79,
+    "national_rank": 25,
+    "yoy_change": -5.8,
+    "roi_ratio": 4.53,
+    "top_contractor": "LOUSIANA DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 40818303.0,
+    "latest_stock_trade": {
+      "date": "2020-09-11",
+      "ticker": "AAPL",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Partial)"
+    },
+    "weekly_contracts": 40818303.0
+  },
+  "MA-1": {
+    "total_obligated": 993470129.36,
+    "per_capita": 1280.1,
+    "national_rank": 232,
+    "yoy_change": -14.2,
+    "roi_ratio": 0.22,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2013-01-30",
+      "ticker": "N/A",
+      "amount_range": "Unknown",
+      "transaction": "N/A"
+    },
+    "weekly_contracts": null
+  },
+  "MA-2": {
+    "total_obligated": 754344942.81,
+    "per_capita": 965.59,
+    "national_rank": 265,
+    "yoy_change": -27.2,
+    "roi_ratio": 0.14,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2013-01-30",
+      "ticker": "N/A",
+      "amount_range": "Unknown",
+      "transaction": "N/A"
+    },
+    "weekly_contracts": null
+  },
+  "MA-3": {
+    "total_obligated": 3661367616.93,
+    "per_capita": 4721.18,
+    "national_rank": 103,
+    "yoy_change": 34.1,
+    "roi_ratio": 0.68,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2013-01-30",
+      "ticker": "N/A",
+      "amount_range": "Unknown",
+      "transaction": "N/A"
+    },
+    "weekly_contracts": null
+  },
+  "MA-4": {
+    "total_obligated": 362608759.18,
+    "per_capita": 466.26,
+    "national_rank": 363,
+    "yoy_change": -32.1,
+    "roi_ratio": 0.05,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2013-01-30",
+      "ticker": "N/A",
+      "amount_range": "Unknown",
+      "transaction": "N/A"
+    },
+    "weekly_contracts": null
+  },
+  "MA-5": {
+    "total_obligated": 6664664156.36,
+    "per_capita": 8695.46,
+    "national_rank": 72,
+    "yoy_change": 13.1,
+    "roi_ratio": 0.85,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2013-01-30",
+      "ticker": "N/A",
+      "amount_range": "Unknown",
+      "transaction": "N/A"
+    },
+    "weekly_contracts": null
+  },
+  "MA-6": {
+    "total_obligated": 7843893666.15,
+    "per_capita": 10054.62,
+    "national_rank": 65,
+    "yoy_change": 2.5,
+    "roi_ratio": 1.16,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2013-01-30",
+      "ticker": "N/A",
+      "amount_range": "Unknown",
+      "transaction": "N/A"
+    },
+    "weekly_contracts": null
+  },
+  "MA-7": {
+    "total_obligated": 7884388867.38,
+    "per_capita": 10351.06,
+    "national_rank": 64,
+    "yoy_change": -9.9,
+    "roi_ratio": 1.41,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2013-01-30",
+      "ticker": "N/A",
+      "amount_range": "Unknown",
+      "transaction": "N/A"
+    },
+    "weekly_contracts": null
+  },
+  "MA-8": {
+    "total_obligated": 21486224873.95,
+    "per_capita": 27797.47,
+    "national_rank": 23,
+    "yoy_change": 8.0,
+    "roi_ratio": 3.03,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2013-01-30",
+      "ticker": "N/A",
+      "amount_range": "Unknown",
+      "transaction": "N/A"
+    },
+    "weekly_contracts": null
+  },
+  "MA-9": {
+    "total_obligated": 1362608083.58,
+    "per_capita": 1718.38,
+    "national_rank": 195,
+    "yoy_change": -32.7,
+    "roi_ratio": 0.22,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2013-01-30",
+      "ticker": "N/A",
+      "amount_range": "Unknown",
+      "transaction": "N/A"
+    },
+    "weekly_contracts": null
+  },
+  "MD-1": {
+    "total_obligated": 1580553661.55,
+    "per_capita": 2025.77,
+    "national_rank": 178,
+    "yoy_change": 35.6,
+    "roi_ratio": 0.3,
+    "top_contractor": "LEIDOS, INC.",
+    "top_contractor_amount": 46547038.36,
+    "latest_stock_trade": {
+      "date": "2017-02-17",
+      "ticker": "YUMC",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 46547038.36
+  },
+  "MD-2": {
+    "total_obligated": 2285505434.32,
+    "per_capita": 2950.03,
+    "national_rank": 147,
+    "yoy_change": -7.3,
+    "roi_ratio": 0.4,
+    "top_contractor": "LEIDOS, INC.",
+    "top_contractor_amount": 46547038.36,
+    "latest_stock_trade": {
+      "date": "2017-02-17",
+      "ticker": "YUMC",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 46547038.36
+  },
+  "MD-3": {
+    "total_obligated": 8185434396.99,
+    "per_capita": 10615.49,
+    "national_rank": 57,
+    "yoy_change": -17.6,
+    "roi_ratio": 1.19,
+    "top_contractor": "LEIDOS, INC.",
+    "top_contractor_amount": 46547038.36,
+    "latest_stock_trade": {
+      "date": "2017-02-17",
+      "ticker": "YUMC",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 46547038.36
+  },
+  "MD-4": {
+    "total_obligated": 3804174437.65,
+    "per_capita": 5092.68,
+    "national_rank": 101,
+    "yoy_change": -18.5,
+    "roi_ratio": 0.84,
+    "top_contractor": "LEIDOS, INC.",
+    "top_contractor_amount": 46547038.36,
+    "latest_stock_trade": {
+      "date": "2017-02-17",
+      "ticker": "YUMC",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 46547038.36
+  },
+  "MD-5": {
+    "total_obligated": 4330875139.55,
+    "per_capita": 5483.81,
+    "national_rank": 90,
+    "yoy_change": -1.4,
+    "roi_ratio": 0.7,
+    "top_contractor": "LEIDOS, INC.",
+    "top_contractor_amount": 46547038.36,
+    "latest_stock_trade": {
+      "date": "2017-02-17",
+      "ticker": "YUMC",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 46547038.36
+  },
+  "MD-6": {
+    "total_obligated": 7336086019.72,
+    "per_capita": 9409.47,
+    "national_rank": 70,
+    "yoy_change": -23.0,
+    "roi_ratio": 1.36,
+    "top_contractor": "LEIDOS, INC.",
+    "top_contractor_amount": 46547038.36,
+    "latest_stock_trade": {
+      "date": "2017-02-17",
+      "ticker": "YUMC",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 46547038.36
+  },
+  "MD-7": {
+    "total_obligated": 21870013899.16,
+    "per_capita": 29317.83,
+    "national_rank": 22,
+    "yoy_change": 0.3,
+    "roi_ratio": 5.28,
+    "top_contractor": "LEIDOS, INC.",
+    "top_contractor_amount": 46547038.36,
+    "latest_stock_trade": {
+      "date": "2017-02-17",
+      "ticker": "YUMC",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 46547038.36
+  },
+  "MD-8": {
+    "total_obligated": 11425821480.57,
+    "per_capita": 14710.27,
+    "national_rank": 43,
+    "yoy_change": -54.1,
+    "roi_ratio": 1.43,
+    "top_contractor": "LEIDOS, INC.",
+    "top_contractor_amount": 46547038.36,
+    "latest_stock_trade": {
+      "date": "2017-02-17",
+      "ticker": "YUMC",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 46547038.36
+  },
+  "ME-1": {
+    "total_obligated": 3268184751.91,
+    "per_capita": 4759.62,
+    "national_rank": 116,
+    "yoy_change": 4.3,
+    "roi_ratio": 0.7,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2020-10-08",
+      "ticker": "--",
+      "amount_range": "$15,001 - $50,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": null
+  },
+  "ME-2": {
+    "total_obligated": 6251873527.4,
+    "per_capita": 9118.85,
+    "national_rank": 74,
+    "yoy_change": -3.4,
+    "roi_ratio": 1.79,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2020-10-08",
+      "ticker": "--",
+      "amount_range": "$15,001 - $50,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": null
+  },
+  "MI-1": {
+    "total_obligated": 934988676.67,
+    "per_capita": 1200.42,
+    "national_rank": 236,
+    "yoy_change": 26.7,
+    "roi_ratio": 0.23,
+    "top_contractor": "TRANSPORTATION, MICHIGAN DEPARTMENT OF",
+    "top_contractor_amount": 186895793.76,
+    "latest_stock_trade": {
+      "date": "2020-04-03",
+      "ticker": "--",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Exchange"
+    },
+    "weekly_contracts": 186895793.76
+  },
+  "MI-10": {
+    "total_obligated": 3225746432.09,
+    "per_capita": 4157.75,
+    "national_rank": 118,
+    "yoy_change": -18.3,
+    "roi_ratio": 0.72,
+    "top_contractor": "TRANSPORTATION, MICHIGAN DEPARTMENT OF",
+    "top_contractor_amount": 186895793.76,
+    "latest_stock_trade": {
+      "date": "2020-04-03",
+      "ticker": "--",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Exchange"
+    },
+    "weekly_contracts": 186895793.76
+  },
+  "MI-11": {
+    "total_obligated": 2067352810.45,
+    "per_capita": 2702.92,
+    "national_rank": 157,
+    "yoy_change": 99.0,
+    "roi_ratio": 0.33,
+    "top_contractor": "TRANSPORTATION, MICHIGAN DEPARTMENT OF",
+    "top_contractor_amount": 186895793.76,
+    "latest_stock_trade": {
+      "date": "2020-04-03",
+      "ticker": "--",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Exchange"
+    },
+    "weekly_contracts": 186895793.76
+  },
+  "MI-12": {
+    "total_obligated": 875477201.72,
+    "per_capita": 1129.6,
+    "national_rank": 247,
+    "yoy_change": -12.1,
+    "roi_ratio": 0.24,
+    "top_contractor": "TRANSPORTATION, MICHIGAN DEPARTMENT OF",
+    "top_contractor_amount": 186895793.76,
+    "latest_stock_trade": {
+      "date": "2020-04-03",
+      "ticker": "--",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Exchange"
+    },
+    "weekly_contracts": 186895793.76
+  },
+  "MI-13": {
+    "total_obligated": 1333123095.28,
+    "per_capita": 1771.22,
+    "national_rank": 198,
+    "yoy_change": 20.3,
+    "roi_ratio": 0.4,
+    "top_contractor": "TRANSPORTATION, MICHIGAN DEPARTMENT OF",
+    "top_contractor_amount": 186895793.76,
+    "latest_stock_trade": {
+      "date": "2020-04-03",
+      "ticker": "--",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Exchange"
+    },
+    "weekly_contracts": 186895793.76
+  },
+  "MI-2": {
+    "total_obligated": 506952918.61,
+    "per_capita": 653.69,
+    "national_rank": 317,
+    "yoy_change": 34.2,
+    "roi_ratio": 0.14,
+    "top_contractor": "TRANSPORTATION, MICHIGAN DEPARTMENT OF",
+    "top_contractor_amount": 186895793.76,
+    "latest_stock_trade": {
+      "date": "2020-04-03",
+      "ticker": "--",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Exchange"
+    },
+    "weekly_contracts": 186895793.76
+  },
+  "MI-3": {
+    "total_obligated": 558628178.39,
+    "per_capita": 714.48,
+    "national_rank": 302,
+    "yoy_change": -13.6,
+    "roi_ratio": 0.13,
+    "top_contractor": "TRANSPORTATION, MICHIGAN DEPARTMENT OF",
+    "top_contractor_amount": 186895793.76,
+    "latest_stock_trade": {
+      "date": "2020-04-03",
+      "ticker": "--",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Exchange"
+    },
+    "weekly_contracts": 186895793.76
+  },
+  "MI-4": {
+    "total_obligated": 318844219.07,
+    "per_capita": 413.87,
+    "national_rank": 380,
+    "yoy_change": -66.1,
+    "roi_ratio": 0.08,
+    "top_contractor": "TRANSPORTATION, MICHIGAN DEPARTMENT OF",
+    "top_contractor_amount": 186895793.76,
+    "latest_stock_trade": {
+      "date": "2020-04-03",
+      "ticker": "--",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Exchange"
+    },
+    "weekly_contracts": 186895793.76
+  },
+  "MI-5": {
+    "total_obligated": 165356418.65,
+    "per_capita": 212.82,
+    "national_rank": 422,
+    "yoy_change": -45.5,
+    "roi_ratio": 0.04,
+    "top_contractor": "TRANSPORTATION, MICHIGAN DEPARTMENT OF",
+    "top_contractor_amount": 186895793.76,
+    "latest_stock_trade": {
+      "date": "2020-04-03",
+      "ticker": "--",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Exchange"
+    },
+    "weekly_contracts": 186895793.76
+  },
+  "MI-6": {
+    "total_obligated": 3215311221.29,
+    "per_capita": 4149.11,
+    "national_rank": 119,
+    "yoy_change": 23.2,
+    "roi_ratio": 0.55,
+    "top_contractor": "TRANSPORTATION, MICHIGAN DEPARTMENT OF",
+    "top_contractor_amount": 186895793.76,
+    "latest_stock_trade": {
+      "date": "2020-04-03",
+      "ticker": "--",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Exchange"
+    },
+    "weekly_contracts": 186895793.76
+  },
+  "MI-7": {
+    "total_obligated": 30245058783.08,
+    "per_capita": 38896.8,
+    "national_rank": 12,
+    "yoy_change": 3.3,
+    "roi_ratio": 6.39,
+    "top_contractor": "TRANSPORTATION, MICHIGAN DEPARTMENT OF",
+    "top_contractor_amount": 186895793.76,
+    "latest_stock_trade": {
+      "date": "2020-04-03",
+      "ticker": "--",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Exchange"
+    },
+    "weekly_contracts": 186895793.76
+  },
+  "MI-8": {
+    "total_obligated": 352958240.35,
+    "per_capita": 457.55,
+    "national_rank": 367,
+    "yoy_change": 77.5,
+    "roi_ratio": 0.09,
+    "top_contractor": "TRANSPORTATION, MICHIGAN DEPARTMENT OF",
+    "top_contractor_amount": 186895793.76,
+    "latest_stock_trade": {
+      "date": "2020-04-03",
+      "ticker": "--",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Exchange"
+    },
+    "weekly_contracts": 186895793.76
+  },
+  "MI-9": {
+    "total_obligated": 97498094.03,
+    "per_capita": 125.83,
+    "national_rank": 430,
+    "yoy_change": -31.4,
+    "roi_ratio": 0.02,
+    "top_contractor": "TRANSPORTATION, MICHIGAN DEPARTMENT OF",
+    "top_contractor_amount": 186895793.76,
+    "latest_stock_trade": {
+      "date": "2020-04-03",
+      "ticker": "--",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Exchange"
+    },
+    "weekly_contracts": 186895793.76
+  },
+  "MN-1": {
+    "total_obligated": 746708758.42,
+    "per_capita": 1045.17,
+    "national_rank": 267,
+    "yoy_change": 7.7,
+    "roi_ratio": 0.18,
+    "top_contractor": "MINNESOTA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 63518289.49,
+    "latest_stock_trade": {
+      "date": "2020-05-01",
+      "ticker": "--",
+      "amount_range": "$15,001 - $50,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 63518289.49
+  },
+  "MN-2": {
+    "total_obligated": 614366166.04,
+    "per_capita": 850.8,
+    "national_rank": 291,
+    "yoy_change": 5.6,
+    "roi_ratio": 0.12,
+    "top_contractor": "MINNESOTA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 63518289.49,
+    "latest_stock_trade": {
+      "date": "2020-05-01",
+      "ticker": "--",
+      "amount_range": "$15,001 - $50,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 63518289.49
+  },
+  "MN-3": {
+    "total_obligated": 2550567705.78,
+    "per_capita": 3610.6,
+    "national_rank": 133,
+    "yoy_change": 41.8,
+    "roi_ratio": 0.41,
+    "top_contractor": "MINNESOTA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 63518289.49,
+    "latest_stock_trade": {
+      "date": "2020-05-01",
+      "ticker": "--",
+      "amount_range": "$15,001 - $50,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 63518289.49
+  },
+  "MN-4": {
+    "total_obligated": 17746477761.77,
+    "per_capita": 25171.13,
+    "national_rank": 31,
+    "yoy_change": 8.7,
+    "roi_ratio": 3.58,
+    "top_contractor": "MINNESOTA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 63518289.49,
+    "latest_stock_trade": {
+      "date": "2020-05-01",
+      "ticker": "--",
+      "amount_range": "$15,001 - $50,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 63518289.49
+  },
+  "MN-5": {
+    "total_obligated": 2246711525.08,
+    "per_capita": 3173.27,
+    "national_rank": 153,
+    "yoy_change": -17.4,
+    "roi_ratio": 0.44,
+    "top_contractor": "MINNESOTA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 63518289.49,
+    "latest_stock_trade": {
+      "date": "2020-05-01",
+      "ticker": "--",
+      "amount_range": "$15,001 - $50,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 63518289.49
+  },
+  "MN-6": {
+    "total_obligated": 226622711.37,
+    "per_capita": 312.2,
+    "national_rank": 404,
+    "yoy_change": -27.3,
+    "roi_ratio": 0.05,
+    "top_contractor": "MINNESOTA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 63518289.49,
+    "latest_stock_trade": {
+      "date": "2020-05-01",
+      "ticker": "--",
+      "amount_range": "$15,001 - $50,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 63518289.49
+  },
+  "MN-7": {
+    "total_obligated": 391664659.01,
+    "per_capita": 553.73,
+    "national_rank": 357,
+    "yoy_change": -9.1,
+    "roi_ratio": 0.1,
+    "top_contractor": "MINNESOTA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 63518289.49,
+    "latest_stock_trade": {
+      "date": "2020-05-01",
+      "ticker": "--",
+      "amount_range": "$15,001 - $50,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 63518289.49
+  },
+  "MN-8": {
+    "total_obligated": 377101520.9,
+    "per_capita": 525.08,
+    "national_rank": 362,
+    "yoy_change": -29.8,
+    "roi_ratio": 0.09,
+    "top_contractor": "MINNESOTA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 63518289.49,
+    "latest_stock_trade": {
+      "date": "2020-05-01",
+      "ticker": "--",
+      "amount_range": "$15,001 - $50,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": 63518289.49
+  },
+  "MO-1": {
+    "total_obligated": 12484216004.94,
+    "per_capita": 16387.68,
+    "national_rank": 40,
+    "yoy_change": -11.0,
+    "roi_ratio": 2.88,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "MO-2": {
+    "total_obligated": 467467281.39,
+    "per_capita": 607.89,
+    "national_rank": 330,
+    "yoy_change": -36.3,
+    "roi_ratio": 0.08,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "MO-3": {
+    "total_obligated": 17989458961.56,
+    "per_capita": 23211.16,
+    "national_rank": 29,
+    "yoy_change": -8.0,
+    "roi_ratio": 3.94,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "MO-4": {
+    "total_obligated": 321288802.86,
+    "per_capita": 416.15,
+    "national_rank": 377,
+    "yoy_change": -9.3,
+    "roi_ratio": 0.09,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "MO-5": {
+    "total_obligated": 4564478952.79,
+    "per_capita": 5918.1,
+    "national_rank": 87,
+    "yoy_change": 13.4,
+    "roi_ratio": 1.08,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "MO-6": {
+    "total_obligated": 297713242.42,
+    "per_capita": 385.64,
+    "national_rank": 385,
+    "yoy_change": 29.0,
+    "roi_ratio": 0.07,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "MO-7": {
+    "total_obligated": 282417462.29,
+    "per_capita": 364.36,
+    "national_rank": 390,
+    "yoy_change": -26.5,
+    "roi_ratio": 0.08,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "MO-8": {
+    "total_obligated": 429827283.84,
+    "per_capita": 556.82,
+    "national_rank": 344,
+    "yoy_change": -14.9,
+    "roi_ratio": 0.13,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "MP-98": {
+    "total_obligated": 67060884.93,
+    "per_capita": 1355.29,
+    "national_rank": 437,
+    "yoy_change": -87.8,
+    "roi_ratio": null,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "MS-1": {
+    "total_obligated": 453215113.22,
+    "per_capita": 607.91,
+    "national_rank": 336,
+    "yoy_change": 16.8,
+    "roi_ratio": 0.13,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2019-05-17",
+      "ticker": "BIF",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": null
+  },
+  "MS-2": {
+    "total_obligated": 819734030.26,
+    "per_capita": 1133.5,
+    "national_rank": 255,
+    "yoy_change": -28.0,
+    "roi_ratio": 0.3,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2019-05-17",
+      "ticker": "BIF",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": null
+  },
+  "MS-3": {
+    "total_obligated": 11183358471.87,
+    "per_capita": 15140.86,
+    "national_rank": 44,
+    "yoy_change": -7.3,
+    "roi_ratio": 3.2,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2019-05-17",
+      "ticker": "BIF",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": null
+  },
+  "MS-4": {
+    "total_obligated": 5566095830.55,
+    "per_capita": 7495.09,
+    "national_rank": 78,
+    "yoy_change": 25.0,
+    "roi_ratio": 1.67,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2019-05-17",
+      "ticker": "BIF",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": null
+  },
+  "MT-1": {
+    "total_obligated": 2431550240.0,
+    "per_capita": 4370.93,
+    "national_rank": 137,
+    "yoy_change": 162.2,
+    "roi_ratio": 0.77,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2017-06-02",
+      "ticker": "--",
+      "amount_range": "$15,001 - $50,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  },
+  "MT-2": {
+    "total_obligated": 5419894200.04,
+    "per_capita": 9890.84,
+    "national_rank": 80,
+    "yoy_change": 11.6,
+    "roi_ratio": 1.79,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2017-06-02",
+      "ticker": "--",
+      "amount_range": "$15,001 - $50,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  },
+  "NC-1": {
+    "total_obligated": 383823559.48,
+    "per_capita": 513.72,
+    "national_rank": 358,
+    "yoy_change": -10.0,
+    "roi_ratio": 0.12,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2018-12-20",
+      "ticker": "CVS",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Partial)"
+    },
+    "weekly_contracts": null
+  },
+  "NC-10": {
+    "total_obligated": 539465817.66,
+    "per_capita": 714.63,
+    "national_rank": 306,
+    "yoy_change": -0.7,
+    "roi_ratio": 0.14,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2018-12-20",
+      "ticker": "CVS",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Partial)"
+    },
+    "weekly_contracts": null
+  },
+  "NC-11": {
+    "total_obligated": 1014131057.2,
+    "per_capita": 1351.99,
+    "national_rank": 225,
+    "yoy_change": 85.4,
+    "roi_ratio": 0.25,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2018-12-20",
+      "ticker": "CVS",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Partial)"
+    },
+    "weekly_contracts": null
+  },
+  "NC-12": {
+    "total_obligated": 744797404.2,
+    "per_capita": 1001.59,
+    "national_rank": 268,
+    "yoy_change": 8.4,
+    "roi_ratio": 0.17,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2018-12-20",
+      "ticker": "CVS",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Partial)"
+    },
+    "weekly_contracts": null
+  },
+  "NC-13": {
+    "total_obligated": 327120198.93,
+    "per_capita": 424.7,
+    "national_rank": 374,
+    "yoy_change": -10.1,
+    "roi_ratio": 0.07,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2018-12-20",
+      "ticker": "CVS",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Partial)"
+    },
+    "weekly_contracts": null
+  },
+  "NC-14": {
+    "total_obligated": 362243775.52,
+    "per_capita": 474.02,
+    "national_rank": 364,
+    "yoy_change": 12.3,
+    "roi_ratio": 0.06,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2018-12-20",
+      "ticker": "CVS",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Partial)"
+    },
+    "weekly_contracts": null
+  },
+  "NC-2": {
+    "total_obligated": 40029453650.08,
+    "per_capita": 53177.06,
+    "national_rank": 7,
+    "yoy_change": 31.2,
+    "roi_ratio": 6.77,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2018-12-20",
+      "ticker": "CVS",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Partial)"
+    },
+    "weekly_contracts": null
+  },
+  "NC-3": {
+    "total_obligated": 479492984.8,
+    "per_capita": 639.54,
+    "national_rank": 325,
+    "yoy_change": -8.5,
+    "roi_ratio": 0.13,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2018-12-20",
+      "ticker": "CVS",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Partial)"
+    },
+    "weekly_contracts": null
+  },
+  "NC-4": {
+    "total_obligated": 3522885952.27,
+    "per_capita": 4691.71,
+    "national_rank": 108,
+    "yoy_change": -25.1,
+    "roi_ratio": 0.77,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2018-12-20",
+      "ticker": "CVS",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Partial)"
+    },
+    "weekly_contracts": null
+  },
+  "NC-5": {
+    "total_obligated": 278039758.58,
+    "per_capita": 373.88,
+    "national_rank": 391,
+    "yoy_change": -5.9,
+    "roi_ratio": 0.08,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2018-12-20",
+      "ticker": "CVS",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Partial)"
+    },
+    "weekly_contracts": null
+  },
+  "NC-6": {
+    "total_obligated": 517539470.23,
+    "per_capita": 686.32,
+    "national_rank": 314,
+    "yoy_change": 91.2,
+    "roi_ratio": 0.13,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2018-12-20",
+      "ticker": "CVS",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Partial)"
+    },
+    "weekly_contracts": null
+  },
+  "NC-7": {
+    "total_obligated": 462254383.19,
+    "per_capita": 609.88,
+    "national_rank": 334,
+    "yoy_change": -27.0,
+    "roi_ratio": 0.12,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2018-12-20",
+      "ticker": "CVS",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Partial)"
+    },
+    "weekly_contracts": null
+  },
+  "NC-8": {
+    "total_obligated": 269708026.03,
+    "per_capita": 356.74,
+    "national_rank": 394,
+    "yoy_change": -21.5,
+    "roi_ratio": 0.07,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2018-12-20",
+      "ticker": "CVS",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Partial)"
+    },
+    "weekly_contracts": null
+  },
+  "NC-9": {
+    "total_obligated": 395568040.08,
+    "per_capita": 523.31,
+    "national_rank": 355,
+    "yoy_change": 19.6,
+    "roi_ratio": 0.11,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2018-12-20",
+      "ticker": "CVS",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Partial)"
+    },
+    "weekly_contracts": null
+  },
+  "ND-0": {
+    "total_obligated": 4122518110.41,
+    "per_capita": 5319.74,
+    "national_rank": 95,
+    "yoy_change": 11.0,
+    "roi_ratio": 0.87,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2020-04-29",
+      "ticker": "--",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": null
+  },
+  "NE-1": {
+    "total_obligated": 7329923587.95,
+    "per_capita": 11136.38,
+    "national_rank": 71,
+    "yoy_change": 26.6,
+    "roi_ratio": 1.95,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "NE-2": {
+    "total_obligated": 1403531775.27,
+    "per_capita": 2138.97,
+    "national_rank": 190,
+    "yoy_change": 38.6,
+    "roi_ratio": 0.33,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "NE-3": {
+    "total_obligated": 611611347.25,
+    "per_capita": 941.92,
+    "national_rank": 293,
+    "yoy_change": -43.5,
+    "roi_ratio": 0.18,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "NH-1": {
+    "total_obligated": 1565774146.22,
+    "per_capita": 2245.2,
+    "national_rank": 179,
+    "yoy_change": 5.0,
+    "roi_ratio": 0.31,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2018-11-07",
+      "ticker": "--",
+      "amount_range": "$100,001 - $250,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": null
+  },
+  "NH-2": {
+    "total_obligated": 5101484758.76,
+    "per_capita": 7376.3,
+    "national_rank": 82,
+    "yoy_change": -8.8,
+    "roi_ratio": 1.04,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2018-11-07",
+      "ticker": "--",
+      "amount_range": "$100,001 - $250,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": null
+  },
+  "NJ-1": {
+    "total_obligated": 1189190094.33,
+    "per_capita": 1539.38,
+    "national_rank": 209,
+    "yoy_change": 2.3,
+    "roi_ratio": 0.24,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2014-08-08",
+      "ticker": "NKE",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  },
+  "NJ-10": {
+    "total_obligated": 788371354.19,
+    "per_capita": 1025.99,
+    "national_rank": 259,
+    "yoy_change": -9.8,
+    "roi_ratio": 0.19,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2014-08-08",
+      "ticker": "NKE",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  },
+  "NJ-11": {
+    "total_obligated": 2034497594.33,
+    "per_capita": 2643.88,
+    "national_rank": 158,
+    "yoy_change": 6.8,
+    "roi_ratio": 0.26,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2014-08-08",
+      "ticker": "NKE",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  },
+  "NJ-12": {
+    "total_obligated": 25574928752.9,
+    "per_capita": 32796.15,
+    "national_rank": 14,
+    "yoy_change": 9.4,
+    "roi_ratio": 4.15,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2014-08-08",
+      "ticker": "NKE",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  },
+  "NJ-2": {
+    "total_obligated": 382841192.97,
+    "per_capita": 489.55,
+    "national_rank": 359,
+    "yoy_change": 2.6,
+    "roi_ratio": 0.08,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2014-08-08",
+      "ticker": "NKE",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  },
+  "NJ-3": {
+    "total_obligated": 3966762825.32,
+    "per_capita": 5091.85,
+    "national_rank": 98,
+    "yoy_change": 5.3,
+    "roi_ratio": 0.62,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2014-08-08",
+      "ticker": "NKE",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  },
+  "NJ-4": {
+    "total_obligated": 1146698566.49,
+    "per_capita": 1465.38,
+    "national_rank": 216,
+    "yoy_change": -18.6,
+    "roi_ratio": 0.2,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2014-08-08",
+      "ticker": "NKE",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  },
+  "NJ-5": {
+    "total_obligated": 348864508.46,
+    "per_capita": 446.5,
+    "national_rank": 370,
+    "yoy_change": -38.8,
+    "roi_ratio": 0.05,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2014-08-08",
+      "ticker": "NKE",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  },
+  "NJ-6": {
+    "total_obligated": 564232858.25,
+    "per_capita": 731.89,
+    "national_rank": 301,
+    "yoy_change": 12.2,
+    "roi_ratio": 0.1,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2014-08-08",
+      "ticker": "NKE",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  },
+  "NJ-7": {
+    "total_obligated": 663663450.37,
+    "per_capita": 854.11,
+    "national_rank": 277,
+    "yoy_change": -30.0,
+    "roi_ratio": 0.08,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2014-08-08",
+      "ticker": "NKE",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  },
+  "NJ-8": {
+    "total_obligated": 1424092877.98,
+    "per_capita": 1914.97,
+    "national_rank": 188,
+    "yoy_change": 110.4,
+    "roi_ratio": 0.27,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2014-08-08",
+      "ticker": "NKE",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  },
+  "NJ-9": {
+    "total_obligated": 416985192.96,
+    "per_capita": 548.42,
+    "national_rank": 349,
+    "yoy_change": 3.6,
+    "roi_ratio": 0.09,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2014-08-08",
+      "ticker": "NKE",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  },
+  "NM-1": {
+    "total_obligated": 7576294589.9,
+    "per_capita": 10667.89,
+    "national_rank": 68,
+    "yoy_change": 4.2,
+    "roi_ratio": 1.84,
+    "top_contractor": "DEPARTMENT OF HUMAN SERVICES NEW MEXICO",
+    "top_contractor_amount": 280251324.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 280251324.0
+  },
+  "NM-2": {
+    "total_obligated": 726304313.46,
+    "per_capita": 1034.59,
+    "national_rank": 271,
+    "yoy_change": -22.0,
+    "roi_ratio": 0.25,
+    "top_contractor": "DEPARTMENT OF HUMAN SERVICES NEW MEXICO",
+    "top_contractor_amount": 280251324.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 280251324.0
+  },
+  "NM-3": {
+    "total_obligated": 11934826967.15,
+    "per_capita": 16961.14,
+    "national_rank": 42,
+    "yoy_change": 3.7,
+    "roi_ratio": 3.54,
+    "top_contractor": "DEPARTMENT OF HUMAN SERVICES NEW MEXICO",
+    "top_contractor_amount": 280251324.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 280251324.0
+  },
+  "NV-1": {
+    "total_obligated": 893892966.5,
+    "per_capita": 1180.65,
+    "national_rank": 241,
+    "yoy_change": 7.5,
+    "roi_ratio": 0.23,
+    "top_contractor": "DEPARTMENT OF TRANSPORTATION NEVADA",
+    "top_contractor_amount": 45322445.72,
+    "latest_stock_trade": {
+      "date": "2020-02-29",
+      "ticker": "IR",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Exchange"
+    },
+    "weekly_contracts": 45322445.72
+  },
+  "NV-2": {
+    "total_obligated": 10529629417.63,
+    "per_capita": 13403.11,
+    "national_rank": 46,
+    "yoy_change": -10.1,
+    "roi_ratio": 2.13,
+    "top_contractor": "DEPARTMENT OF TRANSPORTATION NEVADA",
+    "top_contractor_amount": 45322445.72,
+    "latest_stock_trade": {
+      "date": "2020-02-29",
+      "ticker": "IR",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Exchange"
+    },
+    "weekly_contracts": 45322445.72
+  },
+  "NV-3": {
+    "total_obligated": 841967027.74,
+    "per_capita": 1043.91,
+    "national_rank": 252,
+    "yoy_change": 23.4,
+    "roi_ratio": 0.16,
+    "top_contractor": "DEPARTMENT OF TRANSPORTATION NEVADA",
+    "top_contractor_amount": 45322445.72,
+    "latest_stock_trade": {
+      "date": "2020-02-29",
+      "ticker": "IR",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Exchange"
+    },
+    "weekly_contracts": 45322445.72
+  },
+  "NV-4": {
+    "total_obligated": 660977429.56,
+    "per_capita": 831.72,
+    "national_rank": 278,
+    "yoy_change": -3.7,
+    "roi_ratio": 0.18,
+    "top_contractor": "DEPARTMENT OF TRANSPORTATION NEVADA",
+    "top_contractor_amount": 45322445.72,
+    "latest_stock_trade": {
+      "date": "2020-02-29",
+      "ticker": "IR",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Exchange"
+    },
+    "weekly_contracts": 45322445.72
+  },
+  "NY-1": {
+    "total_obligated": 1626100550.13,
+    "per_capita": 2084.2,
+    "national_rank": 173,
+    "yoy_change": 6.8,
+    "roi_ratio": 0.23,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-10": {
+    "total_obligated": 10194586561.92,
+    "per_capita": 14459.01,
+    "national_rank": 48,
+    "yoy_change": -21.8,
+    "roi_ratio": 1.11,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-11": {
+    "total_obligated": 52268334.4,
+    "per_capita": 68.19,
+    "national_rank": 438,
+    "yoy_change": -13.2,
+    "roi_ratio": 0.01,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-12": {
+    "total_obligated": 3463690227.16,
+    "per_capita": 5022.83,
+    "national_rank": 109,
+    "yoy_change": -32.2,
+    "roi_ratio": 0.26,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-13": {
+    "total_obligated": 1904250564.55,
+    "per_capita": 2438.77,
+    "national_rank": 165,
+    "yoy_change": -13.9,
+    "roi_ratio": 0.45,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-14": {
+    "total_obligated": 237223479.4,
+    "per_capita": 340.77,
+    "national_rank": 401,
+    "yoy_change": -57.4,
+    "roi_ratio": 0.07,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-15": {
+    "total_obligated": 180439094.25,
+    "per_capita": 238.21,
+    "national_rank": 419,
+    "yoy_change": 17.5,
+    "roi_ratio": 0.06,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-16": {
+    "total_obligated": 1300796401.19,
+    "per_capita": 1698.98,
+    "national_rank": 201,
+    "yoy_change": 122.2,
+    "roi_ratio": 0.18,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-17": {
+    "total_obligated": 606534377.27,
+    "per_capita": 781.13,
+    "national_rank": 295,
+    "yoy_change": 13.0,
+    "roi_ratio": 0.09,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-18": {
+    "total_obligated": 195143284.95,
+    "per_capita": 251.23,
+    "national_rank": 413,
+    "yoy_change": -35.8,
+    "roi_ratio": 0.04,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-19": {
+    "total_obligated": 681030387.41,
+    "per_capita": 874.22,
+    "national_rank": 274,
+    "yoy_change": -15.9,
+    "roi_ratio": 0.16,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-2": {
+    "total_obligated": 626890975.73,
+    "per_capita": 808.27,
+    "national_rank": 286,
+    "yoy_change": 10.7,
+    "roi_ratio": 0.11,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-20": {
+    "total_obligated": 94197162343.34,
+    "per_capita": 121591.01,
+    "national_rank": 2,
+    "yoy_change": 3.0,
+    "roi_ratio": 17.95,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-21": {
+    "total_obligated": 851603956.08,
+    "per_capita": 1096.72,
+    "national_rank": 250,
+    "yoy_change": -61.0,
+    "roi_ratio": 0.2,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-22": {
+    "total_obligated": 2446755011.02,
+    "per_capita": 3171.95,
+    "national_rank": 135,
+    "yoy_change": -25.6,
+    "roi_ratio": 0.56,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-23": {
+    "total_obligated": 1813175867.48,
+    "per_capita": 2329.11,
+    "national_rank": 169,
+    "yoy_change": -32.2,
+    "roi_ratio": 0.41,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-24": {
+    "total_obligated": 285124833.85,
+    "per_capita": 369.12,
+    "national_rank": 389,
+    "yoy_change": 5.3,
+    "roi_ratio": 0.07,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-25": {
+    "total_obligated": 2595507795.77,
+    "per_capita": 3343.58,
+    "national_rank": 131,
+    "yoy_change": -20.8,
+    "roi_ratio": 0.55,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-26": {
+    "total_obligated": 1054583772.59,
+    "per_capita": 1374.35,
+    "national_rank": 222,
+    "yoy_change": -14.1,
+    "roi_ratio": 0.25,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-3": {
+    "total_obligated": 925080628.81,
+    "per_capita": 1183.09,
+    "national_rank": 238,
+    "yoy_change": 14.0,
+    "roi_ratio": 0.12,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-4": {
+    "total_obligated": 430240751.4,
+    "per_capita": 555.84,
+    "national_rank": 343,
+    "yoy_change": 11.4,
+    "roi_ratio": 0.07,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-5": {
+    "total_obligated": 88744079.56,
+    "per_capita": 107.87,
+    "national_rank": 433,
+    "yoy_change": 1.0,
+    "roi_ratio": 0.02,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-6": {
+    "total_obligated": 37168225.52,
+    "per_capita": 50.43,
+    "national_rank": 439,
+    "yoy_change": -24.6,
+    "roi_ratio": 0.01,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-7": {
+    "total_obligated": 464259037.03,
+    "per_capita": 646.68,
+    "national_rank": 333,
+    "yoy_change": -7.1,
+    "roi_ratio": 0.09,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-8": {
+    "total_obligated": 71734779.28,
+    "per_capita": 94.63,
+    "national_rank": 436,
+    "yoy_change": -19.8,
+    "roi_ratio": 0.02,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "NY-9": {
+    "total_obligated": 96118511.94,
+    "per_capita": 123.57,
+    "national_rank": 431,
+    "yoy_change": 8.9,
+    "roi_ratio": 0.02,
+    "top_contractor": "NYS DEPARTMENT OF HEALTH",
+    "top_contractor_amount": 2011808497.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 2011808497.0
+  },
+  "OH-1": {
+    "total_obligated": 2443556122.18,
+    "per_capita": 3108.09,
+    "national_rank": 136,
+    "yoy_change": -6.5,
+    "roi_ratio": 0.45,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "OH-10": {
+    "total_obligated": 3084749228.21,
+    "per_capita": 3930.65,
+    "national_rank": 122,
+    "yoy_change": -6.4,
+    "roi_ratio": 0.72,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "OH-11": {
+    "total_obligated": 1526095375.91,
+    "per_capita": 1989.47,
+    "national_rank": 181,
+    "yoy_change": 6.6,
+    "roi_ratio": 0.37,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "OH-12": {
+    "total_obligated": 436929532.18,
+    "per_capita": 550.43,
+    "national_rank": 339,
+    "yoy_change": -6.7,
+    "roi_ratio": 0.1,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "OH-13": {
+    "total_obligated": 501713482.76,
+    "per_capita": 640.68,
+    "national_rank": 319,
+    "yoy_change": 7.8,
+    "roi_ratio": 0.11,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "OH-14": {
+    "total_obligated": 351933307.1,
+    "per_capita": 447.91,
+    "national_rank": 368,
+    "yoy_change": -9.2,
+    "roi_ratio": 0.08,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "OH-15": {
+    "total_obligated": 37510921616.08,
+    "per_capita": 48163.85,
+    "national_rank": 8,
+    "yoy_change": 10.6,
+    "roi_ratio": 8.28,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "OH-2": {
+    "total_obligated": 1001760619.17,
+    "per_capita": 1274.67,
+    "national_rank": 228,
+    "yoy_change": 7.7,
+    "roi_ratio": 0.26,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "OH-3": {
+    "total_obligated": 7963460077.35,
+    "per_capita": 10020.66,
+    "national_rank": 62,
+    "yoy_change": -5.7,
+    "roi_ratio": 1.62,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "OH-4": {
+    "total_obligated": 178377329.25,
+    "per_capita": 224.75,
+    "national_rank": 420,
+    "yoy_change": -20.8,
+    "roi_ratio": 0.04,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "OH-5": {
+    "total_obligated": 879543358.61,
+    "per_capita": 1118.15,
+    "national_rank": 245,
+    "yoy_change": 22.3,
+    "roi_ratio": 0.21,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "OH-6": {
+    "total_obligated": 220920343.0,
+    "per_capita": 283.65,
+    "national_rank": 406,
+    "yoy_change": -3.2,
+    "roi_ratio": 0.06,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "OH-7": {
+    "total_obligated": 320325153.47,
+    "per_capita": 404.14,
+    "national_rank": 379,
+    "yoy_change": -46.6,
+    "roi_ratio": 0.06,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "OH-8": {
+    "total_obligated": 1466195666.85,
+    "per_capita": 1869.15,
+    "national_rank": 186,
+    "yoy_change": 45.4,
+    "roi_ratio": 0.33,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "OH-9": {
+    "total_obligated": 513424220.35,
+    "per_capita": 655.09,
+    "national_rank": 315,
+    "yoy_change": 41.1,
+    "roi_ratio": 0.12,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "OK-1": {
+    "total_obligated": 1623193935.23,
+    "per_capita": 2031.6,
+    "national_rank": 174,
+    "yoy_change": -33.6,
+    "roi_ratio": 0.36,
+    "top_contractor": "OKLAHOMA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 61238252.53,
+    "latest_stock_trade": null,
+    "weekly_contracts": 61238252.53
+  },
+  "OK-2": {
+    "total_obligated": 1019099419.66,
+    "per_capita": 1281.26,
+    "national_rank": 224,
+    "yoy_change": -0.1,
+    "roi_ratio": 0.3,
+    "top_contractor": "OKLAHOMA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 61238252.53,
+    "latest_stock_trade": null,
+    "weekly_contracts": 61238252.53
+  },
+  "OK-3": {
+    "total_obligated": 1174475981.97,
+    "per_capita": 1493.68,
+    "national_rank": 214,
+    "yoy_change": -5.9,
+    "roi_ratio": 0.35,
+    "top_contractor": "OKLAHOMA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 61238252.53,
+    "latest_stock_trade": null,
+    "weekly_contracts": 61238252.53
+  },
+  "OK-4": {
+    "total_obligated": 3331281212.75,
+    "per_capita": 4176.76,
+    "national_rank": 113,
+    "yoy_change": 10.3,
+    "roi_ratio": 0.84,
+    "top_contractor": "OKLAHOMA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 61238252.53,
+    "latest_stock_trade": null,
+    "weekly_contracts": 61238252.53
+  },
+  "OK-5": {
+    "total_obligated": 12723124352.34,
+    "per_capita": 15738.51,
+    "national_rank": 39,
+    "yoy_change": -1.4,
+    "roi_ratio": 2.68,
+    "top_contractor": "OKLAHOMA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 61238252.53,
+    "latest_stock_trade": null,
+    "weekly_contracts": 61238252.53
+  },
+  "OR-1": {
+    "total_obligated": 1512523866.68,
+    "per_capita": 2155.84,
+    "national_rank": 182,
+    "yoy_change": -20.2,
+    "roi_ratio": 0.27,
+    "top_contractor": "OREGON HEALTH AUTHORITY",
+    "top_contractor_amount": 272208950.0,
+    "latest_stock_trade": {
+      "date": "2020-11-10",
+      "ticker": "BYND",
+      "amount_range": "$50,001 - $100,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 272208950.0
+  },
+  "OR-2": {
+    "total_obligated": 762478859.83,
+    "per_capita": 1072.42,
+    "national_rank": 262,
+    "yoy_change": -32.0,
+    "roi_ratio": 0.22,
+    "top_contractor": "OREGON HEALTH AUTHORITY",
+    "top_contractor_amount": 272208950.0,
+    "latest_stock_trade": {
+      "date": "2020-11-10",
+      "ticker": "BYND",
+      "amount_range": "$50,001 - $100,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 272208950.0
+  },
+  "OR-3": {
+    "total_obligated": 1182703576.68,
+    "per_capita": 1691.99,
+    "national_rank": 211,
+    "yoy_change": -29.8,
+    "roi_ratio": 0.26,
+    "top_contractor": "OREGON HEALTH AUTHORITY",
+    "top_contractor_amount": 272208950.0,
+    "latest_stock_trade": {
+      "date": "2020-11-10",
+      "ticker": "BYND",
+      "amount_range": "$50,001 - $100,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 272208950.0
+  },
+  "OR-4": {
+    "total_obligated": 802077089.3,
+    "per_capita": 1132.55,
+    "national_rank": 258,
+    "yoy_change": -7.8,
+    "roi_ratio": 0.21,
+    "top_contractor": "OREGON HEALTH AUTHORITY",
+    "top_contractor_amount": 272208950.0,
+    "latest_stock_trade": {
+      "date": "2020-11-10",
+      "ticker": "BYND",
+      "amount_range": "$50,001 - $100,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 272208950.0
+  },
+  "OR-5": {
+    "total_obligated": 665727681.28,
+    "per_capita": 933.49,
+    "national_rank": 276,
+    "yoy_change": -3.8,
+    "roi_ratio": 0.14,
+    "top_contractor": "OREGON HEALTH AUTHORITY",
+    "top_contractor_amount": 272208950.0,
+    "latest_stock_trade": {
+      "date": "2020-11-10",
+      "ticker": "BYND",
+      "amount_range": "$50,001 - $100,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 272208950.0
+  },
+  "OR-6": {
+    "total_obligated": 17894705391.84,
+    "per_capita": 25090.83,
+    "national_rank": 30,
+    "yoy_change": 2.4,
+    "roi_ratio": 4.21,
+    "top_contractor": "OREGON HEALTH AUTHORITY",
+    "top_contractor_amount": 272208950.0,
+    "latest_stock_trade": {
+      "date": "2020-11-10",
+      "ticker": "BYND",
+      "amount_range": "$50,001 - $100,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 272208950.0
+  },
+  "PA-1": {
+    "total_obligated": 955681712.38,
+    "per_capita": 1251.16,
+    "national_rank": 234,
+    "yoy_change": -4.4,
+    "roi_ratio": 0.15,
+    "top_contractor": "PENNSYLVANIA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 57555562.58,
+    "latest_stock_trade": null,
+    "weekly_contracts": 57555562.58
+  },
+  "PA-10": {
+    "total_obligated": 44472884274.98,
+    "per_capita": 58183.09,
+    "national_rank": 5,
+    "yoy_change": 3.2,
+    "roi_ratio": 9.5,
+    "top_contractor": "PENNSYLVANIA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 57555562.58,
+    "latest_stock_trade": null,
+    "weekly_contracts": 57555562.58
+  },
+  "PA-11": {
+    "total_obligated": 171412238.36,
+    "per_capita": 221.75,
+    "national_rank": 421,
+    "yoy_change": -29.1,
+    "roi_ratio": 0.04,
+    "top_contractor": "PENNSYLVANIA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 57555562.58,
+    "latest_stock_trade": null,
+    "weekly_contracts": 57555562.58
+  },
+  "PA-12": {
+    "total_obligated": 4214052137.69,
+    "per_capita": 5569.72,
+    "national_rank": 92,
+    "yoy_change": -13.4,
+    "roi_ratio": 0.88,
+    "top_contractor": "PENNSYLVANIA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 57555562.58,
+    "latest_stock_trade": null,
+    "weekly_contracts": 57555562.58
+  },
+  "PA-13": {
+    "total_obligated": 612034927.32,
+    "per_capita": 802.58,
+    "national_rank": 292,
+    "yoy_change": -17.1,
+    "roi_ratio": 0.16,
+    "top_contractor": "PENNSYLVANIA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 57555562.58,
+    "latest_stock_trade": null,
+    "weekly_contracts": 57555562.58
+  },
+  "PA-14": {
+    "total_obligated": 378394579.04,
+    "per_capita": 497.16,
+    "national_rank": 361,
+    "yoy_change": -13.4,
+    "roi_ratio": 0.09,
+    "top_contractor": "PENNSYLVANIA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 57555562.58,
+    "latest_stock_trade": null,
+    "weekly_contracts": 57555562.58
+  },
+  "PA-15": {
+    "total_obligated": 831453128.99,
+    "per_capita": 1096.41,
+    "national_rank": 254,
+    "yoy_change": -1.3,
+    "roi_ratio": 0.22,
+    "top_contractor": "PENNSYLVANIA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 57555562.58,
+    "latest_stock_trade": null,
+    "weekly_contracts": 57555562.58
+  },
+  "PA-16": {
+    "total_obligated": 471726445.42,
+    "per_capita": 617.91,
+    "national_rank": 328,
+    "yoy_change": -19.7,
+    "roi_ratio": 0.12,
+    "top_contractor": "PENNSYLVANIA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 57555562.58,
+    "latest_stock_trade": null,
+    "weekly_contracts": 57555562.58
+  },
+  "PA-17": {
+    "total_obligated": 924352480.91,
+    "per_capita": 1221.66,
+    "national_rank": 239,
+    "yoy_change": -12.1,
+    "roi_ratio": 0.17,
+    "top_contractor": "PENNSYLVANIA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 57555562.58,
+    "latest_stock_trade": null,
+    "weekly_contracts": 57555562.58
+  },
+  "PA-2": {
+    "total_obligated": 1343976414.27,
+    "per_capita": 1751.81,
+    "national_rank": 197,
+    "yoy_change": -4.2,
+    "roi_ratio": 0.38,
+    "top_contractor": "PENNSYLVANIA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 57555562.58,
+    "latest_stock_trade": null,
+    "weekly_contracts": 57555562.58
+  },
+  "PA-3": {
+    "total_obligated": 2277309125.87,
+    "per_capita": 3072.55,
+    "national_rank": 149,
+    "yoy_change": -52.4,
+    "roi_ratio": 0.49,
+    "top_contractor": "PENNSYLVANIA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 57555562.58,
+    "latest_stock_trade": null,
+    "weekly_contracts": 57555562.58
+  },
+  "PA-4": {
+    "total_obligated": 8459288288.24,
+    "per_capita": 10961.19,
+    "national_rank": 56,
+    "yoy_change": 30.6,
+    "roi_ratio": 1.32,
+    "top_contractor": "PENNSYLVANIA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 57555562.58,
+    "latest_stock_trade": null,
+    "weekly_contracts": 57555562.58
+  },
+  "PA-5": {
+    "total_obligated": 2349310787.83,
+    "per_capita": 3115.3,
+    "national_rank": 141,
+    "yoy_change": 2.7,
+    "roi_ratio": 0.44,
+    "top_contractor": "PENNSYLVANIA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 57555562.58,
+    "latest_stock_trade": null,
+    "weekly_contracts": 57555562.58
+  },
+  "PA-6": {
+    "total_obligated": 1929188149.19,
+    "per_capita": 2511.47,
+    "national_rank": 162,
+    "yoy_change": -28.9,
+    "roi_ratio": 0.32,
+    "top_contractor": "PENNSYLVANIA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 57555562.58,
+    "latest_stock_trade": null,
+    "weekly_contracts": 57555562.58
+  },
+  "PA-7": {
+    "total_obligated": 525785755.12,
+    "per_capita": 681.67,
+    "national_rank": 311,
+    "yoy_change": -19.0,
+    "roi_ratio": 0.11,
+    "top_contractor": "PENNSYLVANIA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 57555562.58,
+    "latest_stock_trade": null,
+    "weekly_contracts": 57555562.58
+  },
+  "PA-8": {
+    "total_obligated": 1142553794.22,
+    "per_capita": 1496.47,
+    "national_rank": 217,
+    "yoy_change": 1.0,
+    "roi_ratio": 0.29,
+    "top_contractor": "PENNSYLVANIA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 57555562.58,
+    "latest_stock_trade": null,
+    "weekly_contracts": 57555562.58
+  },
+  "PA-9": {
+    "total_obligated": 276501864.75,
+    "per_capita": 360.51,
+    "national_rank": 392,
+    "yoy_change": 3.2,
+    "roi_ratio": 0.07,
+    "top_contractor": "PENNSYLVANIA DEPARTMENT OF TRANSPORTATION",
+    "top_contractor_amount": 57555562.58,
+    "latest_stock_trade": null,
+    "weekly_contracts": 57555562.58
+  },
+  "PR-98": {
+    "total_obligated": 9981340604.84,
+    "per_capita": 3058.4,
+    "national_rank": 50,
+    "yoy_change": -28.8,
+    "roi_ratio": null,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "RI-1": {
+    "total_obligated": 4718274460.33,
+    "per_capita": 8656.03,
+    "national_rank": 84,
+    "yoy_change": 11.9,
+    "roi_ratio": 1.34,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2020-10-13",
+      "ticker": "--",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  },
+  "RI-2": {
+    "total_obligated": 1209215671.58,
+    "per_capita": 2196.48,
+    "national_rank": 207,
+    "yoy_change": -32.7,
+    "roi_ratio": 0.34,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2020-10-13",
+      "ticker": "--",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  },
+  "SC-1": {
+    "total_obligated": 202035063.94,
+    "per_capita": 271.29,
+    "national_rank": 411,
+    "yoy_change": -93.5,
+    "roi_ratio": 0.04,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "SC-2": {
+    "total_obligated": 3426751696.67,
+    "per_capita": 4604.24,
+    "national_rank": 110,
+    "yoy_change": -14.6,
+    "roi_ratio": 0.83,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "SC-3": {
+    "total_obligated": 321470737.79,
+    "per_capita": 434.4,
+    "national_rank": 376,
+    "yoy_change": -17.8,
+    "roi_ratio": 0.09,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "SC-4": {
+    "total_obligated": 4244045473.42,
+    "per_capita": 5674.11,
+    "national_rank": 91,
+    "yoy_change": 3.0,
+    "roi_ratio": 1.02,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "SC-5": {
+    "total_obligated": 212676978.42,
+    "per_capita": 288.43,
+    "national_rank": 407,
+    "yoy_change": 32.1,
+    "roi_ratio": 0.06,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "SC-6": {
+    "total_obligated": 15433090694.35,
+    "per_capita": 21132.65,
+    "national_rank": 35,
+    "yoy_change": 16.6,
+    "roi_ratio": 4.49,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "SC-7": {
+    "total_obligated": 530776622.12,
+    "per_capita": 711.42,
+    "national_rank": 308,
+    "yoy_change": 28.3,
+    "roi_ratio": 0.15,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "SD-0": {
+    "total_obligated": 4126649975.4,
+    "per_capita": 4608.85,
+    "national_rank": 94,
+    "yoy_change": -2.7,
+    "roi_ratio": 0.84,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2019-03-31",
+      "ticker": "--",
+      "amount_range": "$250,001 - $500,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": null
+  },
+  "TN-1": {
+    "total_obligated": 1083443442.85,
+    "per_capita": 1403.05,
+    "national_rank": 221,
+    "yoy_change": 106.7,
+    "roi_ratio": 0.3,
+    "top_contractor": "CONSOLIDATED NUCLEAR SECURITY, LLC",
+    "top_contractor_amount": 510000000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 510000000.0
+  },
+  "TN-2": {
+    "total_obligated": 1004786141.87,
+    "per_capita": 1282.6,
+    "national_rank": 227,
+    "yoy_change": 25.6,
+    "roi_ratio": 0.23,
+    "top_contractor": "CONSOLIDATED NUCLEAR SECURITY, LLC",
+    "top_contractor_amount": 510000000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 510000000.0
+  },
+  "TN-3": {
+    "total_obligated": 4376411207.39,
+    "per_capita": 5634.67,
+    "national_rank": 89,
+    "yoy_change": -3.3,
+    "roi_ratio": 1.05,
+    "top_contractor": "CONSOLIDATED NUCLEAR SECURITY, LLC",
+    "top_contractor_amount": 510000000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 510000000.0
+  },
+  "TN-4": {
+    "total_obligated": 1840134583.62,
+    "per_capita": 2354.41,
+    "national_rank": 167,
+    "yoy_change": -8.3,
+    "roi_ratio": 0.5,
+    "top_contractor": "CONSOLIDATED NUCLEAR SECURITY, LLC",
+    "top_contractor_amount": 510000000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 510000000.0
+  },
+  "TN-5": {
+    "total_obligated": 1693673698.94,
+    "per_capita": 2183.73,
+    "national_rank": 171,
+    "yoy_change": 3.1,
+    "roi_ratio": 0.3,
+    "top_contractor": "CONSOLIDATED NUCLEAR SECURITY, LLC",
+    "top_contractor_amount": 510000000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 510000000.0
+  },
+  "TN-6": {
+    "total_obligated": 154942859.97,
+    "per_capita": 201.61,
+    "national_rank": 427,
+    "yoy_change": -9.6,
+    "roi_ratio": 0.04,
+    "top_contractor": "CONSOLIDATED NUCLEAR SECURITY, LLC",
+    "top_contractor_amount": 510000000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 510000000.0
+  },
+  "TN-7": {
+    "total_obligated": 18853946582.16,
+    "per_capita": 24027.13,
+    "national_rank": 28,
+    "yoy_change": 7.8,
+    "roi_ratio": 4.39,
+    "top_contractor": "CONSOLIDATED NUCLEAR SECURITY, LLC",
+    "top_contractor_amount": 510000000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 510000000.0
+  },
+  "TN-8": {
+    "total_obligated": 310861576.88,
+    "per_capita": 406.43,
+    "national_rank": 384,
+    "yoy_change": 0.9,
+    "roi_ratio": 0.07,
+    "top_contractor": "CONSOLIDATED NUCLEAR SECURITY, LLC",
+    "top_contractor_amount": 510000000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 510000000.0
+  },
+  "TN-9": {
+    "total_obligated": 1255111547.37,
+    "per_capita": 1634.94,
+    "national_rank": 203,
+    "yoy_change": 2.0,
+    "roi_ratio": 0.37,
+    "top_contractor": "CONSOLIDATED NUCLEAR SECURITY, LLC",
+    "top_contractor_amount": 510000000.0,
+    "latest_stock_trade": null,
+    "weekly_contracts": 510000000.0
+  },
+  "TX-1": {
+    "total_obligated": 323587396.66,
+    "per_capita": 417.12,
+    "national_rank": 375,
+    "yoy_change": 3.9,
+    "roi_ratio": 0.09,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-10": {
+    "total_obligated": 1181807414.26,
+    "per_capita": 1523.85,
+    "national_rank": 212,
+    "yoy_change": 1.4,
+    "roi_ratio": 0.24,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-11": {
+    "total_obligated": 884173253.78,
+    "per_capita": 1153.09,
+    "national_rank": 242,
+    "yoy_change": 24.6,
+    "roi_ratio": 0.22,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-12": {
+    "total_obligated": 36586642343.35,
+    "per_capita": 46692.36,
+    "national_rank": 9,
+    "yoy_change": 116.8,
+    "roi_ratio": 7.65,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-13": {
+    "total_obligated": 2653051064.68,
+    "per_capita": 3441.72,
+    "national_rank": 127,
+    "yoy_change": 26.0,
+    "roi_ratio": 0.71,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-14": {
+    "total_obligated": 642420797.95,
+    "per_capita": 837.17,
+    "national_rank": 282,
+    "yoy_change": 455.7,
+    "roi_ratio": 0.15,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-15": {
+    "total_obligated": 289617589.67,
+    "per_capita": 372.25,
+    "national_rank": 387,
+    "yoy_change": -17.3,
+    "roi_ratio": 0.1,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-16": {
+    "total_obligated": 610156889.78,
+    "per_capita": 790.08,
+    "national_rank": 294,
+    "yoy_change": -15.6,
+    "roi_ratio": 0.2,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-17": {
+    "total_obligated": 4099828431.31,
+    "per_capita": 5205.89,
+    "national_rank": 96,
+    "yoy_change": -17.1,
+    "roi_ratio": 1.12,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-18": {
+    "total_obligated": 1905700693.87,
+    "per_capita": 2511.99,
+    "national_rank": 164,
+    "yoy_change": -30.2,
+    "roi_ratio": 0.49,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-19": {
+    "total_obligated": 314361344.35,
+    "per_capita": 406.99,
+    "national_rank": 383,
+    "yoy_change": 19.5,
+    "roi_ratio": 0.09,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-2": {
+    "total_obligated": 229142642.41,
+    "per_capita": 302.95,
+    "national_rank": 402,
+    "yoy_change": 162.8,
+    "roi_ratio": 0.04,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-20": {
+    "total_obligated": 2677932838.32,
+    "per_capita": 3450.62,
+    "national_rank": 126,
+    "yoy_change": -14.3,
+    "roi_ratio": 0.81,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-21": {
+    "total_obligated": 1511750792.93,
+    "per_capita": 1889.99,
+    "national_rank": 183,
+    "yoy_change": -27.3,
+    "roi_ratio": 0.27,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-22": {
+    "total_obligated": 136826569.52,
+    "per_capita": 168.56,
+    "national_rank": 429,
+    "yoy_change": -55.4,
+    "roi_ratio": 0.03,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-23": {
+    "total_obligated": 1232211803.32,
+    "per_capita": 1583.45,
+    "national_rank": 205,
+    "yoy_change": 34.9,
+    "roi_ratio": 0.32,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-24": {
+    "total_obligated": 1380809709.03,
+    "per_capita": 1848.68,
+    "national_rank": 194,
+    "yoy_change": 24.9,
+    "roi_ratio": 0.19,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-25": {
+    "total_obligated": 1262353693.09,
+    "per_capita": 1609.23,
+    "national_rank": 202,
+    "yoy_change": 0.0,
+    "roi_ratio": 0.3,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-26": {
+    "total_obligated": 422685962.96,
+    "per_capita": 528.24,
+    "national_rank": 346,
+    "yoy_change": 90.7,
+    "roi_ratio": 0.07,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-27": {
+    "total_obligated": -66214399.82,
+    "per_capita": -85.39,
+    "national_rank": 440,
+    "yoy_change": -107.2,
+    "roi_ratio": -0.02,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-28": {
+    "total_obligated": 416456817.99,
+    "per_capita": 539.51,
+    "national_rank": 351,
+    "yoy_change": 27.8,
+    "roi_ratio": 0.14,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-29": {
+    "total_obligated": 226636507.61,
+    "per_capita": 306.26,
+    "national_rank": 403,
+    "yoy_change": -37.5,
+    "roi_ratio": 0.09,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-3": {
+    "total_obligated": 2766484299.49,
+    "per_capita": 3438.92,
+    "national_rank": 124,
+    "yoy_change": 2.8,
+    "roi_ratio": 0.47,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-30": {
+    "total_obligated": 1218618185.3,
+    "per_capita": 1561.74,
+    "national_rank": 206,
+    "yoy_change": 5.6,
+    "roi_ratio": 0.31,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-31": {
+    "total_obligated": 652156559.23,
+    "per_capita": 813.45,
+    "national_rank": 280,
+    "yoy_change": 36.4,
+    "roi_ratio": 0.13,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-32": {
+    "total_obligated": 624223179.28,
+    "per_capita": 826.34,
+    "national_rank": 289,
+    "yoy_change": -13.8,
+    "roi_ratio": 0.14,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-33": {
+    "total_obligated": 22842116138.99,
+    "per_capita": 29068.39,
+    "national_rank": 20,
+    "yoy_change": 35.1,
+    "roi_ratio": 7.34,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-34": {
+    "total_obligated": 260256918.85,
+    "per_capita": 338.71,
+    "national_rank": 397,
+    "yoy_change": -18.4,
+    "roi_ratio": 0.11,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-35": {
+    "total_obligated": 2006730708.81,
+    "per_capita": 2640.42,
+    "national_rank": 159,
+    "yoy_change": -6.2,
+    "roi_ratio": 0.53,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-36": {
+    "total_obligated": 1559229009.47,
+    "per_capita": 1992.01,
+    "national_rank": 180,
+    "yoy_change": -12.9,
+    "roi_ratio": 0.38,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-37": {
+    "total_obligated": 56234843933.42,
+    "per_capita": 72779.52,
+    "national_rank": 4,
+    "yoy_change": 4.1,
+    "roi_ratio": 8.42,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-38": {
+    "total_obligated": 1176851886.9,
+    "per_capita": 1501.62,
+    "national_rank": 213,
+    "yoy_change": -18.3,
+    "roi_ratio": 0.18,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-4": {
+    "total_obligated": 355121567.14,
+    "per_capita": 450.5,
+    "national_rank": 366,
+    "yoy_change": 8.7,
+    "roi_ratio": 0.07,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-5": {
+    "total_obligated": 90381853.79,
+    "per_capita": 116.63,
+    "national_rank": 432,
+    "yoy_change": 37.4,
+    "roi_ratio": 0.02,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-6": {
+    "total_obligated": 1127798547.02,
+    "per_capita": 1470.55,
+    "national_rank": 218,
+    "yoy_change": 134.2,
+    "roi_ratio": 0.3,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-7": {
+    "total_obligated": 2140403142.2,
+    "per_capita": 2698.69,
+    "national_rank": 156,
+    "yoy_change": -12.7,
+    "roi_ratio": 0.38,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-8": {
+    "total_obligated": 782355083.63,
+    "per_capita": 952.75,
+    "national_rank": 260,
+    "yoy_change": 27.9,
+    "roi_ratio": 0.18,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "TX-9": {
+    "total_obligated": 997020330.28,
+    "per_capita": 1350.25,
+    "national_rank": 230,
+    "yoy_change": -1.3,
+    "roi_ratio": 0.28,
+    "top_contractor": "GRANITE CONSTRUCTION COMPANY",
+    "top_contractor_amount": 512334000.0,
+    "latest_stock_trade": {
+      "date": "2019-11-27",
+      "ticker": "PAGP",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 512334000.0
+  },
+  "UT-1": {
+    "total_obligated": 4158550533.97,
+    "per_capita": 4972.03,
+    "national_rank": 93,
+    "yoy_change": -40.5,
+    "roi_ratio": 0.89,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "UT-2": {
+    "total_obligated": 7447351293.89,
+    "per_capita": 8930.22,
+    "national_rank": 69,
+    "yoy_change": -4.7,
+    "roi_ratio": 1.71,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "UT-3": {
+    "total_obligated": 479207143.69,
+    "per_capita": 579.17,
+    "national_rank": 326,
+    "yoy_change": 2.1,
+    "roi_ratio": 0.1,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "UT-4": {
+    "total_obligated": 468262896.18,
+    "per_capita": 557.3,
+    "national_rank": 329,
+    "yoy_change": -19.4,
+    "roi_ratio": 0.11,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "VA-1": {
+    "total_obligated": 1970183451.99,
+    "per_capita": 2447.22,
+    "national_rank": 160,
+    "yoy_change": 51.7,
+    "roi_ratio": 0.33,
+    "top_contractor": "TRIWEST HEALTHCARE ALLIANCE CORP",
+    "top_contractor_amount": 847472275.67,
+    "latest_stock_trade": {
+      "date": "2020-10-27",
+      "ticker": "--",
+      "amount_range": "$1,000,001 - $5,000,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 847472275.67
+  },
+  "VA-10": {
+    "total_obligated": 7592511734.1,
+    "per_capita": 9592.96,
+    "national_rank": 67,
+    "yoy_change": -10.0,
+    "roi_ratio": 1.06,
+    "top_contractor": "TRIWEST HEALTHCARE ALLIANCE CORP",
+    "top_contractor_amount": 847472275.67,
+    "latest_stock_trade": {
+      "date": "2020-10-27",
+      "ticker": "--",
+      "amount_range": "$1,000,001 - $5,000,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 847472275.67
+  },
+  "VA-11": {
+    "total_obligated": 80254836127.65,
+    "per_capita": 103667.79,
+    "national_rank": 3,
+    "yoy_change": -3.3,
+    "roi_ratio": 9.95,
+    "top_contractor": "TRIWEST HEALTHCARE ALLIANCE CORP",
+    "top_contractor_amount": 847472275.67,
+    "latest_stock_trade": {
+      "date": "2020-10-27",
+      "ticker": "--",
+      "amount_range": "$1,000,001 - $5,000,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 847472275.67
+  },
+  "VA-2": {
+    "total_obligated": 9166679904.38,
+    "per_capita": 11689.42,
+    "national_rank": 54,
+    "yoy_change": 21.9,
+    "roi_ratio": 1.75,
+    "top_contractor": "TRIWEST HEALTHCARE ALLIANCE CORP",
+    "top_contractor_amount": 847472275.67,
+    "latest_stock_trade": {
+      "date": "2020-10-27",
+      "ticker": "--",
+      "amount_range": "$1,000,001 - $5,000,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 847472275.67
+  },
+  "VA-3": {
+    "total_obligated": 9274457079.82,
+    "per_capita": 11855.37,
+    "national_rank": 53,
+    "yoy_change": 12.6,
+    "roi_ratio": 2.24,
+    "top_contractor": "TRIWEST HEALTHCARE ALLIANCE CORP",
+    "top_contractor_amount": 847472275.67,
+    "latest_stock_trade": {
+      "date": "2020-10-27",
+      "ticker": "--",
+      "amount_range": "$1,000,001 - $5,000,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 847472275.67
+  },
+  "VA-4": {
+    "total_obligated": 24412142957.91,
+    "per_capita": 31413.16,
+    "national_rank": 17,
+    "yoy_change": 8.3,
+    "roi_ratio": 5.66,
+    "top_contractor": "TRIWEST HEALTHCARE ALLIANCE CORP",
+    "top_contractor_amount": 847472275.67,
+    "latest_stock_trade": {
+      "date": "2020-10-27",
+      "ticker": "--",
+      "amount_range": "$1,000,001 - $5,000,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 847472275.67
+  },
+  "VA-5": {
+    "total_obligated": 5340059691.54,
+    "per_capita": 6755.95,
+    "national_rank": 81,
+    "yoy_change": 145.3,
+    "roi_ratio": 1.18,
+    "top_contractor": "TRIWEST HEALTHCARE ALLIANCE CORP",
+    "top_contractor_amount": 847472275.67,
+    "latest_stock_trade": {
+      "date": "2020-10-27",
+      "ticker": "--",
+      "amount_range": "$1,000,001 - $5,000,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 847472275.67
+  },
+  "VA-6": {
+    "total_obligated": 1040879234.08,
+    "per_capita": 1325.64,
+    "national_rank": 223,
+    "yoy_change": 13.0,
+    "roi_ratio": 0.25,
+    "top_contractor": "TRIWEST HEALTHCARE ALLIANCE CORP",
+    "top_contractor_amount": 847472275.67,
+    "latest_stock_trade": {
+      "date": "2020-10-27",
+      "ticker": "--",
+      "amount_range": "$1,000,001 - $5,000,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 847472275.67
+  },
+  "VA-7": {
+    "total_obligated": 2348450776.87,
+    "per_capita": 2940.45,
+    "national_rank": 142,
+    "yoy_change": -4.7,
+    "roi_ratio": 0.44,
+    "top_contractor": "TRIWEST HEALTHCARE ALLIANCE CORP",
+    "top_contractor_amount": 847472275.67,
+    "latest_stock_trade": {
+      "date": "2020-10-27",
+      "ticker": "--",
+      "amount_range": "$1,000,001 - $5,000,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 847472275.67
+  },
+  "VA-8": {
+    "total_obligated": 24415148994.85,
+    "per_capita": 31692.67,
+    "national_rank": 16,
+    "yoy_change": -10.8,
+    "roi_ratio": 2.87,
+    "top_contractor": "TRIWEST HEALTHCARE ALLIANCE CORP",
+    "top_contractor_amount": 847472275.67,
+    "latest_stock_trade": {
+      "date": "2020-10-27",
+      "ticker": "--",
+      "amount_range": "$1,000,001 - $5,000,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 847472275.67
+  },
+  "VA-9": {
+    "total_obligated": 1247185923.29,
+    "per_capita": 1592.2,
+    "national_rank": 204,
+    "yoy_change": -47.2,
+    "roi_ratio": 0.34,
+    "top_contractor": "TRIWEST HEALTHCARE ALLIANCE CORP",
+    "top_contractor_amount": 847472275.67,
+    "latest_stock_trade": {
+      "date": "2020-10-27",
+      "ticker": "--",
+      "amount_range": "$1,000,001 - $5,000,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 847472275.67
+  },
+  "VI-98": {
+    "total_obligated": 10197375221.46,
+    "per_capita": 96319.78,
+    "national_rank": 47,
+    "yoy_change": 58.5,
+    "roi_ratio": null,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "VT-0": {
+    "total_obligated": 4634469909.01,
+    "per_capita": 7178.88,
+    "national_rank": 85,
+    "yoy_change": 3.9,
+    "roi_ratio": 1.15,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": null,
+    "weekly_contracts": null
+  },
+  "WA-1": {
+    "total_obligated": 1382080588.29,
+    "per_capita": 1794.21,
+    "national_rank": 193,
+    "yoy_change": 22.2,
+    "roi_ratio": 0.19,
+    "top_contractor": "HANFORD TANK WASTE OPERATIONS & CLOSURE, LLC",
+    "top_contractor_amount": 60500000.0,
+    "latest_stock_trade": {
+      "date": "2017-06-15",
+      "ticker": "WMB",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 60500000.0
+  },
+  "WA-10": {
+    "total_obligated": 18942819236.14,
+    "per_capita": 24615.99,
+    "national_rank": 27,
+    "yoy_change": -4.1,
+    "roi_ratio": 4.05,
+    "top_contractor": "HANFORD TANK WASTE OPERATIONS & CLOSURE, LLC",
+    "top_contractor_amount": 60500000.0,
+    "latest_stock_trade": {
+      "date": "2017-06-15",
+      "ticker": "WMB",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 60500000.0
+  },
+  "WA-2": {
+    "total_obligated": 754932874.8,
+    "per_capita": 973.33,
+    "national_rank": 264,
+    "yoy_change": -2.1,
+    "roi_ratio": 0.15,
+    "top_contractor": "HANFORD TANK WASTE OPERATIONS & CLOSURE, LLC",
+    "top_contractor_amount": 60500000.0,
+    "latest_stock_trade": {
+      "date": "2017-06-15",
+      "ticker": "WMB",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 60500000.0
+  },
+  "WA-3": {
+    "total_obligated": 1109824225.48,
+    "per_capita": 1417.93,
+    "national_rank": 219,
+    "yoy_change": 62.4,
+    "roi_ratio": 0.23,
+    "top_contractor": "HANFORD TANK WASTE OPERATIONS & CLOSURE, LLC",
+    "top_contractor_amount": 60500000.0,
+    "latest_stock_trade": {
+      "date": "2017-06-15",
+      "ticker": "WMB",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 60500000.0
+  },
+  "WA-4": {
+    "total_obligated": 2590829007.86,
+    "per_capita": 3326.53,
+    "national_rank": 132,
+    "yoy_change": 4.8,
+    "roi_ratio": 0.69,
+    "top_contractor": "HANFORD TANK WASTE OPERATIONS & CLOSURE, LLC",
+    "top_contractor_amount": 60500000.0,
+    "latest_stock_trade": {
+      "date": "2017-06-15",
+      "ticker": "WMB",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 60500000.0
+  },
+  "WA-5": {
+    "total_obligated": 994774948.96,
+    "per_capita": 1273.04,
+    "national_rank": 231,
+    "yoy_change": 6.6,
+    "roi_ratio": 0.23,
+    "top_contractor": "HANFORD TANK WASTE OPERATIONS & CLOSURE, LLC",
+    "top_contractor_amount": 60500000.0,
+    "latest_stock_trade": {
+      "date": "2017-06-15",
+      "ticker": "WMB",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 60500000.0
+  },
+  "WA-6": {
+    "total_obligated": 1611510092.03,
+    "per_capita": 2076.0,
+    "national_rank": 175,
+    "yoy_change": 24.7,
+    "roi_ratio": 0.31,
+    "top_contractor": "HANFORD TANK WASTE OPERATIONS & CLOSURE, LLC",
+    "top_contractor_amount": 60500000.0,
+    "latest_stock_trade": {
+      "date": "2017-06-15",
+      "ticker": "WMB",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 60500000.0
+  },
+  "WA-7": {
+    "total_obligated": 8044020734.34,
+    "per_capita": 10440.71,
+    "national_rank": 60,
+    "yoy_change": -6.2,
+    "roi_ratio": 0.93,
+    "top_contractor": "HANFORD TANK WASTE OPERATIONS & CLOSURE, LLC",
+    "top_contractor_amount": 60500000.0,
+    "latest_stock_trade": {
+      "date": "2017-06-15",
+      "ticker": "WMB",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 60500000.0
+  },
+  "WA-8": {
+    "total_obligated": 223766239.57,
+    "per_capita": 285.78,
+    "national_rank": 405,
+    "yoy_change": -1.8,
+    "roi_ratio": 0.03,
+    "top_contractor": "HANFORD TANK WASTE OPERATIONS & CLOSURE, LLC",
+    "top_contractor_amount": 60500000.0,
+    "latest_stock_trade": {
+      "date": "2017-06-15",
+      "ticker": "WMB",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 60500000.0
+  },
+  "WA-9": {
+    "total_obligated": 2164617046.56,
+    "per_capita": 2883.92,
+    "national_rank": 155,
+    "yoy_change": 36.8,
+    "roi_ratio": 0.37,
+    "top_contractor": "HANFORD TANK WASTE OPERATIONS & CLOSURE, LLC",
+    "top_contractor_amount": 60500000.0,
+    "latest_stock_trade": {
+      "date": "2017-06-15",
+      "ticker": "WMB",
+      "amount_range": "$1,001 - $15,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": 60500000.0
+  },
+  "WI-1": {
+    "total_obligated": 779837008.66,
+    "per_capita": 1064.75,
+    "national_rank": 261,
+    "yoy_change": -12.9,
+    "roi_ratio": 0.18,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2020-03-02",
+      "ticker": "--",
+      "amount_range": "$5,000,001 - $25,000,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  },
+  "WI-2": {
+    "total_obligated": 15304837743.71,
+    "per_capita": 20691.47,
+    "national_rank": 36,
+    "yoy_change": -0.9,
+    "roi_ratio": 2.97,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2020-03-02",
+      "ticker": "--",
+      "amount_range": "$5,000,001 - $25,000,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  },
+  "WI-3": {
+    "total_obligated": 25451340389.9,
+    "per_capita": 34635.5,
+    "national_rank": 15,
+    "yoy_change": 31.4,
+    "roi_ratio": 6.39,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2020-03-02",
+      "ticker": "--",
+      "amount_range": "$5,000,001 - $25,000,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  },
+  "WI-4": {
+    "total_obligated": 1318257968.1,
+    "per_capita": 1800.67,
+    "national_rank": 199,
+    "yoy_change": -5.8,
+    "roi_ratio": 0.36,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2020-03-02",
+      "ticker": "--",
+      "amount_range": "$5,000,001 - $25,000,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  },
+  "WI-5": {
+    "total_obligated": 522824414.82,
+    "per_capita": 709.03,
+    "national_rank": 312,
+    "yoy_change": -19.7,
+    "roi_ratio": 0.1,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2020-03-02",
+      "ticker": "--",
+      "amount_range": "$5,000,001 - $25,000,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  },
+  "WI-6": {
+    "total_obligated": 1873024165.8,
+    "per_capita": 2537.88,
+    "national_rank": 166,
+    "yoy_change": 8.4,
+    "roi_ratio": 0.43,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2020-03-02",
+      "ticker": "--",
+      "amount_range": "$5,000,001 - $25,000,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  },
+  "WI-7": {
+    "total_obligated": 292298152.63,
+    "per_capita": 392.53,
+    "national_rank": 386,
+    "yoy_change": -18.4,
+    "roi_ratio": 0.07,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2020-03-02",
+      "ticker": "--",
+      "amount_range": "$5,000,001 - $25,000,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  },
+  "WI-8": {
+    "total_obligated": 535912555.96,
+    "per_capita": 727.3,
+    "national_rank": 307,
+    "yoy_change": -67.0,
+    "roi_ratio": 0.12,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2020-03-02",
+      "ticker": "--",
+      "amount_range": "$5,000,001 - $25,000,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  },
+  "WV-1": {
+    "total_obligated": 7920121360.64,
+    "per_capita": 8979.93,
+    "national_rank": 63,
+    "yoy_change": -11.6,
+    "roi_ratio": 2.01,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2020-06-25",
+      "ticker": "WFC",
+      "amount_range": "$15,001 - $50,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": null
+  },
+  "WV-2": {
+    "total_obligated": 1303230255.58,
+    "per_capita": 1446.46,
+    "national_rank": 200,
+    "yoy_change": -3.4,
+    "roi_ratio": 0.29,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2020-06-25",
+      "ticker": "WFC",
+      "amount_range": "$15,001 - $50,000",
+      "transaction": "Purchase"
+    },
+    "weekly_contracts": null
+  },
+  "WY-0": {
+    "total_obligated": 2241142892.29,
+    "per_capita": 3872.03,
+    "national_rank": 154,
+    "yoy_change": -6.7,
+    "roi_ratio": 0.65,
+    "top_contractor": null,
+    "top_contractor_amount": null,
+    "latest_stock_trade": {
+      "date": "2018-05-01",
+      "ticker": "--",
+      "amount_range": "$50,001 - $100,000",
+      "transaction": "Sale (Full)"
+    },
+    "weekly_contracts": null
+  }
+}
