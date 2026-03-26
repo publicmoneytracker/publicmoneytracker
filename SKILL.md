@@ -415,6 +415,6 @@ website/
 
 ```
 Current phase:    Phase 4 — not started
-Last completed:   Phase 3 complete — Stripe checkout, webhook handler, customer portal live
-Working on:       Report pipeline + ticker (Phase 4)
+Last completed:   Phase 3 complete — Stripe live, webhooks firing, tier updates working
+Working on:       Report pipeline + live data
 ```

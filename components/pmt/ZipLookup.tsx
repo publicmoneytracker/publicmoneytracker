@@ -44,12 +44,13 @@ interface StateEntry {
   senators: Senator[]
 }
 
-interface StockTrade {
-  date: string
-  ticker: string
-  amount_range: string
-  transaction: string
-}
+// TODO: restore post-launch when Capitol Trades collector is built
+// interface StockTrade {
+//   date: string
+//   ticker: string
+//   amount_range: string
+//   transaction: string
+// }
 
 interface DistrictStats {
   total_obligated: number | null
@@ -59,7 +60,7 @@ interface DistrictStats {
   roi_ratio: number | null
   top_contractor: string | null
   top_contractor_amount: number | null
-  latest_stock_trade: StockTrade | null
+  // latest_stock_trade: StockTrade | null  // TODO: restore post-launch
   weekly_contracts: number | null
 }
 
@@ -516,8 +517,9 @@ export default function ZipLookup() {
                 </div>
               </div>
 
-              {/* ROW 4b: Latest Stock Trade */}
-              {(() => {
+              {/* ROW 4b: Latest Stock Trade — commented out pre-launch */}
+              {/* TODO: restore post-launch when Capitol Trades collector is built */}
+              {/* {(() => {
                 const tradeDate = stats.latest_stock_trade?.date
                 const isStale = !tradeDate || new Date(tradeDate) < new Date('2020-01-01')
                 return (
@@ -552,7 +554,7 @@ export default function ZipLookup() {
                     )}
                   </div>
                 )
-              })()}
+              })()} */}
             </>
           )}
 

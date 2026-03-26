@@ -12,7 +12,6 @@ const SOURCES = [
   { name: 'FEC.gov', desc: 'campaign finance filings' },
   { name: 'Senate LDA', desc: 'lobbying disclosures' },
   { name: 'Congress.gov', desc: 'legislative activity' },
-  { name: 'STOCK Act filings', desc: 'congressional stock trades' },
 ]
 
 export default function Methodology() {

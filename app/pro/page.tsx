@@ -3,7 +3,7 @@ import CheckoutButton from '@/components/pmt/CheckoutButton'
 
 export const metadata: Metadata = {
   title: 'Professional Access',
-  description: 'Industry influence chain reports, lobbying cross-reference, and stock trade activity. $29/month.',
+  description: 'Industry influence chain reports, lobbying cross-reference, and deep congressional analysis. $29/month.',
 }
 
 export default function ProPage() {
@@ -40,8 +40,8 @@ export default function ProPage() {
           lineHeight: 1.6,
         }}>
           Everything in Analyst Access plus industry influence
-          chain reports, lobbying cross-reference analysis, and
-          congressional stock trade activity. Updated every Friday.
+          chain reports and lobbying cross-reference analysis.
+          Updated every Friday.
         </p>
       </div>
 
@@ -68,7 +68,6 @@ export default function ProPage() {
           'ZIP code district dashboard',
           'Industry Influence Chain reports',
           'Lobbying cross-reference analysis',
-          'Congressional stock trade activity',
           'DOCX downloads of all reports',
         ].map((item) => (
           <p key={item} style={{
