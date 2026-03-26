@@ -414,7 +414,7 @@ website/
 ## Session State — Update Before Closing Every Session
 
 ```
-Current phase:    [UPDATE THIS]
-Last completed:   [UPDATE THIS]
-Working on:       [UPDATE THIS]
+Current phase:    Phase 4 — not started
+Last completed:   Phase 3 complete — Stripe checkout, webhook handler, customer portal live
+Working on:       Report pipeline + ticker (Phase 4)
 ```

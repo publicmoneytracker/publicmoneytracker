@@ -517,31 +517,42 @@ export default function ZipLookup() {
               </div>
 
               {/* ROW 4b: Latest Stock Trade */}
-              <div style={{ background: '#ede8df', padding: '0.75rem 1rem', borderTop: '1px solid #d4c5a9' }}>
-                <div style={{ ...mono, fontSize: '9px', color: '#8b7355', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.25rem' }}>
-                  Latest Senator Stock Trade (State)
-                </div>
-                {stats.latest_stock_trade ? (
-                  <div style={{ display: 'flex', gap: '1.25rem', flexWrap: 'wrap', alignItems: 'center' }}>
-                    <span style={{ ...mono, fontSize: '0.72rem', color: '#8b7355' }}>
-                      {stats.latest_stock_trade.date}
-                    </span>
-                    <span style={{ ...mono, fontSize: '0.82rem', color: '#1a1a1a', fontWeight: 600 }}>
-                      {stats.latest_stock_trade.ticker !== '--' ? stats.latest_stock_trade.ticker : '—'}
-                    </span>
-                    <span style={{ ...mono, fontSize: '0.75rem', color: '#1a1a1a' }}>
-                      {stats.latest_stock_trade.amount_range}
-                    </span>
-                    <span style={{ ...mono, fontSize: '0.7rem', color: '#8b7355', textTransform: 'uppercase', letterSpacing: '0.06em' }}>
-                      {stats.latest_stock_trade.transaction}
-                    </span>
+              {(() => {
+                const tradeDate = stats.latest_stock_trade?.date
+                const isStale = !tradeDate || new Date(tradeDate) < new Date('2020-01-01')
+                return (
+                  <div style={{ background: '#ede8df', padding: '0.75rem 1rem', borderTop: '1px solid #d4c5a9' }}>
+                    <div style={{ ...mono, fontSize: '9px', color: '#8b7355', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.25rem' }}>
+                      Latest Senator Stock Trade (State)
+                    </div>
+                    {isStale ? (
+                      <div style={{
+                        fontFamily: 'var(--font-mono)',
+                        fontSize: '0.8rem',
+                        color: '#8b7355',
+                        fontStyle: 'italic',
+                      }}>
+                        Updating — new data source integration in progress
+                      </div>
+                    ) : (
+                      <div style={{ display: 'flex', gap: '1.25rem', flexWrap: 'wrap', alignItems: 'center' }}>
+                        <span style={{ ...mono, fontSize: '0.72rem', color: '#8b7355' }}>
+                          {stats.latest_stock_trade!.date}
+                        </span>
+                        <span style={{ ...mono, fontSize: '0.82rem', color: '#1a1a1a', fontWeight: 600 }}>
+                          {stats.latest_stock_trade!.ticker !== '--' ? stats.latest_stock_trade!.ticker : '—'}
+                        </span>
+                        <span style={{ ...mono, fontSize: '0.75rem', color: '#1a1a1a' }}>
+                          {stats.latest_stock_trade!.amount_range}
+                        </span>
+                        <span style={{ ...mono, fontSize: '0.7rem', color: '#8b7355', textTransform: 'uppercase', letterSpacing: '0.06em' }}>
+                          {stats.latest_stock_trade!.transaction}
+                        </span>
+                      </div>
+                    )}
                   </div>
-                ) : (
-                  <div style={{ ...mono, fontSize: '0.75rem', color: '#8b7355' }}>
-                    No recent data
-                  </div>
-                )}
-              </div>
+                )
+              })()}
             </>
           )}
 

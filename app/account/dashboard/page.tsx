@@ -1,13 +1,18 @@
 import { createClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
 import SignOutButton from '../SignOutButton'
+import ManageSubscriptionButton from '@/components/pmt/ManageSubscriptionButton'
 
 export const metadata = {
   title: 'My Account',
   description: 'Manage your Public Money Tracker subscription.',
 }
 
-export default async function DashboardPage() {
+export default async function DashboardPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>
+}) {
   const supabase = await createClient()
   const { data: { user } } = await supabase.auth.getUser()
 
@@ -19,7 +24,12 @@ export default async function DashboardPage() {
     .eq('id', user.id)
     .single()
 
-  const tier = (userData as { tier: string } | null)?.tier || 'public_access'
+  const typedUserData = userData as {
+    tier: string
+    stripe_customer_id: string | null
+  } | null
+
+  const tier = typedUserData?.tier || 'public_access'
 
   const tierLabels: Record<string, string> = {
     public_access: 'Public Access',
@@ -27,6 +37,9 @@ export default async function DashboardPage() {
     professional_access: 'Professional Access',
     institutional_access: 'Institutional Access',
   }
+
+  const params = await searchParams
+  const success = params?.success === 'true'
 
   return (
     <div style={{
@@ -54,6 +67,22 @@ export default async function DashboardPage() {
           color: '#1a1a1a',
         }}>Welcome back</h1>
       </div>
+
+      {/* Success banner */}
+      {success && (
+        <div style={{
+          background: '#f0fff4',
+          border: '1px solid #2a7a2a',
+          borderLeft: '3px solid #2a7a2a',
+          padding: '0.75rem 1rem',
+          marginBottom: '1.5rem',
+          fontFamily: 'var(--font-mono)',
+          fontSize: '0.8rem',
+          color: '#2a7a2a',
+        }}>
+          ✓ Subscription activated. Welcome to {tierLabels[tier]}.
+        </div>
+      )}
 
       {/* Account details */}
       <div style={{
@@ -132,6 +161,12 @@ export default async function DashboardPage() {
           You will be notified by email when reports go live.
           Your {tierLabels[tier]} is active and ready.
         </p>
+
+        {typedUserData?.stripe_customer_id && (
+          <div style={{ marginTop: '1rem' }}>
+            <ManageSubscriptionButton />
+          </div>
+        )}
       </div>
 
       {/* Sign out */}
