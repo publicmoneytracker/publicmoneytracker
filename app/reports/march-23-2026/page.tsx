@@ -214,20 +214,6 @@ const NEWSLETTER_CSS = `
   }
   .newsletter-embed .overlap-table th:nth-child(n+3) { text-align: right; }
   .newsletter-embed .overlap-table td { color: #333; }
-  .newsletter-embed .insight-box {
-    background: #1a1a1a;
-    color: #f5f0e8;
-    padding: 28px;
-    margin: 36px 0;
-  }
-  .newsletter-embed .insight-label {
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #c0392b;
-    margin-bottom: 12px;
-    font-family: 'Source Serif 4', Georgia, serif;
-  }
   .newsletter-embed .cta-block {
     text-align: center;
     padding: 32px 0;
@@ -323,10 +309,6 @@ const NEWSLETTER_HTML = `
       <tr><td style="padding:8px 12px;border-bottom:1px solid #e8e0d0;">LEIDOS INC.</td><td style="padding:8px 12px;border-bottom:1px solid #e8e0d0;color:#666;font-style:italic;">Defense and intelligence systems contractor</td><td style="padding:8px 12px;border-bottom:1px solid #e8e0d0;text-align:right;">$228K</td><td style="padding:8px 12px;border-bottom:1px solid #e8e0d0;text-align:right;">$59.9M</td></tr>
     </tbody>
   </table>
-  <div class="insight-box">
-    <div class="insight-label">&#9998;&nbsp; Editor&rsquo;s Key Insight</div>
-    <p style="font-family:'Source Serif 4',Georgia,serif;font-style:italic;font-size:16px;font-weight:300;color:#f5f0e8;line-height:1.75;margin:0;">A single contract accounted for over 25% of all federal contract dollars awarded this week &mdash; a reminder that weekly totals can be driven by a small number of large awards. Contract spending tracked here represents procurement activity only; total federal outlays run roughly $600 billion per week across all programs.</p>
-  </div>
 </div>
 `
 

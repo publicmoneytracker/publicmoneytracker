@@ -212,31 +212,6 @@ const NEWSLETTER_CSS = `
   }
   .newsletter-embed .overlap-table th:nth-child(n+3) { text-align: right; }
   .newsletter-embed .overlap-table td { color: #333; }
-  .newsletter-embed .insight-box {
-    background: #1a1a1a;
-    color: #f5f0e8;
-    padding: 28px;
-    margin: 36px 0;
-  }
-  .newsletter-embed .insight-label {
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #c0392b;
-    margin-bottom: 12px;
-    font-family: 'Source Serif 4', Georgia, serif;
-  }
-  .newsletter-embed .insight-placeholder {
-    font-family: 'Playfair Display', Georgia, serif;
-    font-style: italic;
-    font-size: 18px;
-    font-weight: 400;
-    color: #c8bba8;
-    border: 2px dashed #c0392b;
-    padding: 20px;
-    text-align: center;
-    letter-spacing: 0.5px;
-  }
   .newsletter-embed .cta-block {
     text-align: center;
     padding: 32px 0;
@@ -352,10 +327,6 @@ const NEWSLETTER_HTML = `
       <tr><td style="padding:8px 12px;border-bottom:1px solid #e8e0d0;">RAYTHEON COMPANY</td><td style="padding:8px 12px;border-bottom:1px solid #e8e0d0;color:#666;font-style:italic;">Defense systems manufacturer</td><td style="padding:8px 12px;border-bottom:1px solid #e8e0d0;text-align:right;">$8K</td><td style="padding:8px 12px;border-bottom:1px solid #e8e0d0;text-align:right;">$23.3M</td></tr>
     </tbody>
   </table>
-  <div class="insight-box">
-    <div class="insight-label">&#9998;&nbsp; Editor&rsquo;s Key Insight</div>
-    <div class="insight-placeholder">[Key Insight &mdash; written by editor]</div>
-  </div>
   <div class="cta-block">
     <div class="cta-primary"><strong>Read the full report at publicmoneytracker.com</strong></div>
     <div class="cta-subtext">
