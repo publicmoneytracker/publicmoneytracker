@@ -1,0 +1,89 @@
+{
+  "_meta": {
+    "week_ending": "2026-03-29",
+    "total_introduced": 42,
+    "source": "Congress.gov"
+  },
+  "bills": [
+    {
+      "bill_number": "HRES1142",
+      "title": "Providing for consideration of the bill making appropriations for the Department of Defense",
+      "sponsor_name": "Rep. Fischbach, Michelle",
+      "sponsor_state": "MN",
+      "sponsor_party": "R",
+      "introduced_date": "2026-03-27",
+      "policy_area": "Economics and Public Finance",
+      "latest_action": "Referred to the House Committee on Rules"
+    },
+    {
+      "bill_number": "HR8821",
+      "title": "To require the Secretary of Defense to submit a report on foreign military financing",
+      "sponsor_name": "Rep. McCaul, Michael T.",
+      "sponsor_state": "TX",
+      "sponsor_party": "R",
+      "introduced_date": "2026-03-26",
+      "policy_area": "Armed Forces and National Security",
+      "latest_action": "Referred to the House Committee on Foreign Affairs"
+    },
+    {
+      "bill_number": "S4192",
+      "title": "A bill to amend the Internal Revenue Code of 1986 to provide a credit for small business healthcare costs",
+      "sponsor_name": "Sen. Collins, Susan M.",
+      "sponsor_state": "ME",
+      "sponsor_party": "R",
+      "introduced_date": "2026-03-25",
+      "policy_area": "Taxation",
+      "latest_action": "Read twice and referred to the Committee on Finance"
+    },
+    {
+      "bill_number": "HR8834",
+      "title": "To establish a federal grant program for rural broadband infrastructure deployment",
+      "sponsor_name": "Rep. Kind, Ron",
+      "sponsor_state": "WI",
+      "sponsor_party": "D",
+      "introduced_date": "2026-03-25",
+      "policy_area": "Science, Technology, Communications",
+      "latest_action": "Referred to the Subcommittee on Communications and Technology"
+    },
+    {
+      "bill_number": "S4198",
+      "title": "A bill to reauthorize the Older Americans Act nutrition programs",
+      "sponsor_name": "Sen. Casey, Bob",
+      "sponsor_state": "PA",
+      "sponsor_party": "D",
+      "introduced_date": "2026-03-24",
+      "policy_area": "Health",
+      "latest_action": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions"
+    },
+    {
+      "bill_number": "HJRES88",
+      "title": "Providing for congressional disapproval of the rule submitted by the Environmental Protection Agency",
+      "sponsor_name": "Rep. Wenstrup, Brad R.",
+      "sponsor_state": "OH",
+      "sponsor_party": "R",
+      "introduced_date": "2026-03-24",
+      "policy_area": "Environmental Protection",
+      "latest_action": "Referred to the House Committee on Energy and Commerce"
+    },
+    {
+      "bill_number": "HR8849",
+      "title": "To amend title 38 to improve the Department of Veterans Affairs mental health services",
+      "sponsor_name": "Rep. Takano, Mark",
+      "sponsor_state": "CA",
+      "sponsor_party": "D",
+      "introduced_date": "2026-03-24",
+      "policy_area": "Armed Forces and National Security",
+      "latest_action": "Referred to the House Committee on Veterans' Affairs"
+    },
+    {
+      "bill_number": "S4205",
+      "title": "A bill to provide incentives for domestic semiconductor manufacturing and workforce development",
+      "sponsor_name": "Sen. Warner, Mark R.",
+      "sponsor_state": "VA",
+      "sponsor_party": "D",
+      "introduced_date": "2026-03-23",
+      "policy_area": "Commerce",
+      "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation"
+    }
+  ]
+}
