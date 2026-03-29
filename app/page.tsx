@@ -30,7 +30,7 @@ export default function Home() {
         `}</style>
 
         <a
-          href="/reports/march-23-2026"
+          href="/reports/march-29-2026"
           className="report-card"
           style={{
             display: 'block',
@@ -42,16 +42,16 @@ export default function Home() {
           }}
         >
           <div style={{ ...mono, fontSize: '8px', color: '#c0392b', textTransform: 'uppercase', letterSpacing: '0.12em', marginBottom: '0.5rem' }}>
-            Monday Report · Free · Issue #1
+            Monday Report · Free · Issue #2
           </div>
           <div style={{ ...display, fontSize: '1rem', fontWeight: 700, color: '#1a1a1a', lineHeight: 1.35, marginBottom: '0.5rem' }}>
-            Defense &amp; Aerospace Logs Full 4/4 Influence Chain
+            Technology &amp; Telecommunications Logs Full 4/4 Influence Chain
           </div>
           <div style={{ ...mono, fontSize: '9px', color: '#8b7355', marginBottom: '0.5rem' }}>
-            Week ending March 22, 2026 · Published March 23
+            Week ending March 29, 2026 · Published March 30
           </div>
           <div style={{ ...mono, fontSize: '10px', color: '#1a1a1a', marginBottom: '0.75rem' }}>
-            $4.3B awarded · 536 contract actions · 42 bills introduced
+            $1.9B awarded · 536 contract actions · 42 bills introduced
           </div>
           <div style={{ ...mono, fontSize: '10px', color: '#c0392b' }}>
             Read full report →
