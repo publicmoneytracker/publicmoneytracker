@@ -83,7 +83,7 @@ export default function BillsThisWeek() {
           {loading
             ? '— bills · loading'
             : data
-            ? `${data._meta.total_introduced} bills · week ending ${formatDate(data._meta.week_ending)}`
+            ? `Top bills · week ending ${formatDate(data._meta.week_ending)}`
             : '—'}
         </span>
       </div>
@@ -113,7 +113,7 @@ export default function BillsThisWeek() {
         }}
       >
         <span style={{ ...mono, fontSize: '9px', color: '#8b7355', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
-          Source: Congress.gov · Updated weekly every Friday · 119th Congress
+          Top Spending-Related Bills · Source: Congress.gov · Full List Updates Friday
         </span>
       </div>
     </div>
