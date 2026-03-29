@@ -80,6 +80,23 @@ export default function ProPage() {
         ))}
       </div>
 
+      {/* Launch notice */}
+      <div style={{
+        background: '#fff8ee',
+        border: '1px solid #d4c5a9',
+        borderLeft: '3px solid #c0392b',
+        padding: '0.75rem 1rem',
+        marginBottom: '1.5rem',
+        fontFamily: 'var(--font-mono)',
+        fontSize: '0.8rem',
+        color: '#1a1a1a',
+        lineHeight: 1.6,
+      }}>
+        Full report access launches in April 2026.
+        Subscribe to the free newsletter to be
+        notified when reports go live.
+      </div>
+
       {/* Pricing */}
       <div style={{
         display: 'grid',

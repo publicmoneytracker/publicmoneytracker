@@ -2,6 +2,7 @@ import { createClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
 import SignOutButton from '../SignOutButton'
 import ManageSubscriptionButton from '@/components/pmt/ManageSubscriptionButton'
+import { SUBSCRIPTIONS_OPEN } from '@/lib/config'
 
 export const metadata = {
   title: 'My Account',
@@ -162,7 +163,7 @@ export default async function DashboardPage({
           Your {tierLabels[tier]} is active and ready.
         </p>
 
-        {typedUserData?.stripe_customer_id && (
+        {SUBSCRIPTIONS_OPEN && typedUserData?.stripe_customer_id && (
           <div style={{ marginTop: '1rem' }}>
             <ManageSubscriptionButton />
           </div>
