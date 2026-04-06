@@ -262,6 +262,8 @@ publicmoneytracker.com serves content
 | `public/data/zip_to_district.json` | Census ZCTA crosswalk | Annually (redistricting) | ZipLookup.tsx |
 | `public/data/state_senators.json` | Congress.gov | After elections | ZipLookup.tsx |
 | `public/data/index.json` | site_exporter.py | Weekly | Report archive, homepage |
+| `public/data/district_roi_top10.json` | `pmte/scripts/export_district_roi_rankings.py` | Weekly | DistrictROILeaderboard.tsx (homepage) |
+| `public/data/district_roi_all.json` | `pmte/scripts/export_district_roi_rankings.py` | Weekly | `/districts` leaderboard page (planned) |
 | `public/reports/newsletter/` | PMTE newsletter HTML | Weekly | Newsletter pages |
 | `public/reports/politician/` | PMTE PMR HTML | Batch generated | PMR pages |
 
@@ -285,6 +287,7 @@ Master manifest of all published reports. The website reads this to populate:
 | `ManageSubscriptionButton.tsx` | Client | `/api/portal` | `/account/dashboard` |
 | `BillsThisWeek.tsx` | Client | `bills_this_week.json` | Homepage |
 | `SubstackCTA.tsx` | Server | — | Report pages, homepage |
+| `DistrictROILeaderboard.tsx` | Server | `district_roi_top10.json` | Homepage |
 
 ### Future Components
 
