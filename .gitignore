@@ -52,3 +52,5 @@ public/data/
 !public/data/state_senators.json
 !public/data/district_stats.json
 !public/data/bills_this_week.json
+!public/data/district_roi_top10.json
+!public/data/district_roi_all.json

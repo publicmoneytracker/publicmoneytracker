@@ -2,6 +2,7 @@ import FederalMoneyBoard from '@/components/pmt/FederalMoneyBoard'
 import ZipLookup from '@/components/pmt/ZipLookup'
 import SubstackCTA from '@/components/pmt/SubstackCTA'
 import BillsThisWeek from '@/components/pmt/BillsThisWeek'
+import DistrictROILeaderboard from '@/components/pmt/DistrictROILeaderboard'
 
 const mono: React.CSSProperties = { fontFamily: 'var(--font-mono)' }
 const display: React.CSSProperties = { fontFamily: 'var(--font-display)' }
@@ -12,6 +13,11 @@ export default function Home() {
       <FederalMoneyBoard />
 
       <ZipLookup />
+
+      {/* ── District ROI Leaderboard ── */}
+      <hr style={{ border: 'none', borderTop: '1px solid #d4c5a9', margin: '3rem 0 2rem' }} />
+      <DistrictROILeaderboard />
+      <hr style={{ border: 'none', borderTop: '1px solid #d4c5a9', margin: '2rem 0 3rem' }} />
 
       {/* ── Latest Monday Reports ── */}
       <div style={{ marginTop: '3rem' }}>
