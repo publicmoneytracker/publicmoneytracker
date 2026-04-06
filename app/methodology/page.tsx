@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'Methodology',
   description:
-    'How Public Money Tracker sources, verifies, and publishes federal spending data. Every figure traces to a primary federal source.',
+    'How Public Money Tracker sources, verifies, and publishes federal spending data. Every figure traces to a primary public source.',
 }
 
 const mono:    React.CSSProperties = { fontFamily: 'var(--font-mono)' }
@@ -77,7 +77,7 @@ const SOURCES = [
   { source: 'Federal Contracts & Grants', provider: 'USASpending.gov',           coverage: 'FY2020–present',                              freq: 'Weekly' },
   { source: 'Lobbying Disclosures',        provider: 'Senate LDA',                coverage: '2009–present',                                freq: 'Quarterly bulk' },
   { source: 'Registered Federal Vendors',  provider: 'SAM.gov',                   coverage: 'Hundreds of thousands of active registrations', freq: 'Weekly delta' },
-  { source: 'Congressional Activity',      provider: 'Congress.gov API v3',       coverage: '119th Congress',                              freq: 'Weekly' },
+  { source: 'Congressional Activity',      provider: 'Congress.gov API v3',       coverage: 'Current congressional session',               freq: 'Weekly' },
   { source: 'Inspector General Reports',   provider: 'Oversight.gov',             coverage: 'Multi-agency',                                freq: 'Weekly' },
   { source: 'GAO Audit Findings',          provider: 'GAO.gov',                   coverage: 'Multi-agency',                                freq: 'Weekly' },
   { source: 'Federal Audit Clearinghouse', provider: 'FAC.gov',                   coverage: 'Single audit findings',                       freq: 'Weekly' },
@@ -134,8 +134,8 @@ export default function Methodology() {
           assign institutional blame, or editorialize about the significance of any individual transaction or
           pattern. The data is presented as reported by federal agencies. Where estimation methods are applied —
           for tax contribution projections, district demographic attribution, or place-of-performance mapping —
-          those methods are disclosed explicitly in this document and in the sources file attached to every
-          generated report.
+          those methods are described at a high level in this document and in the sources file attached to
+          published analytical reports.
         </p>
       </div>
 
@@ -143,7 +143,7 @@ export default function Methodology() {
       <hr style={hr} />
       <div style={{ marginTop: '1.5rem' }}>
         <span style={sectionLabel}>Primary Data Sources</span>
-        <h2 style={h2Style}>Eleven primary federal sources. No aggregators.</h2>
+        <h2 style={h2Style}>Eleven primary public sources. No aggregators.</h2>
 
         <div style={{ overflowX: 'auto', marginBottom: '1.25rem' }}>
           <table className="meth-sources" style={{ width: '100%', borderCollapse: 'collapse' }}>
@@ -205,7 +205,7 @@ export default function Methodology() {
           posted to USASpending can be revised months after an award is initially reported, as agencies submit
           modifications to existing contracts. The processing layer normalizes these fields — standardizing
           entity names against SAM.gov canonical registrations, resolving duplicate records created by agency
-          re-submissions, and mapping awards to current 119th-Congress district boundaries.
+          re-submissions, and mapping awards to current congressional district boundaries.
         </p>
         <p style={p}>
           Where a direct match is not available — for example, when a ZIP code straddles two congressional
@@ -273,9 +273,8 @@ export default function Methodology() {
         </p>
         <p style={p}>
           ZIP-to-district mapping is imprecise at district boundary ZIP codes where a single ZIP code straddles
-          two congressional districts. In those cases, the entire ZIP&apos;s tax liability is attributed to the
-          district that contains the plurality of the ZIP&apos;s area. This introduces a modest margin of error
-          in districts with a high proportion of boundary ZIPs.
+          two congressional districts. In those cases, PMT applies a consistent geographic attribution rule,
+          which introduces a modest margin of error in districts with many boundary ZIPs.
         </p>
         <p style={p}>
           USASpending.gov tracks discretionary federal spending — contracts, grants, direct payments, and
@@ -347,10 +346,10 @@ export default function Methodology() {
             publicmoneytracker.com/methodology
           </a>{' '}
           and the specific report or data page from which the figure was drawn. A machine-readable sources
-          file accompanies every generated report. It lists, for each figure: the exact primary federal source,
-          the time period covered, the estimation method applied if any, and the value as stored in the PMT
-          database at time of publication. The provenance chain from raw agency file to published figure is
-          preserved for every record.
+          file accompanies published analytical reports. It lists, for each figure: the exact primary public
+          source, the time period covered, the estimation method applied if any, and the value as stored in the
+          PMT database at time of publication. PMT is designed to preserve the provenance chain from source
+          record to published figure.
         </p>
       </div>
 
