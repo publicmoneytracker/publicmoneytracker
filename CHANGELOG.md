@@ -5,6 +5,29 @@ One entry per session. Update this file when DESIGN_SYSTEM.md or SITE_ARCHITECTU
 
 ---
 
+## [2026-04-06d] — Methodology page
+
+### Added
+- `app/methodology/page.tsx` — Full methodology page replacing placeholder.
+  7 sections: Mission, Primary Data Sources (11-source table), How the Pipeline
+  Works (Collection / Processing / Validation), District ROI Methodology,
+  Known Limitations, Update Schedule (6-row table), Citation.
+  Follows DESIGN_SYSTEM.md exactly: Playfair Display h2, Source Serif 4 body,
+  IBM Plex Mono labels, dark TH bars, `overflow-x: auto` on both tables,
+  even-row alternation via CSS class selectors.
+
+### Language decisions recorded
+- "Primary public sources" not "federal sources" — Census, IRS, FEC, Senate
+  disclosures are public record sources, not strictly agency-operated
+- "Described at a high level" not "disclosed explicitly" — page is overview,
+  not full implementation disclosure
+- "Current congressional session" not "119th Congress" — avoids dating the page
+- ZIP attribution rule not detailed — implementation detail, not for public docs
+- Citation softened: "published analytical reports" not "every generated report";
+  "designed to preserve the provenance chain" not an absolute guarantee
+
+---
+
 ## [2026-04-06c] — District ROI leaderboard homepage component
 
 ### Added
