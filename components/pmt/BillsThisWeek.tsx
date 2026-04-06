@@ -115,6 +115,9 @@ export default function BillsThisWeek() {
         <span style={{ ...mono, fontSize: '9px', color: '#8b7355', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
           Top Spending-Related Bills · Source: Congress.gov · Full List Updates Friday
         </span>
+        <div style={{ fontFamily: 'var(--font-body)', fontStyle: 'italic', fontSize: '12px', color: '#8b7355', marginTop: '0.35rem' }}>
+          Congress was in recess the week of March 31 – April 4 for the spring holiday.
+        </div>
       </div>
     </div>
   )
