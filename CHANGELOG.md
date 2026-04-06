@@ -5,6 +5,19 @@ One entry per session. Update this file when DESIGN_SYSTEM.md or SITE_ARCHITECTU
 
 ---
 
+## [2026-04-06b] — Content gating rules + gap study additions
+
+### SITE_ARCHITECTURE changes
+- Added Content Gating Rules section (per-report public vs. gated visibility tables)
+- Added `/districts` to public Route Map
+- Added WAB (`/pro/reports/anomaly/[date-slug]`), EWD (`/pro/reports/election/[slug]`),
+  and VLB (`/vendors`, `/vendors/[slug]`) to Report Types table
+- Added WAB, EWD, VLB, SMR, DRI, SRC, IIC gating tables to Content Gating Rules
+- Added Crawler/AI Search Policy to Content Gating Rules
+- Added PMR sample reports strategy (5–10 ungated high-profile members)
+
+---
+
 ## [2026-04-06] — Issue #3 + reference docs
 
 ### Added

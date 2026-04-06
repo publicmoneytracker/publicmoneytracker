@@ -101,6 +101,7 @@ The website must remain usable if PMTE has not generated fresh content that day.
 | `/account` | Sign In / Sign Up | Supabase Auth |
 | `/reports` | Report Archive | Reverse-chronological list of published issues |
 | `/reports/[date-slug]` | Newsletter page | Static routes, e.g. `/reports/march-29-2026`, `/reports/april-05-2026` |
+| `/districts` | District ROI Leaderboard | All 435 districts ranked by ROI — fully public, statically generated |
 
 ### Analyst-Gated Routes
 
@@ -304,11 +305,160 @@ Master manifest of all published reports. The website reads this to populate:
 | District ROI Index | DRI | `/analyst/districts/[slug]` | Analyst | Future |
 | Influence Chain | IIC | `/pro/reports/influence/[slug]` | Professional | Future |
 | Stock Reconciliation | SRC | `/analyst/reports/stocks/[slug]` | Analyst | Future |
+| Weekly Anomaly Briefing | WAB | `/pro/reports/anomaly/[date-slug]` | Professional | June 2026 |
+| Election Watch Dossier | EWD | `/pro/reports/election/[slug]` | Professional | August 2026 |
+| Vendor Leaderboard | VLB | `/vendors` (full detail: `/vendors/[slug]`) | Public (top 20) / Analyst (full) | Future |
 
 **Adding a new report type requires touches in 3 places:**
 1. **PMTE** — generator produces HTML + payload.json
 2. **site_exporter.py** — routes the output to the correct `website/public/reports/` subfolder
 3. **Website** — new route page that reads and renders the HTML
+
+---
+
+## Content Gating Rules
+
+**Core principle:** Public pages show enough to demonstrate value and earn AI citations.
+Full depth is behind the paywall for everyone — humans and crawlers alike.
+Crawlers see exactly what free-tier humans see. No cloaking, no differential serving.
+
+### FMR — Federal Money Report (newsletter) · `/reports/[date-slug]`
+
+| Element | Visibility |
+|---------|-----------|
+| Full newsletter HTML | Public |
+
+The weekly newsletter is always free. Top-of-funnel acquisition tool.
+Distributed via website + Substack (manual upload, free distribution only).
+
+---
+
+### PMR — Politician Money Report · `/reports/politician/[slug]`
+
+| Element | Visibility | Notes |
+|---------|-----------|-------|
+| Member name, party, state, district | Public | Page identity |
+| Total federal dollars received | Public | Single headline number |
+| District ROI number | Public | e.g. "+$2,847 per person net federal inflow" |
+| Top 3 contracts (name, amount, agency) | Public | Teaser — proves the data is real |
+| Election badge (IMMINENT / SAFE / etc.) | Public | |
+| Full contract list | Analyst | All awards, sortable |
+| Full grant breakdown | Analyst | By category and agency |
+| Lobbying connections | Analyst | LDA cross-reference |
+| FAC accountability data | Analyst | Single audit findings |
+| Influence chain summary | Analyst | Chain scorecard |
+| Stock trade disclosures | Analyst | Pending §105(c) legal review |
+
+**Paywall behavior:** First ~20% of content visible. Remaining content uses blur/fade overlay
+with inline upgrade CTA. Not a modal. Price and inclusions clearly stated before payment.
+
+**Sample reports (ungated):** 5–10 high-profile members (Speaker, minority leaders, committee
+chairs) left fully public as proof of quality. These are the pages most likely to receive
+inbound links from news articles and Reddit threads. Every free sample PMR is a door to the
+paywall for the other ~396 reports.
+
+---
+
+### SMR — State Money Report · `/analyst/reports/state/[slug]`
+
+| Element | Visibility | Notes |
+|---------|-----------|-------|
+| State name, total federal dollars, per capita | Public | Landing page / preview |
+| District rankings leaderboard (all districts, ROI ratio) | Analyst | |
+| Spending by category breakdown | Analyst | |
+| Top vendors in state | Analyst | |
+| Lobbying cross-reference | Analyst | |
+
+---
+
+### DRI — District ROI Index · `/analyst/districts/[slug]`
+
+| Element | Visibility | Notes |
+|---------|-----------|-------|
+| District name, representative, total spend | Public | |
+| ROI ratio (single number) | Public | Shareable, searchable |
+| Full scorecard (spend vs. taxes, by category) | Analyst | |
+| Year-over-year trend | Analyst | |
+| Peer district comparison | Analyst | |
+
+**`/districts` public page:** All 435 districts ranked by ROI, sortable/filterable, statically
+generated. Fully public and indexable. Links to paid detail pages.
+
+---
+
+### IIC — Influence Chain Report · `/pro/reports/influence/[slug]`
+
+| Element | Visibility | Notes |
+|---------|-----------|-------|
+| Industry/entity name, chain count | Public | Teaser only |
+| Chain score (e.g. 3/4 legs confirmed) | Public | |
+| Full chain detail (lobbying → bill → award links) | Professional | |
+| Timeline visualization | Professional | |
+| Dollar amounts per leg | Professional | |
+
+~20 industry-level reports at launch. Professional tier — #1 differentiator product.
+
+---
+
+### SRC — Stock Reconciliation Report · `/analyst/reports/stocks/[slug]`
+
+| Element | Visibility | Notes |
+|---------|-----------|-------|
+| Report exists (title, date range) | Public | |
+| Full trade timing analysis | Analyst | Pending §105(c) legal review for website display |
+
+---
+
+### WAB — Weekly Anomaly Briefing · `/pro/reports/anomaly/[date-slug]`
+
+| Element | Visibility | Notes |
+|---------|-----------|-------|
+| "X anomalies detected this week" (count only) | Public | Teaser |
+| Top 10 anomaly details | Professional | |
+
+Wednesday cadence. Starts June 2026.
+
+---
+
+### EWD — Election Watch Dossier · `/pro/reports/election/[slug]`
+
+| Element | Visibility | Notes |
+|---------|-----------|-------|
+| Race name, candidates | Public | |
+| Competitiveness rating | Public | |
+| Full dossier (spending patterns, chains, district ROI, integrity scores) | Professional | |
+
+30–50 competitive races from 467 IMMINENT politicians. **Hard deadline: August 1, 2026** —
+90-day pre-election window.
+
+---
+
+### VLB — Vendor Leaderboard · `/vendors` and `/vendors/[slug]`
+
+| Element | Visibility | Notes |
+|---------|-----------|-------|
+| Top 20 vendors by contract dollars (name, total, rank) | Public | SEO / AI citation target |
+| Full vendor detail (agency breakdown, contract history, SAM.gov profile) | Analyst | |
+
+New content type from gap analysis. Route and component TBD when built.
+
+---
+
+### Methodology · `/methodology`
+
+Fully public. Always. This is the page that makes PMT citable as a primary source.
+Explains every data source, update frequency, and methodology limitation.
+
+---
+
+### Crawler / AI Search Policy
+
+- Crawlers see exactly what free-tier humans see — preview content only
+- Full report content is behind the paywall for everyone (no cloaking, no differential serving)
+- JSON-LD schema markup on every report page (`Article`, `Dataset`, or `GovernmentOrganization`)
+- Meta descriptions use high-engagement language from content gap analysis
+- Every page includes `last_updated` in metadata for freshness signals
+- The methodology page is the authority anchor — always fully public and indexable
 
 ---
 
