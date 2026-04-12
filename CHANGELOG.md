@@ -72,6 +72,19 @@ One entry per session. Update this file when DESIGN_SYSTEM.md or SITE_ARCHITECTU
 
 ---
 
+## [2026-04-13] — Issue #4
+
+### Added
+- `app/reports/april-12-2026/page.tsx` — Issue #4 newsletter page (week ending April 12)
+  - Headline: Healthcare & Pharmaceuticals Logs Complete 4/4 Influence Chain
+  - Stats: $2.8B · 954 contract actions · 16 bills introduced
+
+### Changed
+- `app/page.tsx` — homepage featured report updated from Issue #3 → Issue #4
+- `app/reports/page.tsx` — Issue #4 card added above Issue #3 (reverse chronological)
+
+---
+
 ## [2026-04-06b] — Content gating rules + gap study additions
 
 ### SITE_ARCHITECTURE changes

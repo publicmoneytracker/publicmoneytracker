@@ -36,7 +36,7 @@ export default function Home() {
         `}</style>
 
         <a
-          href="/reports/april-05-2026"
+          href="/reports/april-12-2026"
           className="report-card"
           style={{
             display: 'block',
@@ -48,16 +48,16 @@ export default function Home() {
           }}
         >
           <div style={{ ...mono, fontSize: '8px', color: '#c0392b', textTransform: 'uppercase', letterSpacing: '0.12em', marginBottom: '0.5rem' }}>
-            Monday Report · Free · Issue #3
+            Monday Report · Free · Issue #4
           </div>
           <div style={{ ...display, fontSize: '1rem', fontWeight: 700, color: '#1a1a1a', lineHeight: 1.35, marginBottom: '0.5rem' }}>
-            General Atomics Leads $4.6B Week; Student Loan Servicers Capture $493.3M in Education Awards
+            Healthcare &amp; Pharmaceuticals Logs Complete 4/4 Influence Chain
           </div>
           <div style={{ ...mono, fontSize: '9px', color: '#8b7355', marginBottom: '0.5rem' }}>
-            Week ending April 5, 2026 · Published April 6
+            Week ending April 12, 2026 · Published April 13
           </div>
           <div style={{ ...mono, fontSize: '10px', color: '#1a1a1a', marginBottom: '0.75rem' }}>
-            $4.6B awarded · 1,000+ contract actions · 0 bills introduced
+            $2.8B awarded · 954 contract actions · 16 bills introduced
           </div>
           <div style={{ ...mono, fontSize: '10px', color: '#c0392b' }}>
             Read full report →

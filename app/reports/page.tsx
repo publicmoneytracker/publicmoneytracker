@@ -36,6 +36,32 @@ export default function Reports() {
         {/* Report list — newest first */}
         <div>
           <Link
+            href="/reports/april-12-2026"
+            className="archive-card"
+            style={{
+              display: 'block',
+              textDecoration: 'none',
+              border: '1px solid #d4c5a9',
+              padding: '1.25rem',
+              marginBottom: '1px',
+              background: '#f5f0e8',
+            }}
+          >
+            <div style={{ ...mono, fontSize: '8px', color: '#c0392b', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.4rem' }}>
+              Monday Report · Free · Issue #4
+            </div>
+            <div style={{ ...display, fontSize: '1.1rem', fontWeight: 700, color: '#1a1a1a', lineHeight: 1.3, marginBottom: '0.4rem' }}>
+              Healthcare &amp; Pharmaceuticals Logs Complete 4/4 Influence Chain
+            </div>
+            <div style={{ ...mono, fontSize: '9px', color: '#8b7355', marginBottom: '0.4rem' }}>
+              Week ending April 12, 2026
+            </div>
+            <div style={{ ...mono, fontSize: '10px', color: '#1a1a1a' }}>
+              $2.8B awarded · 954 actions · 16 bills introduced
+            </div>
+          </Link>
+
+          <Link
             href="/reports/april-05-2026"
             className="archive-card"
             style={{
