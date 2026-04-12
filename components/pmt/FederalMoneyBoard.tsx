@@ -3,12 +3,12 @@ import { useState, useEffect } from 'react'
 
 // ── BASELINE — updated weekly from USASpending.gov ──
 const BUDGET = 6752000000000
-const BASELINE = 3417211992340          // as of Mar 14, 2026
+const BASELINE = 3949702552340          // as of Apr 12, 2026
 const RATE = 212600                     // $/sec interpolated
-const BASELINE_TIMESTAMP = new Date('2026-03-14T02:00:00Z').getTime()
+const BASELINE_TIMESTAMP = new Date('2026-04-12T02:00:00Z').getTime()
 const FY_END = new Date('2026-09-30T23:59:59Z').getTime()
 
-const LAST_REFRESH = 'Mar 22, 2026'
+const LAST_REFRESH = 'Apr 12, 2026'
 
 function fmt(n: number): string {
   return '$' + Math.floor(n).toLocaleString('en-US')
@@ -184,7 +184,7 @@ export default function FederalMoneyBoard() {
         </div>
       </div>
 
-      {/* ── STATS ROW — real figures from week ending Mar 22, 2026 ── */}
+      {/* ── STATS ROW — real figures from week ending Apr 12, 2026 ── */}
       <div className="fmb-stats-grid" style={{
         display: 'grid',
         gap: '1px',
@@ -194,13 +194,13 @@ export default function FederalMoneyBoard() {
         {/* Cell 1: Contracts */}
         <div style={{ background: '#f5f0e8', padding: '0.65rem 0.75rem' }}>
           <div style={{ ...mono, fontSize: '9px', color: '#8b7355', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.2rem' }}>
-            Contracts W/E Mar 22
+            Contracts W/E Apr 12
           </div>
           <div style={{ ...mono, fontSize: '15px', color: '#1a1a1a', fontWeight: 500 }}>
-            $4.3B
+            $2.8B
           </div>
           <div style={{ ...mono, fontSize: '9px', color: '#8b7355', marginTop: '0.15rem' }}>
-            1,000 contract actions
+            954 contract actions
           </div>
         </div>
 
@@ -210,10 +210,10 @@ export default function FederalMoneyBoard() {
             Largest Award
           </div>
           <div style={{ ...mono, fontSize: '15px', color: '#1a1a1a', fontWeight: 500 }}>
-            $1.1B
+            $196.2M
           </div>
           <div style={{ ...mono, fontSize: '9px', color: '#8b7355', marginTop: '0.15rem' }}>
-            Spencer Construction · DHS
+            Idaho Environmental Coalition · DOE
           </div>
         </div>
       </div>
@@ -229,7 +229,7 @@ export default function FederalMoneyBoard() {
         gap: '0.4rem',
       }}>
         <span style={{ ...mono, fontSize: '9px', color: '#8b7355', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
-          Source: USASpending.gov · CBO · Week ending Mar 22, 2026
+          Source: USASpending.gov · CBO · Week ending Apr 12, 2026
         </span>
         <span style={{ ...mono, fontSize: '9px', color: '#8b7355', letterSpacing: '0.06em' }}>
           Last refresh: {LAST_REFRESH} · Updated weekly every Friday
